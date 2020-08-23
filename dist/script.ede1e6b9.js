@@ -2299,13 +2299,10 @@ function laddaArtiklar() {
   }).then(function (resp) {
     var _artiklar;
 
-    console.log(resp);
-
     (_artiklar = artiklar).splice.apply(_artiklar, [firstcheck ? 0 : paginate, firstcheck ? artiklar.length : 0].concat(_toConsumableArray(resp)));
 
     localStorage.setItem("artiklar", JSON.stringify(artiklar));
     firstcheck = false;
-    console.log(artiklar);
   });
 } //Två varianter med och utan JSX
 // JSX med två komponenter En för varje artikelpuff som tar in data via attrs. En som renderar hela listan.  

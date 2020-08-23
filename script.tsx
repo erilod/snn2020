@@ -20,11 +20,9 @@ function laddaArtiklar() {
     m.request({
         url: url
     }).then(resp => {
-        console.log(resp)
         artiklar.splice(firstcheck ? 0 : paginate,firstcheck ? artiklar.length : 0 ,...resp)
         localStorage.setItem("artiklar", JSON.stringify(artiklar))
         firstcheck = false
-        console.log(artiklar)
 
     })
 }
