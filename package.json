@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@types/mithril": "^2.0.3",
+    "parcel-bundler": "^1.12.4",
     "typescript": "^4.0.2"
   },
   "dependencies": {
