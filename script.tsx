@@ -3,6 +3,7 @@ import * as Mithril from "mithril"
 
 // Fyller på med artiklar här
 let artiklar = []
+let loadblock: boolean
 
 // När man vill ladda flera artiklar. Utgår fån längden och laddar
 function laddaArtiklar() {
@@ -32,6 +33,9 @@ let Artikel = {
 }
 
 let Artiklar = {
+    onupdate: () => {
+        loadblock = false
+    },
     view: () => {
         return (
             <div>
@@ -61,17 +65,14 @@ let Sidan = {
 }
 
 //Ladda nytt när man scrollat en bit ner.
-//För att minimera att flera sidor laddas in vid samma tillfälle sätts en timeout och använder ""loadblock" som reglerar om vi kan ladda nya artiklar. Smartare lösnignar finns säkert...
-let loadblock = false
+//För att minimera att flera sidor laddas in innan nya har hämtats så switchar vi på "loadblock". Blocket tas bort efter uppdaterad view...
+loadblock = false
 window.onscroll = () => {
     if (!loadblock) {
         let { top, height } = document.body.getBoundingClientRect()
         if (top + height <= 8000) {
             loadblock = true
             laddaArtiklar()
-            setTimeout(() => {
-                loadblock = false
-            }, 3000)
         }
     }
 }
