@@ -2269,7 +2269,7 @@ var Mithril = __importStar(require("mithril")); // Fyller på med artiklar här
 
 
 var artiklar = [];
-var loadblock; // När man vill ladda flera artiklar. Utgår fån längden och laddar
+var loadblock = false; // När man vill ladda flera artiklar. Utgår fån längden och laddar
 
 function laddaArtiklar() {
   var paginate = artiklar.length;
@@ -2277,6 +2277,7 @@ function laddaArtiklar() {
   mithril_1.default.request({
     url: url
   }).then(function (resp) {
+    console.log(resp);
     artiklar = artiklar.concat(resp);
   });
 } //Två varianter med och utan JSX
@@ -2291,7 +2292,7 @@ var Artikel = {
       src: vnode.attrs.src
     }) : mithril_1.default("img", {
       alt: "Ingen bild"
-    }), mithril_1.default("h1", null, vnode.attrs.title), mithril_1.default("p", null, vnode.attrs.ingress));
+    }), mithril_1.default("h1", null, vnode.attrs.title.replace(/&quot;/g, '"')), mithril_1.default("p", null, vnode.attrs.ingress));
   }
 };
 var Artiklar = {
@@ -2302,6 +2303,7 @@ var Artiklar = {
     return mithril_1.default("div", null, artiklar.map(function (artikel) {
       return mithril_1.default(Artikel, {
         title: artikel.title,
+        key: artikel.id,
         ingress: artikel.ingress,
         src: artikel.ettabild
       });
@@ -2314,7 +2316,9 @@ var Artiklar = {
 var Sidan = {
   view: function view() {
     return mithril_1.default("div", [artiklar.map(function (artikel) {
-      return mithril_1.default("div", [artikel.ettabild ? mithril_1.default("img", {
+      return mithril_1.default("div", {
+        key: artikel.id
+      }, [artikel.ettabild ? mithril_1.default("img", {
         style: {
           width: "100px"
         },
@@ -2324,8 +2328,6 @@ var Sidan = {
   }
 }; //Ladda nytt när man scrollat en bit ner.
 //För att minimera att flera sidor laddas in innan nya har hämtats så switchar vi på "loadblock". Blocket tas bort efter uppdaterad view...
-
-loadblock = false;
 
 window.onscroll = function () {
   if (!loadblock) {
@@ -2370,7 +2372,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56587" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61754" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
