@@ -2219,6 +2219,18 @@ module.exports = m
 },{"./hyperscript":"node_modules/mithril/hyperscript.js","./request":"node_modules/mithril/request.js","./mount-redraw":"node_modules/mithril/mount-redraw.js","./route":"node_modules/mithril/route.js","./render":"node_modules/mithril/render.js","./querystring/parse":"node_modules/mithril/querystring/parse.js","./querystring/build":"node_modules/mithril/querystring/build.js","./pathname/parse":"node_modules/mithril/pathname/parse.js","./pathname/build":"node_modules/mithril/pathname/build.js","./render/vnode":"node_modules/mithril/render/vnode.js","./promise/polyfill":"node_modules/mithril/promise/polyfill.js"}],"script.tsx":[function(require,module,exports) {
 "use strict";
 
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
 var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
   if (k2 === undefined) k2 = k;
   Object.defineProperty(o, k2, {
@@ -2269,15 +2281,28 @@ var Mithril = __importStar(require("mithril")); // Fyller på med artiklar här
 
 
 var artiklar = [];
-var loadblock; // När man vill ladda flera artiklar. Utgår fån längden och laddar
+var loadblock = false; //Flagga för första gången vi laddar sidan. Så att vi alltid laddar nya artiklar efter att cachen är laddad.
+
+var firstcheck = true; // När man vill ladda flera artiklar. Utgår fån längden och laddar
 
 function laddaArtiklar() {
+  //kollar första gången i localstorage och laddar artiklar
   var paginate = artiklar.length;
-  var url = "https://www.sydnarkenytt.se/json/etta/P" + paginate;
+
+  if (firstcheck && localStorage.getItem("artiklar")) {
+    artiklar = JSON.parse(localStorage.getItem("artiklar"));
+  }
+
+  var url = "https://www.sydnarkenytt.se/json/etta/P" + (firstcheck ? 0 : paginate);
   mithril_1.default.request({
     url: url
   }).then(function (resp) {
-    artiklar = artiklar.concat(resp);
+    var _artiklar;
+
+    (_artiklar = artiklar).splice.apply(_artiklar, [firstcheck ? 0 : paginate, firstcheck ? artiklar.length : 0].concat(_toConsumableArray(resp)));
+
+    localStorage.setItem("artiklar", JSON.stringify(artiklar));
+    firstcheck = false;
   });
 } //Två varianter med och utan JSX
 // JSX med två komponenter En för varje artikelpuff som tar in data via attrs. En som renderar hela listan.  
@@ -2287,11 +2312,11 @@ function laddaArtiklar() {
 var Artikel = {
   view: function view(vnode) {
     return mithril_1.default("div", null, vnode.attrs.src ? mithril_1.default("img", {
-      width: "100px",
-      src: vnode.attrs.src
+      width: "300px",
+      src: "https:" + vnode.attrs.src
     }) : mithril_1.default("img", {
       alt: "Ingen bild"
-    }), mithril_1.default("h1", null, vnode.attrs.title), mithril_1.default("p", null, vnode.attrs.ingress));
+    }), mithril_1.default("h1", null, vnode.attrs.title.replace(/&quot;/g, '"')), mithril_1.default("p", null, vnode.attrs.ingress));
   }
 };
 var Artiklar = {
@@ -2302,6 +2327,7 @@ var Artiklar = {
     return mithril_1.default("div", null, artiklar.map(function (artikel) {
       return mithril_1.default(Artikel, {
         title: artikel.title,
+        key: artikel.id,
         ingress: artikel.ingress,
         src: artikel.ettabild
       });
@@ -2314,9 +2340,11 @@ var Artiklar = {
 var Sidan = {
   view: function view() {
     return mithril_1.default("div", [artiklar.map(function (artikel) {
-      return mithril_1.default("div", [artikel.ettabild ? mithril_1.default("img", {
+      return mithril_1.default("div", {
+        key: artikel.id
+      }, [artikel.ettabild ? mithril_1.default("img", {
         style: {
-          width: "100px"
+          width: "300px"
         },
         src: "https:" + artikel.ettabild
       }) : mithril_1.default(""), mithril_1.default("h1", artikel.title), mithril_1.default("p", artikel.ingress)]);
@@ -2324,8 +2352,6 @@ var Sidan = {
   }
 }; //Ladda nytt när man scrollat en bit ner.
 //För att minimera att flera sidor laddas in innan nya har hämtats så switchar vi på "loadblock". Blocket tas bort efter uppdaterad view...
-
-loadblock = false;
 
 window.onscroll = function () {
   if (!loadblock) {
@@ -2370,7 +2396,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56587" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61754" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
