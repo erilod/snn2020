@@ -2268,7 +2268,8 @@ var mithril_1 = __importDefault(require("mithril"));
 var Mithril = __importStar(require("mithril")); // Fyller på med artiklar här
 
 
-var artiklar = []; // När man vill ladda flera artiklar. Utgår fån längden och laddar
+var artiklar = [];
+var loadblock; // När man vill ladda flera artiklar. Utgår fån längden och laddar
 
 function laddaArtiklar() {
   var paginate = artiklar.length;
@@ -2294,6 +2295,9 @@ var Artikel = {
   }
 };
 var Artiklar = {
+  onupdate: function onupdate() {
+    loadblock = false;
+  },
   view: function view() {
     return mithril_1.default("div", null, artiklar.map(function (artikel) {
       return mithril_1.default(Artikel, {
@@ -2318,10 +2322,10 @@ var Sidan = {
       }) : mithril_1.default(""), mithril_1.default("h1", artikel.title), mithril_1.default("p", artikel.ingress)]);
     })]);
   }
-}; //Ladda nytt när man scrollat till botten
-//För att minimera att flera sidor laddas in vid samma tillfälle sätts en timeout och använder ""loadblock" som reglerar om vi kan ladda nya artiklar. Smartare lösnignar finns säkert...
+}; //Ladda nytt när man scrollat en bit ner.
+//För att minimera att flera sidor laddas in innan nya har hämtats så switchar vi på "loadblock". Blocket tas bort efter uppdaterad view...
 
-var loadblock = false;
+loadblock = false;
 
 window.onscroll = function () {
   if (!loadblock) {
@@ -2332,16 +2336,13 @@ window.onscroll = function () {
     if (top + height <= 8000) {
       loadblock = true;
       laddaArtiklar();
-      setTimeout(function () {
-        loadblock = false;
-      }, 3000);
     }
   }
 };
 
 laddaArtiklar();
 Mithril.mount(document.body, Artiklar);
-},{"mithril":"node_modules/mithril/index.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"mithril":"node_modules/mithril/index.js"}],"../../../lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -2369,7 +2370,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59344" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56587" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -2545,5 +2546,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","script.tsx"], null)
+},{}]},{},["../../../lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","script.tsx"], null)
 //# sourceMappingURL=/script.ede1e6b9.js.map
