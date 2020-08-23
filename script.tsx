@@ -60,7 +60,7 @@ let Sidan = {
     }
 }
 
-//Ladda nytt när man scrollat till botten
+//Ladda nytt när man scrollat en bit ner.
 //För att minimera att flera sidor laddas in vid samma tillfälle sätts en timeout och använder ""loadblock" som reglerar om vi kan ladda nya artiklar. Smartare lösnignar finns säkert...
 let loadblock = false
 window.onscroll = () => {
