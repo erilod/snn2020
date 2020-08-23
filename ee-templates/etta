@@ -1,0 +1,17 @@
+    {exp:channel:entries channel="Askersund|Sydnarke|Lekeberg|Laxa|Hallsberg|Kumla|Blogg"  status="Undernyhet|open" dynamic="no" limit="1" sticky="no" disable="member_data" paginate="hidden"  backspace="1"} 
+    {
+        "title" : {title:json},{if ettarubrik}
+        "rubrik" : {ettarubrik:json},{/if}
+        "urlTitle" : {url_title:json},
+        "status" : {status:json},
+        "date" : {entry_date:json}{if ettabild},
+        "ettabild" : {ettabild:json}{/if},{if ettabildtext}
+        "bildtext" : {ettabildtext:json},{/if}
+        "channel" : {channel:json}{if nyhetspuff},
+        "ingress" : {nyhetspuff:json}{/if}{if channel == "Sydnärke"},
+        "orter" : [{categories show="72|73|74|75|147" backspace="1"}{category_name:json},{/categories}]{/if}
+    },{/exp:channel:entries}
+
+
+
+
