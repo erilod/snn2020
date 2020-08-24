@@ -2280,51 +2280,92 @@ var mithril_1 = __importDefault(require("mithril"));
 var Mithril = __importStar(require("mithril")); // Fyller på med artiklar här
 
 
-var artiklar = [];
-var loadblock = false; //Flagga för första gången vi laddar sidan. Så att vi alltid laddar nya artiklar efter att cachen är laddad.
+var artiklar = []; //För att inte fler laddningar ska göras när man fortsätter scrolla medan nya samtidigt läses in så flaggar vi om det. Den återställs till false när sidan är omritadoch nya kan läasas in vid scroll.
 
-var firstcheck = true; // När man vill ladda flera artiklar. Utgår fån längden och laddar
+var loadblock = false; //För att skilja om laddning sker inkrementellt och arrayen ska fyllas på eller om det är en omladdning och man behöver kolla om man ska läsa in mer från servern
 
-function laddaArtiklar() {
-  //kollar första gången i localstorage och laddar artiklar
-  var paginate = artiklar.length;
+var Laddtyp;
 
-  if (firstcheck && localStorage.getItem("artiklar")) {
+(function (Laddtyp) {
+  Laddtyp[Laddtyp["reload"] = 0] = "reload";
+  Laddtyp[Laddtyp["incremental"] = 1] = "incremental";
+})(Laddtyp || (Laddtyp = {})); // När man vill ladda flera artiklar. Utgår fån längden och laddar
+
+
+function laddaArtiklar(typ) {
+  //Snabbladdar från localStorage vid ny sidladdning. Alt inkrementell laddning.
+  if (typ !== Laddtyp.incremental) {
+    //Inte inkrementell. Prövning görs om vi ska ladda från server...
+    //...men först så laddar vi det som finns på local storage bara för att få snabbt innehåll på sidan.
     artiklar = JSON.parse(localStorage.getItem("artiklar"));
+    Mithril.redraw(); //Kolla mot servern om det finns uppdaterade annars ladda från local storage
+
+    Mithril.request({
+      url: "https://www.sydnarkenytt.se/json/last",
+      background: true //ritar inte om sidan efter kollen.
+
+    }).then(function (resp) {
+      console.log(resp);
+      var senastuppdat = resp[0].edit_date;
+
+      if (Number(localStorage.getItem("lastupdate")) < senastuppdat) {
+        console.log("Dags att uppdatera"); //Det finns nya låtoss ladda dem!
+
+        var url = "https://www.sydnarkenytt.se/json/etta/P1";
+        mithril_1.default.request({
+          url: url
+        }).then(function (resp) {
+          var _artiklar;
+
+          //Splicar artikelarrayen från grunden
+          (_artiklar = artiklar).splice.apply(_artiklar, [0, artiklar.length].concat(_toConsumableArray(resp)));
+
+          localStorage.setItem("artiklar", JSON.stringify(artiklar));
+          localStorage.setItem("lastupdate", senastuppdat);
+        });
+      }
+    });
+  } else {
+    // Vid inkrementell alddning. Fylls arrayen bara på
+    var url = "https://www.sydnarkenytt.se/json/etta/P" + artiklar.length;
+    mithril_1.default.request({
+      url: url
+    }).then(function (resp) {
+      var _artiklar2;
+
+      (_artiklar2 = artiklar).splice.apply(_artiklar2, [artiklar.length, 0].concat(_toConsumableArray(resp)));
+
+      localStorage.setItem("artiklar", JSON.stringify(artiklar));
+    });
   }
-
-  var url = "https://www.sydnarkenytt.se/json/etta/P" + (firstcheck ? 0 : paginate);
-  mithril_1.default.request({
-    url: url
-  }).then(function (resp) {
-    var _artiklar;
-
-    (_artiklar = artiklar).splice.apply(_artiklar, [firstcheck ? 0 : paginate, firstcheck ? artiklar.length : 0].concat(_toConsumableArray(resp)));
-
-    localStorage.setItem("artiklar", JSON.stringify(artiklar));
-    firstcheck = false;
-  });
 } //Två varianter med och utan JSX
 // JSX med två komponenter En för varje artikelpuff som tar in data via attrs. En som renderar hela listan.  
-// Föredrar ren js och inte jsx då det blir flera abstraktionsnivåer. Renare kod.
 
 
 var Artikel = {
   view: function view(vnode) {
     return mithril_1.default("div", null, vnode.attrs.src ? mithril_1.default("img", {
+      style: "height:169px",
+      height: "169px",
       width: "300px",
       src: "https:" + vnode.attrs.src
     }) : mithril_1.default("img", {
+      src: "fel.png",
       alt: "Ingen bild"
     }), mithril_1.default("h1", null, vnode.attrs.title.replace(/&quot;/g, '"')), mithril_1.default("p", null, vnode.attrs.ingress));
   }
 };
 var Artiklar = {
   onupdate: function onupdate() {
+    //Innehållet renderat. Flagga att det är ok att ladda vid scroll
     loadblock = false;
   },
   view: function view() {
-    return mithril_1.default("div", null, artiklar.map(function (artikel) {
+    return mithril_1.default("div", null, mithril_1.default(mithril_1.default.route.Link, {
+      href: "/nyheter"
+    }, "Nyheter"), " ", mithril_1.default(mithril_1.default.route.Link, {
+      href: "/artiklar"
+    }, "Artiklar"), artiklar.map(function (artikel) {
       return mithril_1.default(Artikel, {
         title: artikel.title,
         key: artikel.id,
@@ -2333,8 +2374,7 @@ var Artiklar = {
       });
     }));
   }
-}; // Motsvarande i  js förutom att den inte är uppdelad i två komponenter
-//En Mithril komponent. Kan också använda JSX. Kan skapa utifrån klasser vid större projekt.
+}; // Motsvarande i ren js förutom att den inte är uppdelad i två komponenter
 // Data direkt från globala artiklar
 
 var Sidan = {
@@ -2350,7 +2390,23 @@ var Sidan = {
       }) : mithril_1.default(""), mithril_1.default("h1", artikel.title), mithril_1.default("p", artikel.ingress)]);
     })]);
   }
-}; //Ladda nytt när man scrollat en bit ner.
+}; //Testar en kompinent till och routing
+
+var Nyheter = {
+  view: function view() {
+    return mithril_1.default("div", null, mithril_1.default(mithril_1.default.route.Link, {
+      href: "/nyheter"
+    }, "Nyheter"), " ", mithril_1.default(mithril_1.default.route.Link, {
+      href: "/artiklar"
+    }, "Artiklar"), mithril_1.default("h1", null, "Testar hur routingen funkar"));
+  }
+}; //Testar route
+
+Mithril.route.prefix = "";
+Mithril.route(document.body, "/artiklar", {
+  "/nyheter": Nyheter,
+  "/artiklar": Artiklar
+}); //Ladda nytt när man scrollat en bit ner.
 //För att minimera att flera sidor laddas in innan nya har hämtats så switchar vi på "loadblock". Blocket tas bort efter uppdaterad view...
 
 window.onscroll = function () {
@@ -2361,13 +2417,14 @@ window.onscroll = function () {
 
     if (top + height <= 8000) {
       loadblock = true;
-      laddaArtiklar();
+      laddaArtiklar(Laddtyp.incremental);
+      console.log("scroll");
     }
   }
-};
+}; //Inledande laddning av artiklar
 
-laddaArtiklar();
-Mithril.mount(document.body, Artiklar);
+
+laddaArtiklar(Laddtyp.reload);
 },{"mithril":"node_modules/mithril/index.js"}],"../../../lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -2396,7 +2453,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61754" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65209" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
