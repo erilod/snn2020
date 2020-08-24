@@ -2404,7 +2404,7 @@ var Nyheter = {
   }
 }; //Testar route
 
-Mithril.route.prefix = "snn2020/";
+Mithril.route.prefix = "";
 Mithril.route(document.body, "/artiklar", {
   "/nyheter": Nyheter,
   "/artiklar": Artiklar
