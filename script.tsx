@@ -22,7 +22,9 @@ function laddaArtiklar(typ: Laddtyp) {
         //Inte inkrementell. Prövning görs om vi ska ladda från server...
         
         //...men först så laddar vi det som finns på local storage bara för att få snabbt innehåll på sidan.
-        artiklar = JSON.parse(localStorage.getItem("artiklar"))
+
+
+        artiklar = JSON.parse(localStorage.getItem("artiklar")) || [] //om local storage är tomt undviker vi null
         Mithril.redraw()
 
         //Kolla mot servern om det finns uppdaterade annars ladda från local storage
@@ -31,7 +33,6 @@ function laddaArtiklar(typ: Laddtyp) {
             background : true //ritar inte om sidan efter kollen.
 
         }).then((resp) => {
-            console.log(resp)
             let senastuppdat = resp[0].edit_date
 
             if (Number(localStorage.getItem("lastupdate")) < senastuppdat) {
@@ -55,6 +56,7 @@ function laddaArtiklar(typ: Laddtyp) {
         m.request({
             url: url
         }).then(resp => {
+            console.log(resp)
             artiklar.splice(artiklar.length, 0, ...resp)
             localStorage.setItem("artiklar", JSON.stringify(artiklar))
         })
