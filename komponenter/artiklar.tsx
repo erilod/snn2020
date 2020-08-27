@@ -36,7 +36,7 @@ let Artikel = {
 
 export let Artiklar = {
     onbeforeuodate: () => {
-        Ladda.artiklar("reload")
+        Ladda.ladda("reload")
 
     },
     onupdate: () => {
@@ -48,7 +48,7 @@ export let Artiklar = {
         console.log(Mithril.route.get())
         return (
             <div>
-                <m.route.Link class={"button " + (Mithril.route.get() == Mithril.route.Link ? "active" : "inactive")} href="/nyheter">Nyheter</m.route.Link> <m.route.Link class={"button " + (Mithril.route.get() == "/artiklar"? "active" : "inactive") href="/artiklar">Artiklar</m.route.Link>
+                <m.route.Link class={"button " + (Mithril.route.get() == "/nyheter" ? "active" : "inactive")} href="/nyheter">Nyheter</m.route.Link> <m.route.Link class={"button " + (Mithril.route.get() == "/artiklar"? "active" : "inactive")} href="/artiklar">Artiklar</m.route.Link>
                 {Ladda.artiklar.map((artikel:Artikel) => {
                     return (
                         <Artikel status={artikel.status} title={artikel.title} key={artikel.id} ingress={artikel.ingress} src={artikel.ettabild} />
