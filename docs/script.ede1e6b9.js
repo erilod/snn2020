@@ -2216,7 +2216,7 @@ m.PromisePolyfill = require("./promise/polyfill")
 
 module.exports = m
 
-},{"./hyperscript":"node_modules/mithril/hyperscript.js","./request":"node_modules/mithril/request.js","./mount-redraw":"node_modules/mithril/mount-redraw.js","./route":"node_modules/mithril/route.js","./render":"node_modules/mithril/render.js","./querystring/parse":"node_modules/mithril/querystring/parse.js","./querystring/build":"node_modules/mithril/querystring/build.js","./pathname/parse":"node_modules/mithril/pathname/parse.js","./pathname/build":"node_modules/mithril/pathname/build.js","./render/vnode":"node_modules/mithril/render/vnode.js","./promise/polyfill":"node_modules/mithril/promise/polyfill.js"}],"script.tsx":[function(require,module,exports) {
+},{"./hyperscript":"node_modules/mithril/hyperscript.js","./request":"node_modules/mithril/request.js","./mount-redraw":"node_modules/mithril/mount-redraw.js","./route":"node_modules/mithril/route.js","./render":"node_modules/mithril/render.js","./querystring/parse":"node_modules/mithril/querystring/parse.js","./querystring/build":"node_modules/mithril/querystring/build.js","./pathname/parse":"node_modules/mithril/pathname/parse.js","./pathname/build":"node_modules/mithril/pathname/build.js","./render/vnode":"node_modules/mithril/render/vnode.js","./promise/polyfill":"node_modules/mithril/promise/polyfill.js"}],"moduler/laddartiklar.ts":[function(require,module,exports) {
 "use strict";
 
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
@@ -2274,30 +2274,32 @@ var __importDefault = this && this.__importDefault || function (mod) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.setLoadblock = exports.loadblock = exports.artiklar = exports.ladda = void 0;
 
-var mithril_1 = __importDefault(require("mithril"));
+var Mithril = __importStar(require("mithril"));
 
-var Mithril = __importStar(require("mithril")); // Fyller på med artiklar här
-
-
-var artiklar = []; //För att inte fler laddningar ska göras när man fortsätter scrolla medan nya samtidigt läses in så flaggar vi om det. Den återställs till false när sidan är omritadoch nya kan läasas in vid scroll.
-
-var loadblock = false; //För att skilja om laddning sker inkrementellt och arrayen ska fyllas på eller om det är en omladdning och man behöver kolla om man ska läsa in mer från servern
-
-var Laddtyp;
-
-(function (Laddtyp) {
-  Laddtyp[Laddtyp["reload"] = 0] = "reload";
-  Laddtyp[Laddtyp["incremental"] = 1] = "incremental";
-})(Laddtyp || (Laddtyp = {})); // När man vill ladda flera artiklar. Utgår fån längden och laddar
+var mithril_1 = __importDefault(require("mithril")); //Fyller på med artiklar
 
 
-function laddaArtiklar(typ) {
+var artiklar = [];
+exports.artiklar = artiklar; //En block för att förhindra att fler artiklar laddas vid scrollning innan sidan ritats på nytt...
+
+var loadblock = false;
+exports.loadblock = loadblock; //set för loadblock.
+
+function setLoadblock(val) {
+  exports.loadblock = loadblock = val;
+}
+
+exports.setLoadblock = setLoadblock; //Typ av artikelladdning
+// När man vill ladda flera artiklar. Utgår fån längden och laddar.
+
+function ladda(typ) {
   //Snabbladdar från localStorage vid ny sidladdning. Alt inkrementell laddning.
-  if (typ !== Laddtyp.incremental) {
+  if (typ !== "scroll") {
     //Inte inkrementell. Prövning görs om vi ska ladda från server...
     //...men först så laddar vi det som finns på local storage bara för att få snabbt innehåll på sidan.
-    artiklar = JSON.parse(localStorage.getItem("artiklar")) || []; //om local storage är tomt undviker vi null
+    exports.artiklar = artiklar = JSON.parse(localStorage.getItem("artiklar")) || []; //om local storage är tomt undviker vi null
 
     Mithril.redraw(); //Kolla mot servern om det finns uppdaterade annars ladda från local storage
 
@@ -2340,35 +2342,192 @@ function laddaArtiklar(typ) {
       localStorage.setItem("artiklar", JSON.stringify(artiklar));
     });
   }
-} //Två varianter med och utan JSX
-// JSX med två komponenter En för varje artikelpuff som tar in data via attrs. En som renderar hela listan.  
+}
 
+exports.ladda = ladda; //Ladda nytt när man scrollat en bit ner.
+//För att minimera att flera sidor laddas in innan nya har hämtats så switchar vi på "loadblock". Blocket tas bort efter uppdaterad view...
+
+window.onscroll = function () {
+  console.log(loadblock);
+
+  if (!loadblock) {
+    var _document$body$getBou = document.body.getBoundingClientRect(),
+        top = _document$body$getBou.top,
+        height = _document$body$getBou.height;
+
+    if (top + height <= 8000) {
+      exports.loadblock = loadblock = true;
+      ladda("scroll");
+    }
+  }
+};
+},{"mithril":"node_modules/mithril/index.js"}],"../../../lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"../../../lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+var bundle = require('./bundle-url');
+
+function updateLink(link) {
+  var newLink = link.cloneNode();
+
+  newLink.onload = function () {
+    link.remove();
+  };
+
+  newLink.href = link.href.split('?')[0] + '?' + Date.now();
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+
+var cssTimeout = null;
+
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+
+    for (var i = 0; i < links.length; i++) {
+      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
+        updateLink(links[i]);
+      }
+    }
+
+    cssTimeout = null;
+  }, 50);
+}
+
+module.exports = reloadCSS;
+},{"./bundle-url":"../../../lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"komponenter/artiklar.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"komponenter/artiklar.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  }
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Artiklar = void 0;
+
+var mithril_1 = __importDefault(require("mithril"));
+
+var Ladda = __importStar(require("../moduler/laddartiklar"));
+
+var Mithril = __importStar(require("mithril"));
+
+require("./artiklar.css");
 
 var Artikel = {
   view: function view(vnode) {
-    return mithril_1.default("div", null, vnode.attrs.src ? mithril_1.default("img", {
-      style: "height:169px",
-      height: "169px",
-      width: "300px",
+    if (vnode.attrs.status == "open") {
+      return mithril_1.default("div", {
+        class: "artikel"
+      }, mithril_1.default("h2", {
+        class: "artikel-rubrik"
+      }, vnode.attrs.title));
+    }
+
+    return mithril_1.default("div", {
+      class: "artikel"
+    }, vnode.attrs.src ? mithril_1.default("img", {
+      class: "artikel-bild",
       src: "https:" + vnode.attrs.src
-    }) : mithril_1.default("img", {
-      src: "fel.png",
-      alt: "Ingen bild"
-    }), mithril_1.default("h1", null, vnode.attrs.title.replace(/&quot;/g, '"')), mithril_1.default("p", null, vnode.attrs.ingress));
+    }) : null, mithril_1.default("h1", {
+      class: "artikel-rubrik"
+    }, vnode.attrs.title.replace(/&quot;/g, '"')), mithril_1.default("p", null, vnode.attrs.ingress));
   }
 };
-var Artiklar = {
+exports.Artiklar = {
+  onbeforeuodate: function onbeforeuodate() {
+    Ladda.artiklar("reload");
+  },
   onupdate: function onupdate() {
     //Innehållet renderat. Flagga att det är ok att ladda vid scroll
-    loadblock = false;
+    Ladda.setLoadblock(false);
   },
-  view: function view() {
+  view: function view(vnode) {
+    console.log(Mithril.route.get());
     return mithril_1.default("div", null, mithril_1.default(mithril_1.default.route.Link, {
+      class: "button " + (Mithril.route.get() == Mithril.route.Link ? "active" : "inactive"),
       href: "/nyheter"
     }, "Nyheter"), " ", mithril_1.default(mithril_1.default.route.Link, {
+      class: "button " + (Mithril.route.get() == "/artiklar" ? "active" : "inactive"),
       href: "/artiklar"
-    }, "Artiklar"), artiklar.map(function (artikel) {
+    }, "Artiklar"), Ladda.artiklar.map(function (artikel) {
       return mithril_1.default(Artikel, {
+        status: artikel.status,
         title: artikel.title,
         key: artikel.id,
         ingress: artikel.ingress,
@@ -2376,29 +2535,78 @@ var Artiklar = {
       });
     }));
   }
-}; // Motsvarande i ren js förutom att den inte är uppdelad i två komponenter
-// Data direkt från globala artiklar
+};
+},{"mithril":"node_modules/mithril/index.js","../moduler/laddartiklar":"moduler/laddartiklar.ts","./artiklar.css":"komponenter/artiklar.css"}],"styles.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
 
-var Sidan = {
-  view: function view() {
-    return mithril_1.default("div", [artiklar.map(function (artikel) {
-      return mithril_1.default("div", {
-        key: artikel.id
-      }, [artikel.ettabild ? mithril_1.default("img", {
-        style: {
-          width: "300px"
-        },
-        src: "https:" + artikel.ettabild
-      }) : mithril_1.default(""), mithril_1.default("h1", artikel.title), mithril_1.default("p", artikel.ingress)]);
-    })]);
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"script.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  Object.defineProperty(o, k2, {
+    enumerable: true,
+    get: function get() {
+      return m[k];
+    }
+  });
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
   }
-}; //Testar en kompinent till och routing
+
+  __setModuleDefault(result, mod);
+
+  return result;
+};
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var mithril_1 = __importDefault(require("mithril"));
+
+var Mithril = __importStar(require("mithril"));
+
+var Ladda = __importStar(require("./moduler/laddartiklar"));
+
+var artiklar_1 = require("./komponenter/artiklar");
+
+require("./styles.css"); //Testar en komponent till och routing
+
 
 var Nyheter = {
   view: function view() {
     return mithril_1.default("div", null, mithril_1.default(mithril_1.default.route.Link, {
       href: "/nyheter"
     }, "Nyheter"), " ", mithril_1.default(mithril_1.default.route.Link, {
+      onclick: function onclick() {
+        Ladda.ladda();
+      },
       href: "/artiklar"
     }, "Artiklar"), mithril_1.default("h1", null, "Testar hur routingen funkar"));
   }
@@ -2407,27 +2615,11 @@ var Nyheter = {
 Mithril.route.prefix = "";
 Mithril.route(document.body, "/artiklar", {
   "/nyheter": Nyheter,
-  "/artiklar": Artiklar
-}); //Ladda nytt när man scrollat en bit ner.
-//För att minimera att flera sidor laddas in innan nya har hämtats så switchar vi på "loadblock". Blocket tas bort efter uppdaterad view...
+  "/artiklar": artiklar_1.Artiklar
+}); //Inledande laddning av artiklar
 
-window.onscroll = function () {
-  if (!loadblock) {
-    var _document$body$getBou = document.body.getBoundingClientRect(),
-        top = _document$body$getBou.top,
-        height = _document$body$getBou.height;
-
-    if (top + height <= 8000) {
-      loadblock = true;
-      laddaArtiklar(Laddtyp.incremental);
-      console.log("scroll");
-    }
-  }
-}; //Inledande laddning av artiklar
-
-
-laddaArtiklar(Laddtyp.reload);
-},{"mithril":"node_modules/mithril/index.js"}],"../../../lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+Ladda.ladda();
+},{"mithril":"node_modules/mithril/index.js","./moduler/laddartiklar":"moduler/laddartiklar.ts","./komponenter/artiklar":"komponenter/artiklar.tsx","./styles.css":"styles.css"}],"../../../lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -2455,7 +2647,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52923" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51951" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
