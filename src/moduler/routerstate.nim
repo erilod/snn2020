@@ -6,7 +6,7 @@ import dom
 ## 
 
 var 
-    getUrl* {.importc: "window.location.pathname".} : cstring
+    pullUrl* {.importc: "window.location.pathname".} : cstring
 
 proc pushUrl* (url:cstring) {.importjs: "window.history.pushState([],'state',#)" .} =
     redraw()

@@ -1,7 +1,8 @@
 include karax / prelude
 import dom, jsconsole, asyncjs
-import moduler/ [ladda, routerstate, ]
+import moduler/ [ladda, routerstate]
 import komponenter/sidhuvud/sidhuvud
+import karax / vstyles
 
 
 # Push och get  url
@@ -13,14 +14,31 @@ proc scroll (): VNode =
 var res: cstring
 
 proc root (data: RouterData): VNode =
-    if getUrl== "/v": 
-        res = "Vänsterknapp"
-    else: 
-        res = "Högerknapp"
+    ##testar routingen
+    var selstyle: VStyle
 
+    if pullUrl== "/v": 
+        res = "Vänsterknapp"
+        selstyle = style((color, "red".cstring))
+    elif pullUrl == "/h": 
+        res = "Högerknapp"
+        selstyle = style((color, "blue".cstring))
+    else:
+        res = "Nothing"
+        selstyle = style((color, "yellow".cstring))
     result = buildHtml(tdiv):
         sidhuvud(counter)
-        scroll()
+        h4: text "testar routning:"
+        p(style = selstyle): 
+            text res
+        button:
+            proc onclick () =
+                pushUrl("/v")
+            text "Vänster"
+        button:
+            proc onclick () =
+                pushUrl("/h")
+            text "Höger"
         for artikel in artiklar:
             if not artikel.ettabild.isNil:
                 img(src=artikel.ettabild)

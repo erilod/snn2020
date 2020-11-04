@@ -9,8 +9,7 @@ body {
 /* importerad: src/komponenter/sidhuvud/sidhuvud.css  */ 
 
 #sidhuvud {
-    height: 100px;
-    background-color: white;
+    background-color: greenyellow;
     padding: 1rem;
     color: black
 }
