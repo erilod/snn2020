@@ -1,6 +1,6 @@
 include karax / prelude
 import dom, jsconsole, asyncjs
-import moduler/ [ladda, routerstate, ]
+import moduler/ [ladda, routerstate]
 import komponenter/sidhuvud/sidhuvud
 
 
