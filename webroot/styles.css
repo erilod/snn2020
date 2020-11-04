@@ -1,0 +1,21 @@
+
+
+ /* importerad: src/komponenter/sidhuvud/sidhuvud.css*/ 
+
+#sidhuvud {
+    height: 100px;
+    background-color: greenyellow;
+    padding: 1rem;
+    color: black
+}
+
+#sidhuvud h1 {
+    margin: 0;
+}
+
+ /* importerad: src/start.css*/ 
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

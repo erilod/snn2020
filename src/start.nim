@@ -1,28 +1,26 @@
 include karax / prelude
 import dom, jsconsole, asyncjs
-import ladda
+import moduler/ [ladda, routerstate, ]
+import komponenter/sidhuvud/sidhuvud
 
 
 # Push och get  url
-var counter: int
+var counter*: int
 proc scroll (): VNode =
     result = buildHtml(h3):
         text "scroll: " & $counter
 
-proc sidhuvud(rub:string): VNode =
-    result = buildHtml(tdiv):
-        p:
-            text rub
-
 var res: cstring
+
 proc root (data: RouterData): VNode =
     if getUrl== "/v": 
         res = "Vänsterknapp"
     else: 
         res = "Högerknapp"
-    
+
     result = buildHtml(tdiv):
-        sidhuvud("Ha en text")
+        sidhuvud(counter)
+        scroll()
         for artikel in artiklar:
             if not artikel.ettabild.isNil:
                 img(src=artikel.ettabild)
@@ -33,25 +31,17 @@ proc root (data: RouterData): VNode =
                     if artikel.title.isNil: text "Laddar..." else: artikel.title.verbatim()
             p: 
                 text artikel.ingress
-        scroll()
 
 
-window.addEventListener("scroll", proc (ev:Event) =
+window.addEventListener("scroll") do (ev:Event):
     counter += 1
+    echo counter
     redraw()
-)
-
-window.addEventListener("popstate", proc (ev:Event) =
-    redraw()
-
-)
 
 setRenderer root
 
 proc loadpage () {.async.} =
-    await preload()
-    redraw()
+    await preLadda()
     await ladda()
-    redraw()
 
 discard loadpage()
