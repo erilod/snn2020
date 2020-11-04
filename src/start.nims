@@ -27,4 +27,4 @@ for filename in listFiles("src/komponenter"):
 for part in comptext:
     echo "Skriver"
     endtext.add(part)
-    writefile("webroot/styles.css", endtext)
+    writefile("docs/styles.css", endtext)

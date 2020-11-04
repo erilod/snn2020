@@ -6,7 +6,7 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "nim js -o:./webroot/script.js ./src/start.nim ",
+            "command": "nim js -o:./docs/script.js ./src/start.nim ",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
