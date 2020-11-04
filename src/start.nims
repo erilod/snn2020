@@ -1,30 +1,23 @@
-import os, strutils
+import os, strutils, strformat
 
-## Ett skript som körs vid kompilering och bakar ihop alla css filer under komponenter till en under webroot
-var comptext: seq[string]
-var endtext: string
+## Ett skript som körs vid komp och bakar ihop alla css filer under komponenter till en css
 
-for dir in listDirs("src/komponenter"):
+var comptext: string 
+
+proc readCats (dir:string) =
     for filename in listFiles(dir):
-        echo "readfile"
         var filesplit = splitFile(filename)
         if filesplit.ext == ".css":
-            comptext.add("\n\n /* importerad: " & filename & "*/ \n" & readFile(filename) )
+            comptext.add &"""
+/* importerad: {filename}  */ 
+{readFile(filename)}
 
-for filename in listFiles("src"):
-    echo "readfile"
-    var filesplit = splitFile(filename)
-    if filesplit.ext == ".css":
-        comptext.add("\n\n /* importerad: " & filename & "*/ \n" & readFile(filename) )
+"""
+            
+    for recDir in listDirs(dir):
+        readCats(recDir)
 
-for filename in listFiles("src/komponenter"):
-    echo "readfile"
-    var filesplit = splitFile(filename)
-    if filesplit.ext == ".css":
-        comptext.add("\n\n /* importerad: " & filename & "*/ \n" & readFile(filename) )
+readCats("src")
+writeFile("docs/styles.css", comptext)
 
-
-for part in comptext:
-    echo "Skriver"
-    endtext.add(part)
-    writefile("docs/styles.css", endtext)
+echo comptext
