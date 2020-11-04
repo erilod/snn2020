@@ -1,9 +1,37 @@
 #sidhuvud {
-    background-color: greenyellow;
-    padding: 1rem;
-    color: black
+    margin-bottom: 0;
+    color: black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding-left: 1.5em;
 }
 
-#sidhuvud h1 {
-    margin: 0;
+#sidhuvud a {
+    text-decoration-line: none;
+}
+
+#sidhuvud .menyrad {
+    padding-top: 1rem;
+}
+
+#sidhuvud .ortmenyknapp {
+    display: inline-block;
+    background-color: #e5e5e5;
+    padding: 0.5rem;
+    padding-bottom: 0.40rem;
+    margin-right: 0.25rem;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 0.8rem;
+    height: 1.75rem;
+    position: static;
+    bottom: 0;
+
+}
+
+#sidhuvud .ortmenyknapp.active {
+    background-color: white;
+}
+
+#sidhuvud .ortmenyknapp:hover {
+    background-color: white;
 }

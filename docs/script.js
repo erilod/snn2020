@@ -110,10 +110,11 @@ var NTI11647408 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI11671608 = {size: 0,kind: 34,base: null,node: null,finalizer: null};
 var NTI11641015 = {size: 0,kind: 29,base: null,node: null,finalizer: null};
 var NTI22136047 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NNI22136047 = {kind: 2, len: 10, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "title", len: 0, typ: NTI11641015, name: "title", sons: null}, 
+var NNI22136047 = {kind: 2, len: 11, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "title", len: 0, typ: NTI11641015, name: "title", sons: null}, 
 {kind: 1, offset: "id", len: 0, typ: NTI11671608, name: "id", sons: null}, 
 {kind: 1, offset: "rubrik", len: 0, typ: NTI11641015, name: "rubrik", sons: null}, 
 {kind: 1, offset: "urlTitle", len: 0, typ: NTI11641015, name: "urlTitle", sons: null}, 
+{kind: 1, offset: "ort", len: 0, typ: NTI11641015, name: "ort", sons: null}, 
 {kind: 1, offset: "status", len: 0, typ: NTI11641015, name: "status", sons: null}, 
 {kind: 1, offset: "date", len: 0, typ: NTI11671608, name: "date", sons: null}, 
 {kind: 1, offset: "channel", len: 0, typ: NTI11641015, name: "channel", sons: null}, 
@@ -1230,7 +1231,6 @@ function nimMin(a_11915803, b_11915804) {
   return result_11915805;
 
 }
-    var toStyleAttrName_12590006 = ["alignContent", "alignItems", "alignSelf", "animation", "animationDelay", "animationDirection", "animationDuration", "animationFillMode", "animationIterationCount", "animationName", "animationTimingFunction", "animationPlayState", "background", "backgroundAttachment", "backgroundColor", "backgroundImage", "backgroundPosition", "backgroundRepeat", "backgroundClip", "backgroundOrigin", "backgroundSize", "backfaceVisibility", "border", "borderBottom", "borderBottomColor", "borderBottomLeftRadius", "borderBottomRightRadius", "borderBottomStyle", "borderBottomWidth", "borderCollapse", "borderColor", "borderImage", "borderImageOutset", "borderImageRepeat", "borderImageSlice", "borderImageSource", "borderImageWidth", "borderLeft", "borderLeftColor", "borderLeftStyle", "borderLeftWidth", "borderRadius", "borderRight", "borderRightColor", "borderRightStyle", "borderRightWidth", "borderSpacing", "borderStyle", "borderTop", "borderTopColor", "borderTopLeftRadius", "borderTopRightRadius", "borderTopStyle", "borderTopWidth", "borderWidth", "bottom", "boxDecorationBreak", "boxShadow", "boxSizing", "captionSide", "clear", "clip", "color", "columnCount", "columnFill", "columnGap", "columnRule", "columnRuleColor", "columnRuleStyle", "columnRuleWidth", "columns", "columnSpan", "columnWidth", "content", "counterIncrement", "counterReset", "cursor", "direction", "display", "emptyCells", "filter", "flex", "flexBasis", "flexDirection", "flexFlow", "flexGrow", "flexShrink", "flexWrap", "cssFloat", "font", "fontFamily", "fontSize", "fontSizeAdjust", "fontStretch", "fontStyle", "fontVariant", "fontWeight", "hangingPunctuation", "height", "hyphens", "icon", "imageOrientation", "justifyContent", "left", "letterSpacing", "lineHeight", "listStyle", "listStyleImage", "listStylePosition", "listStyleType", "margin", "marginBottom", "marginLeft", "marginRight", "marginTop", "maxHeight", "maxWidth", "minHeight", "minWidth", "navDown", "navIndex", "navLeft", "navRight", "navUp", "opacity", "order", "orphans", "outline", "outlineColor", "outlineOffset", "outlineStyle", "outlineWidth", "overflow", "overflowX", "overflowY", "padding", "paddingBottom", "paddingLeft", "paddingRight", "paddingTop", "pageBreakAfter", "pageBreakBefore", "pageBreakInside", "perspective", "perspectiveOrigin", "pointerEvents", "position", "quotes", "resize", "right", "scrollbar3dLightColor", "scrollbarArrowColor", "scrollbarBaseColor", "scrollbarDarkshadowColor", "scrollbarFaceColor", "scrollbarHighlightColor", "scrollbarShadowColor", "scrollbarTrackColor", "tableLayout", "tabSize", "textAlign", "textAlignLast", "textDecoration", "textDecorationColor", "textDecorationLine", "textDecorationStyle", "textIndent", "textJustify", "textOverflow", "textShadow", "textTransform", "top", "transform", "transformOrigin", "transformStyle", "transition", "transitionDelay", "transitionDuration", "transitionProperty", "transitionTimingFunction", "unicodeBidi", "userSelect", "verticalAlign", "visibility", "whiteSpace", "width", "wordBreak", "wordSpacing", "wordWrap", "widows", "zIndex"];
 var globalRaiseHook_11812018 = [null];
 var localRaiseHook_11812023 = [null];
 var outOfMemHook_11812026 = [null];
@@ -4979,10 +4979,10 @@ framePtr = F;
 framePtr = F.prev;
 var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
 framePtr = F;
-F.line = 28;
-var artiklar_22136079 = [[{title: "Default", m_type: NTI22136047, id: 0, rubrik: null, urlTitle: null, status: null, date: 0, channel: null, ingress: null, ettabild: null, edit_date: 0}]];
 F.line = 29;
-var loadBlock_22136080 = [false];
+var artiklar_22136080 = [[{title: "Default", m_type: NTI22136047, id: 0, rubrik: null, urlTitle: null, ort: null, status: null, date: 0, channel: null, ingress: null, ettabild: null, edit_date: 0}]];
+F.line = 30;
+var loadBlock_22136081 = [false];
 framePtr = F.prev;
 var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
 framePtr = F;
@@ -5034,16 +5034,16 @@ function newSeq_11910128(len_11910131) {
   return result_11910133;
 
 }
-function loadData_22136199(url_22136201) {
-    function HEX3Aanonymous_22136213(resolve_22136218) {
-        function HEX3Aanonymous_22136219() {
+function loadData_22136200(url_22136202) {
+    function HEX3Aanonymous_22136214(resolve_22136219) {
+        function HEX3Aanonymous_22136220() {
               var Tmp1;
 
           var F={procname:":anonymous.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
           framePtr = F;
-              if (!(req_22136212.readyState == 4)) Tmp1 = false; else {                Tmp1 = (req_22136212.status == 200);              }            if (Tmp1) {
-            F.line = 57;
-            resolve_22136218(req_22136212.responseText);
+              if (!(req_22136213.readyState == 4)) Tmp1 = false; else {                Tmp1 = (req_22136213.status == 200);              }            if (Tmp1) {
+            F.line = 58;
+            resolve_22136219(req_22136213.responseText);
             }
             
           framePtr = F.prev;
@@ -5053,28 +5053,28 @@ function loadData_22136199(url_22136201) {
 
       var F={procname:"loadData.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
       framePtr = F;
-        F.line = 55;
-        req_22136212.onreadystatechange = HEX3Aanonymous_22136219;
+        F.line = 56;
+        req_22136213.onreadystatechange = HEX3Aanonymous_22136220;
       framePtr = F.prev;
 
       
     }
 
-  var result_22136211 = null;
+  var result_22136212 = null;
 
   var F={procname:"ladda.loadData",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
-    F.line = 52;
-    var req_22136212 = new XMLHttpRequest();
     F.line = 53;
-    req_22136212.open("GET",toJSStr(url_22136201),true);
+    var req_22136213 = new XMLHttpRequest();
     F.line = 54;
-    result_22136211 = (new Promise(HEX3Aanonymous_22136213));
-    F.line = 59;
-    req_22136212.send();
+    req_22136213.open("GET",toJSStr(url_22136202),true);
+    F.line = 55;
+    result_22136212 = (new Promise(HEX3Aanonymous_22136214));
+    F.line = 60;
+    req_22136213.send();
   framePtr = F.prev;
 
-  return result_22136211;
+  return result_22136212;
 
 }
 function add_11812042(x_11812045, x_11812045_Idx, y_11812046) {
@@ -6943,14 +6943,14 @@ async function laddaScroll_22150001() {
   var F={procname:"ladda.laddaScroll",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 85;
-    var px_22150034 = (await loadData_22136199((makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P") || []).concat(cstrToNimstr(((artiklar_22136079[0]).length)+"") || [])));
     F.line = 86;
-    add_22150042(artiklar_22136079, 0, JSON.parse(px_22150034));
+    var px_22150034 = (await loadData_22136200((makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P") || []).concat(cstrToNimstr(((artiklar_22136080[0]).length)+"") || [])));
     F.line = 87;
-    redraw_21905414(kxi_21352284[0]);
+    add_22150042(artiklar_22136080, 0, JSON.parse(px_22150034));
     F.line = 88;
-    loadBlock_22136080[0] = false;
+    redraw_21905414(kxi_21352284[0]);
+    F.line = 89;
+    loadBlock_22136081[0] = false;
     F.line = 131;
     result_22150007 = undefined;
     break BeforeRet;
@@ -6963,18 +6963,18 @@ async function laddaScroll_22150001() {
 function HEX3Aanonymous_22150123(e_22150125) {
   var F={procname:"ladda.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
-    if (!(loadBlock_22136080[0])) {
-    F.line = 92;
-    var top_22150126 = document.body.getBoundingClientRect().top;
+    if (!(loadBlock_22136081[0])) {
     F.line = 93;
+    var top_22150126 = document.body.getBoundingClientRect().top;
+    F.line = 94;
     var height_22150127 = document.body.getBoundingClientRect().height;
     if (((top_22150126 + height_22150127) <= 8.0000000000000000e+03)) {
-    F.line = 95;
-    laddaScroll_22150001();
     F.line = 96;
-    rawEcho(makeNimstrLit("scrolload"));
+    laddaScroll_22150001();
     F.line = 97;
-    loadBlock_22136080[0] = true;
+    rawEcho(makeNimstrLit("scrolload"));
+    F.line = 98;
+    loadBlock_22136081[0] = true;
     }
     
     }
@@ -6985,7 +6985,7 @@ function HEX3Aanonymous_22150123(e_22150125) {
 }
 var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
 framePtr = F;
-F.line = 90;
+F.line = 91;
 window.addEventListener("scroll", HEX3Aanonymous_22150123, false);
 framePtr = F.prev;
 var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
@@ -7006,10 +7006,13 @@ framePtr = F.prev;
 var F={procname:"module routerstate",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/routerstate.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-function HEX3Aanonymous_22151045(ev_22151047) {
+var F={procname:"module routerstate",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/routerstate.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+function HEX3Aanonymous_22151064(ev_22151066) {
   var F={procname:"routerstate.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/routerstate.nim",line:0};
   framePtr = F;
-    F.line = 15;
+    F.line = 18;
     redraw_21905414(kxi_21352284[0]);
   framePtr = F.prev;
 
@@ -7017,8 +7020,8 @@ function HEX3Aanonymous_22151045(ev_22151047) {
 }
 var F={procname:"module routerstate",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/routerstate.nim",line:0};
 framePtr = F;
-F.line = 14;
-window.addEventListener("popstate", HEX3Aanonymous_22151045, false);
+F.line = 17;
+window.addEventListener("popstate", HEX3Aanonymous_22151064, false);
 framePtr = F.prev;
 var F={procname:"module routerstate",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/routerstate.nim",line:0};
 framePtr = F;
@@ -7036,6 +7039,30 @@ var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/js
 framePtr = F;
 framePtr = F.prev;
 var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
@@ -7047,7 +7074,7 @@ framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 9;
-var counter_22156027 = [0];
+var counter_22171027 = [0];
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
@@ -7055,7 +7082,7 @@ framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 14;
-var res_22160018 = [null];
+var res_22175018 = [null];
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
@@ -7136,117 +7163,6 @@ function setRenderer_21905678(renderer_21905683, root_21905684, clientPostRender
   return result_21905689;
 
 }
-function setAttr_12600040(s_12600042, a_12600043, value_12600044) {
-  var F={procname:"vstyles.setAttr",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
-  framePtr = F;
-  BeforeRet: do {
-    F.line = 238;
-    var i_12600046 = 0;
-    L1: do {
-      F.line = 239;
-        L2: while (true) {
-        if (!(i_12600046 < s_12600042.length)) break L2;
-          if ((s_12600042[i_12600046] == a_12600043)) {
-          F.line = 241;
-          s_12600042[addInt(i_12600046, 1)] = value_12600044;
-          F.line = 242;
-          break BeforeRet;
-          }
-          else {
-          if ((a_12600043 < s_12600042[i_12600046])) {
-          F.line = 244;
-          s_12600042.push("");
-          F.line = 245;
-          s_12600042.push("");
-          L3: do {
-            F.line = 247;
-            var j_12605063 = 0;
-            F.line = 6;
-            var colontmp__22175363 = 0;
-            F.line = 247;
-            colontmp__22175363 = subInt(s_12600042.length, 1);
-            F.line = 28;
-            var res_22175364 = colontmp__22175363;
-            L4: do {
-              F.line = 29;
-                L5: while (true) {
-                if (!(i_12600046 <= res_22175364)) break L5;
-                  F.line = 247;
-                  j_12605063 = res_22175364;
-                  F.line = 248;
-                  s_12600042[j_12605063] = s_12600042[subInt(j_12605063, 2)];
-                  F.line = 249;
-                  s_12600042[subInt(j_12605063, 1)] = s_12600042[subInt(j_12605063, 3)];
-                  F.line = 31;
-                  res_22175364 = subInt(res_22175364, 2);
-                }
-            } while(false);
-          } while(false);
-          F.line = 250;
-          s_12600042[i_12600046] = a_12600043;
-          F.line = 251;
-          s_12600042[addInt(i_12600046, 1)] = value_12600044;
-          F.line = 252;
-          break BeforeRet;
-          }
-          }
-          F.line = 253;
-          i_12600046 = addInt(i_12600046, 2);
-        }
-    } while(false);
-    F.line = 254;
-    s_12600042.push(a_12600043);
-    F.line = 255;
-    s_12600042.push(value_12600044);
-  } while (false);
-  framePtr = F.prev;
-
-  
-}
-function setAttr_12605183(s_12605185, attr_12605186, value_12605187) {
-  var F={procname:"vstyles.setAttr",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
-  framePtr = F;
-    if (!(!((value_12605187 == null)))) {
-    F.line = 259;
-    failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim(259, 12) `value != nil` value must not be nil"));
-    }
-    
-    F.line = 260;
-    setAttr_12600040(s_12605185, toStyleAttrName_12590006[chckIndx(attr_12605186, 0, (toStyleAttrName_12590006).length-1)], value_12605187);
-  framePtr = F.prev;
-
-  
-}
-function style_12625033(pairs_12625037) {
-  var result_12625038 = null;
-
-  var F={procname:"vstyles.style",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
-  framePtr = F;
-    F.line = 276;
-    result_12625038 = new Array(0);
-    L1: do {
-      F.line = 280;
-      var x_12625239 = null;
-      F.line = 8;
-      var i_22175359 = 0;
-      L2: do {
-        F.line = 9;
-          L3: while (true) {
-          if (!(i_22175359 < (pairs_12625037).length)) break L3;
-            F.line = 280;
-            x_12625239 = pairs_12625037[chckIndx(i_22175359, 0, (pairs_12625037).length-1)];
-            F.line = 281;
-            setAttr_12605183(result_12625038, x_12625239["Field0"], x_12625239["Field1"]);
-            F.line = 11;
-            i_22175359 = addInt(i_22175359, 1);
-          }
-      } while(false);
-    } while(false);
-  framePtr = F.prev;
-
-  return result_12625038;
-
-}
 function newVNode_21015428(kind_21015430) {
   var result_21015431 = null;
 
@@ -7280,17 +7196,17 @@ function tree_21015445(kind_21015447, kids_21015449) {
       var k_21015483 = null;
       var k_21015483_Idx = 0;
       F.line = 8;
-      var i_22175371 = 0;
+      var i_22180085 = 0;
       L2: do {
         F.line = 9;
           L3: while (true) {
-          if (!(i_22175371 < (kids_21015449).length)) break L3;
+          if (!(i_22180085 < (kids_21015449).length)) break L3;
             F.line = 272;
-            k_21015483 = kids_21015449; k_21015483_Idx = chckIndx(i_22175371, 0, (kids_21015449).length-1);
+            k_21015483 = kids_21015449; k_21015483_Idx = chckIndx(i_22180085, 0, (kids_21015449).length-1);
             F.line = 272;
             add_21005072(result_21015450, k_21015483[k_21015483_Idx]);
             F.line = 11;
-            i_22175371 = addInt(i_22175371, 1);
+            i_22180085 = addInt(i_22180085, 1);
           }
       } while(false);
     } while(false);
@@ -7298,92 +7214,6 @@ function tree_21015445(kind_21015447, kids_21015449) {
 
   return result_21015450;
 
-}
-function text_21015582(s_21015584) {
-  var result_21015585 = null;
-
-  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
-  framePtr = F;
-    F.line = 280;
-    result_21015585 = {kind: 0, text: toJSStr(s_21015584), index: -1, m_type: NTI20920031, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
-  framePtr = F.prev;
-
-  return result_21015585;
-
-}
-function sidhuvud_22152028(inp_22152030) {
-  var result_22152031 = null;
-
-  var F={procname:"sidhuvud.sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
-  framePtr = F;
-  BeforeRet: do {
-    F.line = 4;
-    F.line = 4;
-    var tmp_22152064 = tree_21015445(43, []);
-    F.line = 5;
-    var tmp_22152065 = tree_21015445(43, []);
-    F.line = 5;
-    tmp_22152065.id = "sidhuvud";
-    F.line = 6;
-    var tmp_22152071 = tree_21015445(21, []);
-    F.line = 6;
-    add_21005072(tmp_22152071, text_21015582((makeNimstrLit("Scroll: ") || []).concat(cstrToNimstr((inp_22152030)+"") || [])));
-    F.line = 6;
-    add_21005072(tmp_22152065, tmp_22152071);
-    F.line = 6;
-    add_21005072(tmp_22152064, tmp_22152065);
-    result_22152031 = tmp_22152064;
-    break BeforeRet;
-  } while (false);
-  framePtr = F.prev;
-
-  return result_22152031;
-
-}
-function text_21015801(s_21015803) {
-  var result_21015804 = null;
-
-  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
-  framePtr = F;
-    F.line = 281;
-    result_21015804 = {kind: 0, text: s_21015803, index: -1, m_type: NTI20920031, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
-  framePtr = F.prev;
-
-  return result_21015804;
-
-}
-function addEventListener_21020014(n_21020016, event_21020017, handler_21020018) {
-  var F={procname:"vdom.addEventListener",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
-  framePtr = F;
-    F.line = 304;
-    n_21020016.events.push({Field0: event_21020017, Field1: handler_21020018, Field2: null});;
-  framePtr = F.prev;
-
-  
-}
-function addEventHandler_21915154(n_21915156, k_21915157, action_21915160, kxi_21915161) {
-    function wrapper_21915162(ev_21915164, n_21915165) {
-      var F={procname:"addEventHandler.wrapper",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
-      framePtr = F;
-        F.line = 758;
-        action_21915160();
-        if (!(kxi_21915161.surpressRedraws)) {
-        F.line = 759;
-        redraw_21905414(kxi_21915161);
-        }
-        
-      framePtr = F.prev;
-
-      
-    }
-
-  var F={procname:"karax.addEventHandler",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
-  framePtr = F;
-    F.line = 760;
-    addEventListener_21020014(n_21915156, k_21915157, wrapper_21915162);
-  framePtr = F.prev;
-
-  
 }
 function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
   var F={procname:"vdom.setAttr",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
@@ -7398,17 +7228,17 @@ function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
         F.line = 227;
         var i_20955138 = 0;
         F.line = 39;
-        var colontmp__22175380 = 0;
+        var colontmp__22180100 = 0;
         F.line = 227;
-        colontmp__22175380 = subInt((n_20955107.attrs).length, 2);
+        colontmp__22180100 = subInt((n_20955107.attrs).length, 2);
         F.line = 56;
-        var res_22175381 = 0;
+        var res_22180101 = 0;
         L2: do {
           F.line = 57;
             L3: while (true) {
-            if (!(res_22175381 <= colontmp__22175380)) break L3;
+            if (!(res_22180101 <= colontmp__22180100)) break L3;
               F.line = 227;
-              i_20955138 = res_22175381;
+              i_20955138 = res_22180101;
               if ((n_20955107.attrs[chckIndx(i_20955138, 0, (n_20955107.attrs).length-1)] == key_20955108)) {
               F.line = 229;
               n_20955107.attrs[chckIndx(addInt(i_20955138, 1), 0, (n_20955107.attrs).length-1)] = val_20955109;
@@ -7417,7 +7247,7 @@ function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
               }
               
               F.line = 59;
-              res_22175381 = addInt(res_22175381, 2);
+              res_22180101 = addInt(res_22180101, 2);
             }
         } while(false);
       } while(false);
@@ -7432,6 +7262,238 @@ function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
 
   
 }
+function addEventListener_21020014(n_21020016, event_21020017, handler_21020018) {
+  var F={procname:"vdom.addEventListener",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  framePtr = F;
+    F.line = 304;
+    n_21020016.events.push({Field0: event_21020017, Field1: handler_21020018, Field2: null});;
+  framePtr = F.prev;
+
+  
+}
+function addEventHandler_21915118(n_21915120, k_21915121, action_21915122, kxi_21915123) {
+    function wrapper_21915124(ev_21915126, n_21915127) {
+      var F={procname:"addEventHandler.wrapper",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+      framePtr = F;
+        F.line = 746;
+        action_21915122(ev_21915126, n_21915127);
+        if (!(kxi_21915123.surpressRedraws)) {
+        F.line = 747;
+        redraw_21905414(kxi_21915123);
+        }
+        
+      framePtr = F.prev;
+
+      
+    }
+
+  var F={procname:"karax.addEventHandler",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  framePtr = F;
+    F.line = 748;
+    addEventListener_21020014(n_21915120, k_21915121, wrapper_21915124);
+  framePtr = F.prev;
+
+  
+}
+function menyklick_22152054(ort_22152056, ev_22152057) {
+  var F={procname:"sidhuvud.menyklick",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+  framePtr = F;
+    F.line = 7;
+    ev_22152057.preventDefault();
+    F.line = 8;
+    window.history.pushState([],'state',toJSStr(ort_22152056));
+  framePtr = F.prev;
+
+  
+}
+function text_21015582(s_21015584) {
+  var result_21015585 = null;
+
+  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  framePtr = F;
+    F.line = 280;
+    result_21015585 = {kind: 0, text: toJSStr(s_21015584), index: -1, m_type: NTI20920031, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
+  framePtr = F.prev;
+
+  return result_21015585;
+
+}
+function sidhuvud_22152071(inp_22152073) {
+    function HEX3Aanonymous_22155028(ev_22155030, nd_22155031) {
+      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+      framePtr = F;
+        F.line = 22;
+        menyklick_22152054([], ev_22155030);
+      framePtr = F.prev;
+
+      
+    }
+    function HEX3Aanonymous_22155050(ev_22155052, nd_22155053) {
+      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+      framePtr = F;
+        F.line = 23;
+        menyklick_22152054(makeNimstrLit("kumla"), ev_22155052);
+      framePtr = F.prev;
+
+      
+    }
+    function HEX3Aanonymous_22155072(ev_22155074, nd_22155075) {
+      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+      framePtr = F;
+        F.line = 24;
+        menyklick_22152054(makeNimstrLit("hallsberg"), ev_22155074);
+      framePtr = F.prev;
+
+      
+    }
+    function HEX3Aanonymous_22155094(ev_22155096, nd_22155097) {
+      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+      framePtr = F;
+        F.line = 25;
+        menyklick_22152054(makeNimstrLit("askersund"), ev_22155096);
+      framePtr = F.prev;
+
+      
+    }
+    function HEX3Aanonymous_22155116(ev_22155118, nd_22155119) {
+      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+      framePtr = F;
+        F.line = 26;
+        menyklick_22152054(makeNimstrLit("laxa"), ev_22155118);
+      framePtr = F.prev;
+
+      
+    }
+    function HEX3Aanonymous_22155138(ev_22155140, nd_22155141) {
+      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+      framePtr = F;
+        F.line = 27;
+        menyklick_22152054(makeNimstrLit("lekeberg"), ev_22155140);
+      framePtr = F.prev;
+
+      
+    }
+
+  var result_22152074 = null;
+
+  var F={procname:"sidhuvud.sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 13;
+    F.line = 13;
+    var tmp_22152107 = tree_21015445(27, []);
+    F.line = 13;
+    tmp_22152107.class = "container";
+    F.line = 13;
+    tmp_22152107.id = "sidhuvud";
+    F.line = 14;
+    var tmp_22152113 = tree_21015445(43, []);
+    F.line = 14;
+    tmp_22152113.class = "l-20 m-25 s-25";
+    F.line = 15;
+    var tmp_22152114 = tree_21015445(75, []);
+    F.line = 15;
+    setAttr_20955105(tmp_22152114, "src", "./grafik/logo.png");
+    F.line = 15;
+    add_21005072(tmp_22152113, tmp_22152114);
+    F.line = 15;
+    add_21005072(tmp_22152107, tmp_22152113);
+    F.line = 16;
+    var tmp_22152115 = tree_21015445(43, []);
+    F.line = 16;
+    tmp_22152115.class = "l-80 m-75 s-75";
+    F.line = 16;
+    add_21005072(tmp_22152107, tmp_22152115);
+    F.line = 18;
+    var knappklass_22155017 = makeNimstrLit("ortmenyknapp");
+    F.line = 19;
+    var active_22155018 = makeNimstrLit(" active");
+    F.line = 21;
+    var tmp_22152116 = tree_21015445(43, []);
+    F.line = 21;
+    tmp_22152116.class = "l-100 m-100 s-100 menyrad clear";
+    F.line = 22;
+    var tmp_22152117 = tree_21015445(44, []);
+    F.line = 22;
+    addEventHandler_21915118(tmp_22152117, 0, HEX3Aanonymous_22155028, kxi_21352284[0]);
+    F.line = 22;
+    setAttr_20955105(tmp_22152117, "href", "");
+    F.line = 22;
+    tmp_22152117.class = toJSStr((knappklass_22155017 || []).concat(active_22155018 || []));
+    F.line = 22;
+    add_21005072(tmp_22152117, text_21015582(makeNimstrLit("Sydn\xC3\xA4rke")));
+    F.line = 22;
+    add_21005072(tmp_22152116, tmp_22152117);
+    F.line = 23;
+    var tmp_22152118 = tree_21015445(44, []);
+    F.line = 23;
+    addEventHandler_21915118(tmp_22152118, 0, HEX3Aanonymous_22155050, kxi_21352284[0]);
+    F.line = 23;
+    setAttr_20955105(tmp_22152118, "href", "");
+    F.line = 23;
+    tmp_22152118.class = toJSStr(knappklass_22155017);
+    F.line = 23;
+    add_21005072(tmp_22152118, text_21015582(makeNimstrLit("Kumla")));
+    F.line = 23;
+    add_21005072(tmp_22152116, tmp_22152118);
+    F.line = 24;
+    var tmp_22152119 = tree_21015445(44, []);
+    F.line = 24;
+    addEventHandler_21915118(tmp_22152119, 0, HEX3Aanonymous_22155072, kxi_21352284[0]);
+    F.line = 24;
+    setAttr_20955105(tmp_22152119, "href", "");
+    F.line = 24;
+    tmp_22152119.class = toJSStr(knappklass_22155017);
+    F.line = 24;
+    add_21005072(tmp_22152119, text_21015582(makeNimstrLit("Hallsberg")));
+    F.line = 24;
+    add_21005072(tmp_22152116, tmp_22152119);
+    F.line = 25;
+    var tmp_22152120 = tree_21015445(44, []);
+    F.line = 25;
+    addEventHandler_21915118(tmp_22152120, 0, HEX3Aanonymous_22155094, kxi_21352284[0]);
+    F.line = 25;
+    setAttr_20955105(tmp_22152120, "href", "");
+    F.line = 25;
+    tmp_22152120.class = toJSStr(knappklass_22155017);
+    F.line = 25;
+    add_21005072(tmp_22152120, text_21015582(makeNimstrLit("Askersund")));
+    F.line = 25;
+    add_21005072(tmp_22152116, tmp_22152120);
+    F.line = 26;
+    var tmp_22152121 = tree_21015445(44, []);
+    F.line = 26;
+    addEventHandler_21915118(tmp_22152121, 0, HEX3Aanonymous_22155116, kxi_21352284[0]);
+    F.line = 26;
+    setAttr_20955105(tmp_22152121, "href", "");
+    F.line = 26;
+    tmp_22152121.class = toJSStr(knappklass_22155017);
+    F.line = 26;
+    add_21005072(tmp_22152121, text_21015582(makeNimstrLit("Lax\xC3\xA5")));
+    F.line = 26;
+    add_21005072(tmp_22152116, tmp_22152121);
+    F.line = 27;
+    var tmp_22152122 = tree_21015445(44, []);
+    F.line = 27;
+    addEventHandler_21915118(tmp_22152122, 0, HEX3Aanonymous_22155138, kxi_21352284[0]);
+    F.line = 27;
+    setAttr_20955105(tmp_22152122, "href", "");
+    F.line = 27;
+    tmp_22152122.class = toJSStr(knappklass_22155017);
+    F.line = 27;
+    add_21005072(tmp_22152122, text_21015582(makeNimstrLit("Lekeberg")));
+    F.line = 27;
+    add_21005072(tmp_22152116, tmp_22152122);
+    F.line = 27;
+    add_21005072(tmp_22152107, tmp_22152116);
+    result_22152074 = tmp_22152107;
+    break BeforeRet;
+  } while (false);
+  framePtr = F.prev;
+
+  return result_22152074;
+
+}
 function verbatim_21016001(s_21016003) {
   var result_21016004 = null;
 
@@ -7444,141 +7506,91 @@ function verbatim_21016001(s_21016003) {
   return result_21016004;
 
 }
-function root_22160032(data_22160034) {
-    function HEX3Aanonymous_22165018() {
-      var F={procname:"root.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
-      framePtr = F;
-        F.line = 36;
-        window.history.pushState([],'state',"/v");
-      framePtr = F.prev;
+function text_21015801(s_21015803) {
+  var result_21015804 = null;
 
-      
-    }
-    function HEX3Aanonymous_22165038() {
-      var F={procname:"root.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
-      framePtr = F;
-        F.line = 40;
-        window.history.pushState([],'state',"/h");
-      framePtr = F.prev;
-
-      
-    }
-
-  var result_22160035 = null;
-
-  var F={procname:"start.root",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
+  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
-    F.line = 18;
-    var selstyle_22160036 = null;
-    if ((window.location.pathname == "/v")) {
-    F.line = 21;
-    res_22160018[0] = "Vänsterknapp";
-    F.line = 22;
-    selstyle_22160036 = style_12625033([{Field0: 62, Field1: "red"}]);
-    }
-    else {
-    if ((window.location.pathname == "/h")) {
-    F.line = 24;
-    res_22160018[0] = "Högerknapp";
-    F.line = 25;
-    selstyle_22160036 = style_12625033([{Field0: 62, Field1: "blue"}]);
-    }
-    else {
-      F.line = 27;
-      res_22160018[0] = "Nothing";
-      F.line = 28;
-      selstyle_22160036 = style_12625033([{Field0: 62, Field1: "yellow"}]);
-    }
-    }
-    F.line = 29;
-    F.line = 29;
-    var tmp_22160046 = tree_21015445(43, []);
-    F.line = 30;
-    add_21005072(tmp_22160046, sidhuvud_22152028(counter_22156027[0]));
-    F.line = 31;
-    var tmp_22160047 = tree_21015445(24, []);
-    F.line = 31;
-    add_21005072(tmp_22160047, text_21015582(makeNimstrLit("testar routning:")));
-    F.line = 31;
-    add_21005072(tmp_22160046, tmp_22160047);
-    F.line = 32;
-    var tmp_22160048 = tree_21015445(31, []);
-    F.line = 32;
-    tmp_22160048.style = selstyle_22160036;
-    F.line = 33;
-    add_21005072(tmp_22160048, text_21015801(res_22160018[0]));
-    F.line = 33;
-    add_21005072(tmp_22160046, tmp_22160048);
-    F.line = 34;
-    var tmp_22160049 = tree_21015445(106, []);
-    F.line = 35;
-    addEventHandler_21915154(tmp_22160049, 0, HEX3Aanonymous_22165018, kxi_21352284[0]);
-    F.line = 37;
-    add_21005072(tmp_22160049, text_21015582(makeNimstrLit("V\xC3\xA4nster")));
-    F.line = 37;
-    add_21005072(tmp_22160046, tmp_22160049);
-    F.line = 38;
-    var tmp_22160050 = tree_21015445(106, []);
-    F.line = 39;
-    addEventHandler_21915154(tmp_22160050, 0, HEX3Aanonymous_22165038, kxi_21352284[0]);
-    F.line = 41;
-    add_21005072(tmp_22160050, text_21015582(makeNimstrLit("H\xC3\xB6ger")));
-    F.line = 41;
-    add_21005072(tmp_22160046, tmp_22160050);
+    F.line = 281;
+    result_21015804 = {kind: 0, text: s_21015803, index: -1, m_type: NTI20920031, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
+  framePtr = F.prev;
+
+  return result_21015804;
+
+}
+function artikelspalt_22156041() {
+  var result_22156043 = null;
+
+  var F={procname:"artikelspalt.artikelspalt",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+  framePtr = F;
+    F.line = 7;
+    F.line = 7;
+    var tmp_22156044 = tree_21015445(43, []);
+    F.line = 7;
+    tmp_22156044.class = "l-50 m-66 s-100 container";
     L1: do {
-      F.line = 42;
-      var artikel_22175214 = null;
-      var artikel_22175214_Idx = 0;
+      F.line = 8;
+      var artikel_22170214 = null;
+      var artikel_22170214_Idx = 0;
       F.line = 199;
-      var i_22175354 = 0;
+      var i_22180115 = 0;
       F.line = 200;
-      var L_22175355 = (artiklar_22136079[0]).length;
+      var L_22180116 = (artiklar_22136080[0]).length;
       L2: do {
         F.line = 201;
           L3: while (true) {
-          if (!(i_22175354 < L_22175355)) break L3;
-            F.line = 42;
-            artikel_22175214 = artiklar_22136079[0]; artikel_22175214_Idx = chckIndx(i_22175354, 0, (artiklar_22136079[0]).length-1);
-            if (!((artikel_22175214[artikel_22175214_Idx].ettabild == null))) {
-            F.line = 44;
-            var tmp_22160051 = tree_21015445(75, []);
-            F.line = 44;
-            setAttr_20955105(tmp_22160051, "src", artikel_22175214[artikel_22175214_Idx].ettabild);
-            F.line = 44;
-            add_21005072(tmp_22160046, tmp_22160051);
+          if (!(i_22180115 < L_22180116)) break L3;
+            F.line = 8;
+            artikel_22170214 = artiklar_22136080[0]; artikel_22170214_Idx = chckIndx(i_22180115, 0, (artiklar_22136080[0]).length-1);
+            if ((artikel_22170214[artikel_22170214_Idx].status == "Undernyhet")) {
+            if (!((artikel_22170214[artikel_22170214_Idx].ettabild == null))) {
+            F.line = 11;
+            var tmp_22156045 = tree_21015445(75, []);
+            F.line = 11;
+            setAttr_20955105(tmp_22156045, "src", artikel_22170214[artikel_22170214_Idx].ettabild);
+            F.line = 11;
+            add_21005072(tmp_22156044, tmp_22156045);
             }
             
-            F.line = 45;
-            var tmp_22160052 = tree_21015445(22, []);
-            F.line = 46;
-            add_21005072(tmp_22160052, verbatim_21016001(artikel_22175214[artikel_22175214_Idx].rubrik));
-            F.line = 46;
-            add_21005072(tmp_22160046, tmp_22160052);
-            if ((artikel_22175214[artikel_22175214_Idx].rubrik == null)) {
-            F.line = 48;
-            var tmp_22160053 = tree_21015445(22, []);
-            if ((artikel_22175214[artikel_22175214_Idx].title == null)) {
-            F.line = 49;
-            add_21005072(tmp_22160053, text_21015582(makeNimstrLit("Laddar...")));
+            F.line = 12;
+            var tmp_22156046 = tree_21015445(22, []);
+            F.line = 13;
+            add_21005072(tmp_22156046, verbatim_21016001(artikel_22170214[artikel_22170214_Idx].rubrik));
+            F.line = 13;
+            add_21005072(tmp_22156044, tmp_22156046);
+            if ((artikel_22170214[artikel_22170214_Idx].rubrik == null)) {
+            F.line = 15;
+            var tmp_22156047 = tree_21015445(22, []);
+            if ((artikel_22170214[artikel_22170214_Idx].title == null)) {
+            F.line = 16;
+            add_21005072(tmp_22156047, text_21015582(makeNimstrLit("Laddar...")));
             }
             else {
-              F.line = 49;
-            add_21005072(tmp_22160053, verbatim_21016001(artikel_22175214[artikel_22175214_Idx].title));
+              F.line = 16;
+            add_21005072(tmp_22156047, verbatim_21016001(artikel_22170214[artikel_22170214_Idx].title));
             }
             
-            F.line = 49;
-            add_21005072(tmp_22160046, tmp_22160053);
+            F.line = 16;
+            add_21005072(tmp_22156044, tmp_22156047);
             }
             
-            F.line = 50;
-            var tmp_22160054 = tree_21015445(31, []);
-            F.line = 51;
-            add_21005072(tmp_22160054, text_21015801(artikel_22175214[artikel_22175214_Idx].ingress));
-            F.line = 51;
-            add_21005072(tmp_22160046, tmp_22160054);
+            F.line = 17;
+            var tmp_22156048 = tree_21015445(31, []);
+            F.line = 18;
+            add_21005072(tmp_22156048, text_21015801(artikel_22170214[artikel_22170214_Idx].ingress));
+            F.line = 18;
+            add_21005072(tmp_22156044, tmp_22156048);
+            F.line = 19;
+            var tmp_22156049 = tree_21015445(31, []);
+            F.line = 19;
+            add_21005072(tmp_22156049, text_21015801(artikel_22170214[artikel_22170214_Idx].channel));
+            F.line = 19;
+            add_21005072(tmp_22156044, tmp_22156049);
+            }
+            
             F.line = 203;
-            i_22175354 = addInt(i_22175354, 1);
-            if (!(((artiklar_22136079[0]).length == L_22175355))) {
+            i_22180115 = addInt(i_22180115, 1);
+            if (!(((artiklar_22136080[0]).length == L_22180116))) {
             F.line = 204;
             failedAssertImpl_11760480(makeNimstrLit("/usr/local/Cellar/nim/1.4.0/nim/lib/system/iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -7586,20 +7598,50 @@ function root_22160032(data_22160034) {
           }
       } while(false);
     } while(false);
-    result_22160035 = tmp_22160046;
+    result_22156043 = tmp_22156044;
   framePtr = F.prev;
 
-  return result_22160035;
+  return result_22156043;
 
 }
-function HEX3Aanonymous_22175289(ev_22175291) {
+function root_22175032(data_22175034) {
+  var result_22175035 = null;
+
+  var F={procname:"start.root",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
+  framePtr = F;
+    F.line = 17;
+    F.line = 17;
+    var tmp_22175036 = tree_21015445(43, []);
+    F.line = 18;
+    add_21005072(tmp_22175036, sidhuvud_22152071(counter_22171027[0]));
+    F.line = 19;
+    var tmp_22175037 = tree_21015445(43, []);
+    F.line = 19;
+    tmp_22175037.class = "section mainarea";
+    F.line = 20;
+    var tmp_22175038 = tree_21015445(43, []);
+    F.line = 20;
+    tmp_22175038.class = "s-100 m-100 l-100 container";
+    F.line = 21;
+    add_21005072(tmp_22175038, artikelspalt_22156041());
+    F.line = 21;
+    add_21005072(tmp_22175037, tmp_22175038);
+    F.line = 21;
+    add_21005072(tmp_22175036, tmp_22175037);
+    result_22175035 = tmp_22175036;
+  framePtr = F.prev;
+
+  return result_22175035;
+
+}
+function HEX3Aanonymous_22180026(ev_22180028) {
   var F={procname:"start.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
   framePtr = F;
-    F.line = 55;
-    counter_22156027[0] = addInt(counter_22156027[0], 1);
-    F.line = 56;
-    rawEcho(cstrToNimstr((counter_22156027[0])+""));
-    F.line = 57;
+    F.line = 24;
+    counter_22171027[0] = addInt(counter_22171027[0], 1);
+    F.line = 25;
+    rawEcho(cstrToNimstr((counter_22171027[0])+""));
+    F.line = 26;
     redraw_21905414(kxi_21352284[0]);
   framePtr = F.prev;
 
@@ -7607,9 +7649,9 @@ function HEX3Aanonymous_22175289(ev_22175291) {
 }
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
-F.line = 54;
-window.addEventListener("scroll", HEX3Aanonymous_22175289, false);
-setRenderer_21905678(root_22160032, "ROOT", null);
+F.line = 23;
+window.addEventListener("scroll", HEX3Aanonymous_22180026, false);
+setRenderer_21905678(root_22175032, "ROOT", null);
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
@@ -7620,16 +7662,16 @@ async function preladda_22140001() {
   var F={procname:"ladda.preladda",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 69;
+    F.line = 70;
     var local_22140018 = window.localStorage.getItem("artiklar");
     if (!((local_22140018 == null))) {
-    F.line = 71;
-    artiklar_22136079[0] = nimCopy(null, JSON.parse(local_22140018), NTI22136044);
     F.line = 72;
+    artiklar_22136080[0] = nimCopy(null, JSON.parse(local_22140018), NTI22136044);
+    F.line = 73;
     rawEcho(makeNimstrLit("Preloaded"));
     }
     
-    F.line = 73;
+    F.line = 74;
     redraw_21905414(kxi_21352284[0]);
     F.line = 131;
     result_22140007 = undefined;
@@ -7646,15 +7688,15 @@ async function ladda_22145001() {
   var F={procname:"ladda.ladda",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 77;
-    var p1_22145029 = (await loadData_22136199(makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P1")));
     F.line = 78;
-    window.localStorage.setItem("artiklar", p1_22145029);
+    var p1_22145029 = (await loadData_22136200(makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P1")));
     F.line = 79;
-    artiklar_22136079[0] = nimCopy(null, JSON.parse(p1_22145029), NTI22136044);
+    window.localStorage.setItem("artiklar", p1_22145029);
     F.line = 80;
-    rawEcho(makeNimstrLit("Reloaded"));
+    artiklar_22136080[0] = nimCopy(null, JSON.parse(p1_22145029), NTI22136044);
     F.line = 81;
+    rawEcho(makeNimstrLit("Reloaded"));
+    F.line = 82;
     redraw_21905414(kxi_21352284[0]);
     F.line = 131;
     result_22145007 = undefined;
@@ -7665,29 +7707,29 @@ async function ladda_22145001() {
   return result_22145007;
 
 }
-async function loadpage_22180001() {
-  var result_22180007 = null;
+async function loadpage_22185001() {
+  var result_22185007 = null;
 
   var F={procname:"start.loadpage",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 62;
+    F.line = 31;
     (await preladda_22140001());
-    F.line = 63;
+    F.line = 32;
     (await ladda_22145001());
     F.line = 131;
-    result_22180007 = undefined;
+    result_22185007 = undefined;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22180007;
+  return result_22185007;
 
 }
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
-F.line = 65;
-loadpage_22180001();
+F.line = 34;
+loadpage_22185001();
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;

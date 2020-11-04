@@ -1,17 +1,1708 @@
-/* importerad: src/start.css  */ 
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* importerad: src/css/mini-small.css  */ 
+@media screen and (max-width: 759px) {
+
+
+	.static-s {
+		position: static !important;
+	}
+
+	.absolute-s {
+		position: absolute !important;
+	}
+
+	.absolute-s {
+		position:  !important;
+	}
+
+
+	.hide-s {
+		display: none !important;
+	}
+
+	html {
+		font-size: 15px;
+	}
+
+
+	.container {
+		max-width: 500px;
+		margin: auto auto
+	}
+
+	.container-wide {}
+
+
+	.s-100 {
+		width: 100%;
+		float: none;
+		min-height: 1px;
+	}
+
+
+	.s-90 {
+		width: 89%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.s-90-margin-right {
+		width: 89%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-90-margin-left {
+		width: 89%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.s-80 {
+		width: 79%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.s-80-margin-right {
+		width: 79%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-80-margin-left {
+		width: 79%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.s-75 {
+		width: 75%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.s-75-margin-right {
+		width: 74%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-75-margin-left {
+		width: 74%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.s-70 {
+		width: 69%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.s-70-margin-right {
+		width: 69%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-70-margin-left {
+		width: 69%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.s-66 {
+		width: 66.666%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.s-66-margin-right {
+		width: 65%;
+		margin-right: 1%;
+	}
+
+	.s-66-margin-left {
+		width: 65%;
+		margin-left: 1%;
+	}
+
+
+	.s-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.s-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.flex > .s-50:nth-child(2n+1) {
+		clear: left;
+	}
+
+	.s-50-margin-right {
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-50-margin-left {
+		width: 49%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.s-25 {
+		width: 25%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .s-25:nth-child(4n+1) {
+		clear: left;
+	}
+
+	.s-25-margin-right {
+		width: 24%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-25-margin-left {
+		width: 24%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.s-33 {
+		width: 33.333%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .s-33:nth-child(3n+1) {
+		clear: left;
+	}
+
+	.s-33-margin-right {
+		width: 32%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-33-margin-left {
+		width: 32%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.s-20 {
+		min-height: 1px;
+		width: 19%;
+		float: left;
+	}
+
+	.s-20-margin-right {
+		width: 19%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-20-margin-left {
+		width: 19%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .s-20:nth-child(5n+1) {
+		clear: left;
+	}
+
+	.s-10 {
+		min-height: 1px;
+		width: 9%;
+		float: left;
+	}
+
+	.s-10-margin-right {
+		width: 9%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.s-10-margin-left {
+		width: 9%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .s-10:nth-child(10n+1) {
+		clear: left;
+	}
+
+	.s-margin-right {
+		margin-right: 0.5em;
+	}
+
+	.s-margin-left {
+		margin-left: 0.5em;
+	}
+
+	.s-margin-top {
+		margin-top: 0.5em;
+	}
+
+	.s-margin-bottom {
+		margin-bottom: 0.5em
+	}
+	
+	.s-margin-right-x2 {
+		margin-right: 1em !important;
+	}
+
+	.s-margin-left-x2 {
+		margin-left: 1em !important;
+	}
+
+	.s-margin-top-x2 {
+		margin-top: 1em !important;
+	}
+
+	.s-margin-bottom-x2 {
+		margin-bottom: 1em !important;
+	}
+
+
 }
+
+/* importerad: src/css/mini-large.css  */ 
+@media (min-width: 1018px) {
+
+	html {
+		font-size: 16px;
+	}
+
+	.static-l {
+		position: static !important;
+	}
+
+	.hide-l {
+		display: none !important;
+	}
+
+	.absolute-l {
+		position: absolute !important;
+	}
+
+	.container {
+		max-width: 980px;
+		margin: auto auto;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	
+	}
+
+	.container-wide {
+		max-width: none;
+	}
+
+	.l-100 {
+		width: 100%;
+		float: none;
+		min-height: 1px;
+	}
+
+
+	.l-90 {
+		width: 89%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.l-90-margin-right {
+		width: 89%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-90-margin-left {
+		width: 89%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.l-80 {
+		width: 80%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.l-80-margin-right {
+		width: 79%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-80-margin-left {
+		width: 79%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.l-75 {
+		width: 75%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.l-75-margin-right {
+		width: 74%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-75-margin-left {
+		width: 74%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.l-70 {
+		width: 69%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.l-70-margin-right {
+		width: 69%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-70-margin-left {
+		width: 69%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.l-66 {
+		width: 66.666%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.l-66-margin-right {
+		width: 65%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-66-margin-left {
+		width: 65%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.l-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.l-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.flex > .l-50:nth-child(2n+1) {
+		clear: left;
+	}
+
+	.l-50-margin-right {
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-50-margin-left {
+		width: 49%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.l-25 {
+		width: 25%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .l-25:nth-child(4n+1) {
+		clear: left;
+	}
+
+	.l-25-margin-right {
+		width: 24%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-25-margin-left {
+		width: 24%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.l-33 {
+		width: 33.333%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .l-33:nth-child(3n+1) {
+		clear: left;
+	}
+
+	.l-33-margin-right {
+		width: 32%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-33-margin-left {
+		width: 32%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.l-20 {
+		min-height: 1px;
+		width: 20%;
+		float: left;
+	}
+
+	.l-20-margin-right {
+		width: 19%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-20-margin-left {
+		width: 19%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .l-20:nth-child(5n+1) {
+		clear: left;
+	}
+
+	.l-10 {
+		min-height: 1px;
+		width: 9%;
+		float: left;
+	}
+
+	.l-10-margin-right {
+		width: 9%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.l-10-margin-left {
+		width: 9%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .l-10:nth-child(10n+1) {
+		clear: left;
+	}
+
+	.l-margin-right {
+		margin-right: 0.5em;
+	}
+
+	.l-margin-left {
+		margin-left: 0.5em;
+	}
+
+	.l-margin-top {
+		margin-top: 0.5em;
+	}
+
+	.l-margin-bottom {
+		margin-bottom: 0.5em
+	}
+	
+		.l-margin-right-x2 {
+		margin-right: 1em !important;
+	}
+
+	.l-margin-left-x2 {
+		margin-left: 1em !important;
+	}
+
+	.l-margin-top-x2 {
+		margin-top: 1em !important;
+	}
+
+	.l-margin-bottom-x2 {
+		margin-bottom: 1em  !important;
+	}
+	
+}
+
+
+
+
+/* importerad: src/css/mini-xs.css  */ 
+@media screen and (max-width: 459px) {
+
+
+	.static-xs {
+		position: static !important;
+	}
+
+	.absolute-xs {
+		position: absolute !important;
+	}
+
+	.absolute-xs {
+		position:  !important;
+	}
+
+
+	.hide-xs {
+		display: none !important;
+	}
+
+	html {
+		font-xsize: 15px;
+	}
+
+	.container {
+		max-width: 500px;
+		margin: auto auto
+	}
+
+	.container-wide {}
+
+
+	.xs-100 {
+		width: 100%;
+		float: none;
+		min-height: 1px;
+	}
+
+
+	.xs-90 {
+		width: 89%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-90-margin-right {
+		width: 89%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-90-margin-left {
+		width: 89%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-80 {
+		width: 79%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-80-margin-right {
+		width: 79%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-80-margin-left {
+		width: 79%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.xs-75 {
+		width: 75%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-75-margin-right {
+		width: 74%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-75-margin-left {
+		width: 74%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-70 {
+		width: 69%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-70-margin-right {
+		width: 69%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-70-margin-left {
+		width: 69%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-66 {
+		width: 66.666%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-66-margin-right {
+		width: 65%;
+		margin-right: 1%;
+	}
+
+	.xs-66-margin-left {
+		width: 65%;
+		margin-left: 1%;
+	}
+
+
+	.xs-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.xs-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.flex > .xs-50:nth-child(2n+1) {
+		clear: left;
+	}
+
+	.xs-50-margin-right {
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-50-margin-left {
+		width: 49%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.xs-25 {
+		width: 25%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .xs-25:nth-child(4n+1) {
+		clear: left;
+	}
+
+	.xs-25-margin-right {
+		width: 24%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-25-margin-left {
+		width: 24%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-33 {
+		width: 33.333%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .xs-33:nth-child(3n+1) {
+		clear: left;
+	}
+
+	.xs-33-margin-right {
+		width: 32%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-33-margin-left {
+		width: 32%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-20 {
+		min-height: 1px;
+		width: 19%;
+		float: left;
+	}
+
+	.xs-20-margin-right {
+		width: 19%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-20-margin-left {
+		width: 19%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .xs-20:nth-child(5n+1) {
+		clear: left;
+	}
+
+	.xs-10 {
+		min-height: 1px;
+		width: 9%;
+		float: left;
+	}
+
+	.xs-10-margin-right {
+		width: 9%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-10-margin-left {
+		width: 9%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .xs-10:nth-child(10n+1) {
+		clear: left;
+	}
+
+	.xs-margin-right {
+		margin-right: 0.5em;
+	}
+
+	.xs-margin-left {
+		margin-left: 0.5em;
+	}
+
+	.xs-margin-top {
+		margin-top: 0.5em;
+	}
+
+	.xs-margin-bottom {
+		margin-bottom: 0.5em
+	}
+
+	.xs-margin-right-x2 {
+		margin-right: 1em !important;
+	}
+
+	.xs-margin-left-x2 {
+		margin-left: 1em !important;
+	}
+
+	.xs-margin-top-x2 {
+		margin-top: 1em !important;
+	}
+
+	.xs-margin-bottom-x2 {
+		margin-bottom: 1em !important;
+	}
+
+}
+
+
+/* importerad: src/css/custom.css  */ 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #69328b;
+}
+
+img {
+    width: 100%;
+}
+
+
+.mainarea {
+    background-color: white;
+}
+
+/* importerad: src/css/mini-medium.css  */ 
+@media screen and (min-width: 760px) and (max-width: 1018px) {
+
+
+	html {
+		font-size: 15.5px;
+	}
+
+	.static-m {
+		position: static !important;
+	}
+
+	.absolute-m {
+		position: absolute !important;
+	}
+
+	.hide-m {
+		display: none !important;
+	}
+
+	.container {
+		max-width: 730px;
+		margin: auto auto
+	}
+
+	.container-wide {}
+
+
+	.m-100 {
+		width: 100%;
+		float: none;
+		min-height: 1px;
+	}
+
+
+	.m-90 {
+		width: 89%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.m-90-margin-right {
+		width: 89%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-90-margin-left {
+		width: 89%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.m-80 {
+		width: 79%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.m-80-margin-right {
+		width: 79%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-80-margin-left {
+		width: 79%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.m-75 {
+		width: 75%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.m-75-margin-right {
+		width: 74%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-75-margin-left {
+		width: 74%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.m-70 {
+		width: 69%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.m-70-margin-right {
+		width: 69%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-70-margin-left {
+		width: 69%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.m-66 {
+		width: 66.666%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.m-66-margin-right {
+		width: 65%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-66-margin-left {
+		width: 65%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.m-50 {
+		width: 50%;
+		float: left;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.m-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.flex > .m-50:nth-child(2n+1) {
+		clear: left;
+	}
+
+	.m-50-margin-right {
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-50-margin-left {
+		width: 49%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.m-25 {
+		width: 25%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .m-25:nth-child(4n+1) {
+		clear: left;
+	}
+
+	.m-25-margin-right {
+		width: 24%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-25-margin-left {
+		width: 24%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.m-33 {
+		width: 33.333%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .m-33:nth-child(3n+1) {
+		clear: left;
+	}
+
+	.m-33-margin-right {
+		width: 32%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-33-margin-left {
+		width: 32%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.m-20 {
+		min-height: 1px;
+		width: 19%;
+		float: left;
+	}
+
+	.m-20-margin-right {
+		width: 19%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-20-margin-left {
+		width: 19%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .m-20:nth-child(5n+1) {
+		clear: left;
+	}
+
+	.m-10 {
+		min-height: 1px;
+		width: 9%;
+		float: left;
+	}
+
+	.m-10-margin-right {
+		width: 9%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.m-10-margin-left {
+		width: 9%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .m-10:nth-child(10n+1) {
+		clear: left;
+	}
+
+	.m-margin-right {
+		margin-right: 0.5em;
+	}
+
+	.m-margin-left {
+		margin-left: 0.5em;
+	}
+
+	.m-margin-top {
+		margin-top: 0.5em;
+	}
+
+	.m-margin-bottom {
+		margin-bottom: 1em
+	}
+	
+	.m-margin-right-x2 {
+		margin-right: 1em !important;
+	}
+
+	.m-margin-left-x2 {
+		margin-left: 1em !important;
+	}
+
+	.m-margin-top-x2 {
+		margin-top: 1em !important;
+	}
+
+	.m-margin-bottom-x2 {
+		margin-bottom: 1em !important;
+	}
+
+}
+
+/* importerad: src/css/normalize.css  */ 
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+/* importerad: src/css/mini.css  */ 
+
+html{
+		-webkit-text-size-adjust: 100%;
+
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+/*
+    background-color: rgba(0,0, 0, 0.1);
+    border-style: dotted;
+    border-width: 1px;
+    border-color: white;
+*/
+/*    min-height: 50px*/
+}
+
+.section{ 
+    padding: 1.5em;
+    z-index: -1000;
+}
+
+.section::after, .container::after, .clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container::before, .clear-before::before {
+	content: "";
+    clear: both;
+    display: block;
+
+}
+
+.clear, .clear-befor {
+    clear: both;
+}
+
+.pin-left-top, .pin-left-bottom,.pin-right-bottom, .pin-right-top, .pin-bottom, .pin-left, .pin-top, .pin-right {
+    position: absolute;
+}
+
+.pin-left-bottom {
+    bottom: 0px;
+    left: 0px;
+}
+.pin-left-top {
+    top: 0px;
+    left: 0px;
+}
+      
+.pin-right-top {
+    top: 0px;
+    right: 0px;
+}
+
+.pin-right-bottom {
+    bottom: 0px;
+    right: 0px;
+}
+
+.pin-right {
+    bottom: 50%;
+    right: 0px;
+}
+
+.pin-left {
+    bottom: 50%;
+    left: 0px;
+}
+
+.pin-top {
+    left: 50%;
+    top: 0px;
+}
+ 
+.pin-bottom {
+    left: 50%;
+    bottom: 0px;
+}
+  
+
+.all-100 {
+    width: 100%;
+    float: none;
+    height: 100%;
+
+}
+
+.margin-right {
+	margin-right: 0.5em;
+}
+
+.margin-left {
+	margin-left: 0.5em;
+}
+
+.margin-top {
+	margin-top: 0.5em;
+}
+
+.margin-bottom {
+	margin-bottom: 0.5em
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: wrap;
+	
+
+}
+
+
+.flex-wrap {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+
+.flex-col {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+
+.center {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
 
 /* importerad: src/komponenter/sidhuvud/sidhuvud.css  */ 
 #sidhuvud {
-    background-color: greenyellow;
-    padding: 1rem;
-    color: black
+    margin-bottom: 0;
+    color: black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding-left: 1.5em;
 }
 
-#sidhuvud h1 {
-    margin: 0;
+#sidhuvud a {
+    text-decoration-line: none;
 }
+
+#sidhuvud .menyrad {
+    padding-top: 1rem;
+}
+
+#sidhuvud .ortmenyknapp {
+    display: inline-block;
+    background-color: #e5e5e5;
+    padding: 0.5rem;
+    padding-bottom: 0.40rem;
+    margin-right: 0.25rem;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 0.8rem;
+    height: 1.75rem;
+    position: static;
+    bottom: 0;
+
+}
+
+#sidhuvud .ortmenyknapp.active {
+    background-color: white;
+}
+
+#sidhuvud .ortmenyknapp:hover {
+    background-color: white;
+}
+
+
+/* importerad: src/komponenter/artikelspalt/artikelspalt.css  */ 
+
+for artikel in artiklar:
+if not artikel.ettabild.isNil:
+    img(src=artikel.ettabild)
+h2: 
+    artikel.rubrik. verbatim()
+if artikel.rubrik.isNil:
+    h2: 
+        if artikel.title.isNil: text "Laddar..." else: artikel.title.verbatim()
+p: 
+    text artikel.ingress
+
+

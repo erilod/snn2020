@@ -1,0 +1,281 @@
+@media screen and (max-width: 459px) {
+
+
+	.static-xs {
+		position: static !important;
+	}
+
+	.absolute-xs {
+		position: absolute !important;
+	}
+
+	.absolute-xs {
+		position:  !important;
+	}
+
+
+	.hide-xs {
+		display: none !important;
+	}
+
+	html {
+		font-xsize: 15px;
+	}
+
+	.container {
+		max-width: 500px;
+		margin: auto auto
+	}
+
+	.container-wide {}
+
+
+	.xs-100 {
+		width: 100%;
+		float: none;
+		min-height: 1px;
+	}
+
+
+	.xs-90 {
+		width: 89%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-90-margin-right {
+		width: 89%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-90-margin-left {
+		width: 89%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-80 {
+		width: 79%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-80-margin-right {
+		width: 79%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-80-margin-left {
+		width: 79%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.xs-75 {
+		width: 75%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-75-margin-right {
+		width: 74%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-75-margin-left {
+		width: 74%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-70 {
+		width: 69%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-70-margin-right {
+		width: 69%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-70-margin-left {
+		width: 69%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-66 {
+		width: 66.666%;
+		float: left;
+		min-height: 1px;
+	}
+
+	.xs-66-margin-right {
+		width: 65%;
+		margin-right: 1%;
+	}
+
+	.xs-66-margin-left {
+		width: 65%;
+		margin-left: 1%;
+	}
+
+
+	.xs-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.xs-50 {
+		width: 50%;
+		float: left;
+		min-height: 1px;
+	}
+
+
+	.flex > .xs-50:nth-child(2n+1) {
+		clear: left;
+	}
+
+	.xs-50-margin-right {
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-50-margin-left {
+		width: 49%;
+		float: left;
+		margin-left: 1%;
+	}
+
+
+	.xs-25 {
+		width: 25%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .xs-25:nth-child(4n+1) {
+		clear: left;
+	}
+
+	.xs-25-margin-right {
+		width: 24%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-25-margin-left {
+		width: 24%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-33 {
+		width: 33.333%;
+		min-height: 1px;
+		float: left;
+	}
+
+	.flex > .xs-33:nth-child(3n+1) {
+		clear: left;
+	}
+
+	.xs-33-margin-right {
+		width: 32%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-33-margin-left {
+		width: 32%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.xs-20 {
+		min-height: 1px;
+		width: 19%;
+		float: left;
+	}
+
+	.xs-20-margin-right {
+		width: 19%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-20-margin-left {
+		width: 19%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .xs-20:nth-child(5n+1) {
+		clear: left;
+	}
+
+	.xs-10 {
+		min-height: 1px;
+		width: 9%;
+		float: left;
+	}
+
+	.xs-10-margin-right {
+		width: 9%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.xs-10-margin-left {
+		width: 9%;
+		float: left;
+		margin-left: 1%;
+	}
+
+	.flex > .xs-10:nth-child(10n+1) {
+		clear: left;
+	}
+
+	.xs-margin-right {
+		margin-right: 0.5em;
+	}
+
+	.xs-margin-left {
+		margin-left: 0.5em;
+	}
+
+	.xs-margin-top {
+		margin-top: 0.5em;
+	}
+
+	.xs-margin-bottom {
+		margin-bottom: 0.5em
+	}
+
+	.xs-margin-right-x2 {
+		margin-right: 1em !important;
+	}
+
+	.xs-margin-left-x2 {
+		margin-left: 1em !important;
+	}
+
+	.xs-margin-top-x2 {
+		margin-top: 1em !important;
+	}
+
+	.xs-margin-bottom-x2 {
+		margin-bottom: 1em !important;
+	}
+
+}

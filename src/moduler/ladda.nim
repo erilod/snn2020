@@ -8,6 +8,7 @@ type
         id* : cint
         rubrik* : kstring
         urlTitle* : kstring
+        ort*: kstring
         status* : kstring
         date* : cint
         channel* : kstring

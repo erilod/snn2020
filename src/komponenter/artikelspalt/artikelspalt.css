@@ -1,0 +1,11 @@
+
+for artikel in artiklar:
+if not artikel.ettabild.isNil:
+    img(src=artikel.ettabild)
+h2: 
+    artikel.rubrik. verbatim()
+if artikel.rubrik.isNil:
+    h2: 
+        if artikel.title.isNil: text "Laddar..." else: artikel.title.verbatim()
+p: 
+    text artikel.ingress

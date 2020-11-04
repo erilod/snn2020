@@ -1,0 +1,140 @@
+
+html{
+		-webkit-text-size-adjust: 100%;
+
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+/*
+    background-color: rgba(0,0, 0, 0.1);
+    border-style: dotted;
+    border-width: 1px;
+    border-color: white;
+*/
+/*    min-height: 50px*/
+}
+
+.section{ 
+    padding: 1.5em;
+    z-index: -1000;
+}
+
+.section::after, .container::after, .clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container::before, .clear-before::before {
+	content: "";
+    clear: both;
+    display: block;
+
+}
+
+.clear, .clear-befor {
+    clear: both;
+}
+
+.pin-left-top, .pin-left-bottom,.pin-right-bottom, .pin-right-top, .pin-bottom, .pin-left, .pin-top, .pin-right {
+    position: absolute;
+}
+
+.pin-left-bottom {
+    bottom: 0px;
+    left: 0px;
+}
+.pin-left-top {
+    top: 0px;
+    left: 0px;
+}
+      
+.pin-right-top {
+    top: 0px;
+    right: 0px;
+}
+
+.pin-right-bottom {
+    bottom: 0px;
+    right: 0px;
+}
+
+.pin-right {
+    bottom: 50%;
+    right: 0px;
+}
+
+.pin-left {
+    bottom: 50%;
+    left: 0px;
+}
+
+.pin-top {
+    left: 50%;
+    top: 0px;
+}
+ 
+.pin-bottom {
+    left: 50%;
+    bottom: 0px;
+}
+  
+
+.all-100 {
+    width: 100%;
+    float: none;
+    height: 100%;
+
+}
+
+.margin-right {
+	margin-right: 0.5em;
+}
+
+.margin-left {
+	margin-left: 0.5em;
+}
+
+.margin-top {
+	margin-top: 0.5em;
+}
+
+.margin-bottom {
+	margin-bottom: 0.5em
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: wrap;
+	
+
+}
+
+
+.flex-wrap {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+
+.flex-col {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+
+.center {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
