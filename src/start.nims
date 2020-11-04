@@ -19,5 +19,3 @@ proc readCats (dir:string) =
 
 readCats("src")
 writeFile("docs/styles.css", comptext)
-
-echo comptext
