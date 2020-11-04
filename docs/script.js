@@ -7043,7 +7043,7 @@ framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 8;
-var counter_22031014 = [0];
+var counter_22026014 = [0];
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
@@ -7051,7 +7051,7 @@ framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 13;
-var res_22035018 = [null];
+var res_22030018 = [null];
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
@@ -7165,17 +7165,17 @@ function tree_20885445(kind_20885447, kids_20885449) {
       var k_20885483 = null;
       var k_20885483_Idx = 0;
       F.line = 8;
-      var i_22050325 = 0;
+      var i_22045325 = 0;
       L2: do {
         F.line = 9;
           L3: while (true) {
-          if (!(i_22050325 < (kids_20885449).length)) break L3;
+          if (!(i_22045325 < (kids_20885449).length)) break L3;
             F.line = 272;
-            k_20885483 = kids_20885449; k_20885483_Idx = chckIndx(i_22050325, 0, (kids_20885449).length-1);
+            k_20885483 = kids_20885449; k_20885483_Idx = chckIndx(i_22045325, 0, (kids_20885449).length-1);
             F.line = 272;
             add_20875072(result_20885450, k_20885483[k_20885483_Idx]);
             F.line = 11;
-            i_22050325 = addInt(i_22050325, 1);
+            i_22045325 = addInt(i_22045325, 1);
           }
       } while(false);
     } while(false);
@@ -7197,58 +7197,27 @@ function text_20885582(s_20885584) {
 
 }
 function sidhuvud_22022028(inp_22022030) {
-    function mint_22022032() {
-        var Tmp1;
-
-      var result_22022034 = [];
-
-      var F={procname:"sidhuvud.mint",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
-      framePtr = F;
-      BeforeRet: do {
-        F.line = 5;
-        if ((100 < inp_22022030)) {
-        Tmp1 = makeNimstrLit("Mint \xC3\xA4r v\xC3\xA4l gott");
-        }
-        else {
-        Tmp1 = makeNimstrLit("Mint \xC3\xA4r inte gott");
-        }
-        
-        result_22022034 = nimCopy(null, Tmp1, NTI11511013);
-        break BeforeRet;
-      } while (false);
-      framePtr = F.prev;
-
-      return result_22022034;
-
-    }
-
   var result_22022031 = null;
 
   var F={procname:"sidhuvud.sidhuvud",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
   framePtr = F;
   BeforeRet: do {
-    F.line = 7;
-    F.line = 7;
-    var tmp_22025047 = tree_20885445(43, []);
-    F.line = 8;
-    var tmp_22025048 = tree_20885445(43, []);
-    F.line = 8;
-    tmp_22025048.id = "sidhuvud";
-    F.line = 9;
-    var tmp_22025054 = tree_20885445(21, []);
-    F.line = 9;
-    add_20875072(tmp_22025054, text_20885582(cstrToNimstr((inp_22022030)+"")));
-    F.line = 9;
-    add_20875072(tmp_22025048, tmp_22025054);
-    F.line = 10;
-    var tmp_22025055 = tree_20885445(31, []);
-    F.line = 10;
-    add_20875072(tmp_22025055, text_20885582(mint_22022032()));
-    F.line = 10;
-    add_20875072(tmp_22025048, tmp_22025055);
-    F.line = 10;
-    add_20875072(tmp_22025047, tmp_22025048);
-    result_22022031 = tmp_22025047;
+    F.line = 4;
+    F.line = 4;
+    var tmp_22022064 = tree_20885445(43, []);
+    F.line = 5;
+    var tmp_22022065 = tree_20885445(43, []);
+    F.line = 5;
+    tmp_22022065.id = "sidhuvud";
+    F.line = 6;
+    var tmp_22022071 = tree_20885445(21, []);
+    F.line = 6;
+    add_20875072(tmp_22022071, text_20885582(cstrToNimstr((inp_22022030)+"")));
+    F.line = 6;
+    add_20875072(tmp_22022065, tmp_22022071);
+    F.line = 6;
+    add_20875072(tmp_22022064, tmp_22022065);
+    result_22022031 = tmp_22022064;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
@@ -7256,20 +7225,20 @@ function sidhuvud_22022028(inp_22022030) {
   return result_22022031;
 
 }
-function scroll_22031028() {
-  var result_22031030 = null;
+function scroll_22026028() {
+  var result_22026030 = null;
 
   var F={procname:"start.scroll",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
   framePtr = F;
     F.line = 10;
     F.line = 10;
-    var tmp_22031031 = tree_20885445(23, []);
+    var tmp_22026031 = tree_20885445(23, []);
     F.line = 11;
-    add_20875072(tmp_22031031, text_20885582((makeNimstrLit("scroll: ") || []).concat(cstrToNimstr((counter_22031014[0])+"") || [])));
-    result_22031030 = tmp_22031031;
+    add_20875072(tmp_22026031, text_20885582((makeNimstrLit("scroll: ") || []).concat(cstrToNimstr((counter_22026014[0])+"") || [])));
+    result_22026030 = tmp_22026031;
   framePtr = F.prev;
 
-  return result_22031030;
+  return result_22026030;
 
 }
 function setAttr_20825105(n_20825107, key_20825108, val_20825109) {
@@ -7285,17 +7254,17 @@ function setAttr_20825105(n_20825107, key_20825108, val_20825109) {
         F.line = 227;
         var i_20825138 = 0;
         F.line = 39;
-        var colontmp__22050335 = 0;
+        var colontmp__22045334 = 0;
         F.line = 227;
-        colontmp__22050335 = subInt((n_20825107.attrs).length, 2);
+        colontmp__22045334 = subInt((n_20825107.attrs).length, 2);
         F.line = 56;
-        var res_22050336 = 0;
+        var res_22045335 = 0;
         L2: do {
           F.line = 57;
             L3: while (true) {
-            if (!(res_22050336 <= colontmp__22050335)) break L3;
+            if (!(res_22045335 <= colontmp__22045334)) break L3;
               F.line = 227;
-              i_20825138 = res_22050336;
+              i_20825138 = res_22045335;
               if ((n_20825107.attrs[chckIndx(i_20825138, 0, (n_20825107.attrs).length-1)] == key_20825108)) {
               F.line = 229;
               n_20825107.attrs[chckIndx(addInt(i_20825138, 1), 0, (n_20825107.attrs).length-1)] = val_20825109;
@@ -7304,7 +7273,7 @@ function setAttr_20825105(n_20825107, key_20825108, val_20825109) {
               }
               
               F.line = 59;
-              res_22050336 = addInt(res_22050336, 2);
+              res_22045335 = addInt(res_22045335, 2);
             }
         } while(false);
       } while(false);
@@ -7343,81 +7312,81 @@ function text_20885801(s_20885803) {
   return result_20885804;
 
 }
-function root_22035032(data_22035034) {
-  var result_22035035 = null;
+function root_22030032(data_22030034) {
+  var result_22030035 = null;
 
   var F={procname:"start.root",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
   framePtr = F;
     if ((window.location.pathname == "/v")) {
     F.line = 17;
-    res_22035018[0] = "Vänsterknapp";
+    res_22030018[0] = "Vänsterknapp";
     }
     else {
       F.line = 19;
-      res_22035018[0] = "Högerknapp";
+      res_22030018[0] = "Högerknapp";
     }
     
     F.line = 21;
     F.line = 21;
-    var tmp_22035036 = tree_20885445(43, []);
+    var tmp_22030036 = tree_20885445(43, []);
     F.line = 22;
-    add_20875072(tmp_22035036, sidhuvud_22022028(counter_22031014[0]));
+    add_20875072(tmp_22030036, sidhuvud_22022028(counter_22026014[0]));
     F.line = 23;
-    add_20875072(tmp_22035036, scroll_22031028());
+    add_20875072(tmp_22030036, scroll_22026028());
     L1: do {
       F.line = 24;
-      var artikel_22050214 = null;
-      var artikel_22050214_Idx = 0;
+      var artikel_22045214 = null;
+      var artikel_22045214_Idx = 0;
       F.line = 199;
-      var i_22050320 = 0;
+      var i_22045320 = 0;
       F.line = 200;
-      var L_22050321 = (artiklar_22006079[0]).length;
+      var L_22045321 = (artiklar_22006079[0]).length;
       L2: do {
         F.line = 201;
           L3: while (true) {
-          if (!(i_22050320 < L_22050321)) break L3;
+          if (!(i_22045320 < L_22045321)) break L3;
             F.line = 24;
-            artikel_22050214 = artiklar_22006079[0]; artikel_22050214_Idx = chckIndx(i_22050320, 0, (artiklar_22006079[0]).length-1);
-            if (!((artikel_22050214[artikel_22050214_Idx].ettabild == null))) {
+            artikel_22045214 = artiklar_22006079[0]; artikel_22045214_Idx = chckIndx(i_22045320, 0, (artiklar_22006079[0]).length-1);
+            if (!((artikel_22045214[artikel_22045214_Idx].ettabild == null))) {
             F.line = 26;
-            var tmp_22035037 = tree_20885445(75, []);
+            var tmp_22030037 = tree_20885445(75, []);
             F.line = 26;
-            setAttr_20825105(tmp_22035037, "src", artikel_22050214[artikel_22050214_Idx].ettabild);
+            setAttr_20825105(tmp_22030037, "src", artikel_22045214[artikel_22045214_Idx].ettabild);
             F.line = 26;
-            add_20875072(tmp_22035036, tmp_22035037);
+            add_20875072(tmp_22030036, tmp_22030037);
             }
             
             F.line = 27;
-            var tmp_22035038 = tree_20885445(22, []);
+            var tmp_22030038 = tree_20885445(22, []);
             F.line = 28;
-            add_20875072(tmp_22035038, verbatim_20886001(artikel_22050214[artikel_22050214_Idx].rubrik));
+            add_20875072(tmp_22030038, verbatim_20886001(artikel_22045214[artikel_22045214_Idx].rubrik));
             F.line = 28;
-            add_20875072(tmp_22035036, tmp_22035038);
-            if ((artikel_22050214[artikel_22050214_Idx].rubrik == null)) {
+            add_20875072(tmp_22030036, tmp_22030038);
+            if ((artikel_22045214[artikel_22045214_Idx].rubrik == null)) {
             F.line = 30;
-            var tmp_22035039 = tree_20885445(22, []);
-            if ((artikel_22050214[artikel_22050214_Idx].title == null)) {
+            var tmp_22030039 = tree_20885445(22, []);
+            if ((artikel_22045214[artikel_22045214_Idx].title == null)) {
             F.line = 31;
-            add_20875072(tmp_22035039, text_20885582(makeNimstrLit("Laddar...")));
+            add_20875072(tmp_22030039, text_20885582(makeNimstrLit("Laddar...")));
             }
             else {
               F.line = 31;
-            add_20875072(tmp_22035039, verbatim_20886001(artikel_22050214[artikel_22050214_Idx].title));
+            add_20875072(tmp_22030039, verbatim_20886001(artikel_22045214[artikel_22045214_Idx].title));
             }
             
             F.line = 31;
-            add_20875072(tmp_22035036, tmp_22035039);
+            add_20875072(tmp_22030036, tmp_22030039);
             }
             
             F.line = 32;
-            var tmp_22035040 = tree_20885445(31, []);
+            var tmp_22030040 = tree_20885445(31, []);
             F.line = 33;
-            add_20875072(tmp_22035040, text_20885801(artikel_22050214[artikel_22050214_Idx].ingress));
+            add_20875072(tmp_22030040, text_20885801(artikel_22045214[artikel_22045214_Idx].ingress));
             F.line = 33;
-            add_20875072(tmp_22035036, tmp_22035040);
+            add_20875072(tmp_22030036, tmp_22030040);
             F.line = 203;
-            i_22050320 = addInt(i_22050320, 1);
-            if (!(((artiklar_22006079[0]).length == L_22050321))) {
+            i_22045320 = addInt(i_22045320, 1);
+            if (!(((artiklar_22006079[0]).length == L_22045321))) {
             F.line = 204;
             failedAssertImpl_11630480(makeNimstrLit("/usr/local/Cellar/nim/1.4.0/nim/lib/system/iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -7425,19 +7394,19 @@ function root_22035032(data_22035034) {
           }
       } while(false);
     } while(false);
-    result_22035035 = tmp_22035036;
+    result_22030035 = tmp_22030036;
   framePtr = F.prev;
 
-  return result_22035035;
+  return result_22030035;
 
 }
-function HEX3Aanonymous_22050259(ev_22050261) {
+function HEX3Aanonymous_22045259(ev_22045261) {
   var F={procname:"start.:anonymous",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
   framePtr = F;
     F.line = 37;
-    counter_22031014[0] = addInt(counter_22031014[0], 1);
+    counter_22026014[0] = addInt(counter_22026014[0], 1);
     F.line = 38;
-    rawEcho(cstrToNimstr((counter_22031014[0])+""));
+    rawEcho(cstrToNimstr((counter_22026014[0])+""));
     F.line = 39;
     redraw_21775414(kxi_21222284[0]);
   framePtr = F.prev;
@@ -7447,8 +7416,8 @@ function HEX3Aanonymous_22050259(ev_22050261) {
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 36;
-window.addEventListener("scroll", HEX3Aanonymous_22050259, false);
-setRenderer_21775678(root_22035032, "ROOT", null);
+window.addEventListener("scroll", HEX3Aanonymous_22045259, false);
+setRenderer_21775678(root_22030032, "ROOT", null);
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
@@ -7504,8 +7473,8 @@ async function ladda_22015001() {
   return result_22015007;
 
 }
-async function loadpage_22055001() {
-  var result_22055007 = null;
+async function loadpage_22050001() {
+  var result_22050007 = null;
 
   var F={procname:"start.loadpage",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
   framePtr = F;
@@ -7515,18 +7484,18 @@ async function loadpage_22055001() {
     F.line = 45;
     (await ladda_22015001());
     F.line = 131;
-    result_22055007 = undefined;
+    result_22050007 = undefined;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22055007;
+  return result_22050007;
 
 }
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 47;
-loadpage_22055001();
+loadpage_22050001();
 framePtr = F.prev;
 var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Desktop/jstest/snn2020/src/start.nim",line:0};
 framePtr = F;
