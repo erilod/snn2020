@@ -7755,19 +7755,22 @@ function artikelspalt_22160055() {
             add_21005072(tmp_22160058, tmp_22160061);
             }
             
-            F.line = 35;
+            if (!((artikel_22175214[artikel_22175214_Idx].ingress == null))) {
+            F.line = 36;
             add_21005072(tmp_22160058, ingress_22156041(artikel_22175214[artikel_22175214_Idx].ingress));
-            F.line = 36;
+            }
+            
+            F.line = 37;
             var tmp_22160062 = tree_21015445(31, []);
-            F.line = 36;
+            F.line = 37;
             add_21005072(tmp_22160062, text_21015582(cstrToNimstr((artcnt_22165005)+"")));
-            F.line = 36;
+            F.line = 37;
             add_21005072(tmp_22160058, tmp_22160062);
-            F.line = 37;
+            F.line = 38;
             var tmp_22160063 = tree_21015445(31, []);
-            F.line = 37;
+            F.line = 38;
             add_21005072(tmp_22160063, text_21015801(artikel_22175214[artikel_22175214_Idx].channel));
-            F.line = 37;
+            F.line = 38;
             add_21005072(tmp_22160058, tmp_22160063);
             }
             

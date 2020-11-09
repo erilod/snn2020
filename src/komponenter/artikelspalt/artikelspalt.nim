@@ -32,6 +32,7 @@ proc artikelspalt* (): VNode =
                 if artikel.rubrik.isNil:
                     h2: 
                         if artikel.title.isNil: text "Laddar..." else: artikel.title.verbatim()
-                ingress(artikel.ingress)
+                if not artikel.ingress.isNil:
+                    ingress(artikel.ingress)
                 p: text $artcnt
                 p: text artikel.channel
