@@ -18,4 +18,4 @@ proc readCats (dir:string) =
         readCats(recDir)
 
 readCats("src")
-writeFile("docs/styles.css", comptext)
+writeFile("styles.css", comptext)

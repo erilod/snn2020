@@ -1,15 +1,14 @@
 include karax / prelude
-import ../../moduler/routerstate
-import dom,jsconsole
+import ../../moduler/ladda
+import dom, jsconsole, macros
 
 
-proc menyklick(ort:string, ev:Event) =
-    ev.preventDefault()
-    pushUrl(ort)
+template test(bdy:untyped): untyped =
+    bdy
 
 
+proc sidhuvud* (data:RouterData): VNode =
 
-proc sidhuvud* (inp: int): VNode =
     return buildHtml(header(class="container", id="sidhuvud")):
         tdiv(class="l-20 m-25 s-25"):
             img(src="./grafik/logo.png")
@@ -19,10 +18,10 @@ proc sidhuvud* (inp: int): VNode =
         var active = " active"
         
         tdiv(class="l-100 m-100 s-100 menyrad clear"):
-            a(onclick = proc (ev:Event, nd:VNode) = menyklick("", ev), href="", class=knappklass & active): text "Sydnärke"
-            a(onclick = proc (ev:Event, nd:VNode) = menyklick("kumla", ev), href="", class=knappklass): text "Kumla"
-            a(onclick = proc (ev:Event, nd:VNode) = menyklick("hallsberg", ev), href="", class=knappklass): text "Hallsberg"
-            a(onclick = proc (ev:Event, nd:VNode) = menyklick("askersund", ev), href="", class=knappklass): text "Askersund"
-            a(onclick = proc (ev:Event, nd:VNode) = menyklick("laxa", ev), href="", class=knappklass): text "Laxå"
-            a(onclick = proc (ev:Event, nd:VNode) = menyklick("lekeberg", ev), href="", class=knappklass): text "Lekeberg"
+            a(href="#/sydnarke", class=knappklass & active): text "Sydnärke"
+            a(href="#/kumla", class=knappklass): text "Kumla"
+            a(href="#/hallsberg", class=knappklass): text "Hallsberg"
+            a(href="#/askersund", class=knappklass): text "Askersund"
+            a(href="#/laxa", class=knappklass): text "Laxå"
+            a(href="#/lekeberg", class=knappklass): text "Lekeberg"
 
