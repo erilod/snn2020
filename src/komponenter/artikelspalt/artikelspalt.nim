@@ -4,7 +4,7 @@ import dom, jsconsole, asyncjs, strutils
 
 
 proc ingress(ing: cstring): VNode =
-    let wrds = ($ing).split()
+    let wrds = ($ing).split(" ")
     var nwrd = ""
     for i in 0..17:
         try: nwrd.add(wrds[i] & " ")
@@ -34,5 +34,6 @@ proc artikelspalt* (): VNode =
                         if artikel.title.isNil: text "Laddar..." else: artikel.title.verbatim()
                 if not artikel.ingress.isNil:
                     ingress(artikel.ingress)
+                
                 p: text $artcnt
                 p: text artikel.channel
