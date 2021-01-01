@@ -12,12 +12,6 @@ proc ingress(ing: cstring): VNode =
     var outtext = nwrd
     result = buildHtml(p):
         text outtext & "..."
-        proc onmouseover (ev:Event, nd:VNode) =
-            outtext = $ing
-            ev.target.innerText = outtext
-        proc onmouseleave (ev:Event, nd:VNode) =
-            outtext = $nwrd
-            ev.target.innerText = outtext
 
 proc artikelspalt* (): VNode =
     result = buildHtml(tdiv(class = "l-50 m-66 s-100 container")):

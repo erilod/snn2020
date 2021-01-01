@@ -1,5 +1,5 @@
 include karax/prelude
-import dom, jsconsole, asyncjs
+import dom, jsconsole, asyncjs, strutils
 
 type 
     Artikel* = ref object of RootObj
@@ -92,7 +92,6 @@ proc replaceUrl* (url:cstring) {.importjs: "window.history.replaceState([],'stat
     # todo: ändra "state" till något vettigt.
 
 
-
 ### Ladda artiklar
 
 proc preladda* () {.async.} =
@@ -118,8 +117,6 @@ proc laddaScroll* () {.async.} =
         if pathname == "/kumla": echo "ok" else: echo "not"
         loadBlock = false
 
-
-
 ### Events
 
 window.addEventListener("scroll") do(e: Event):
@@ -133,12 +130,9 @@ window.addEventListener("scroll") do(e: Event):
             echo "scrolload"
             loadBlock = true
 
-window.addEventListener("popstate", proc (ev:Event) =
-    ## Vid popstate, ex som vid detta fall när hahen ändras i adressfältet så vill vi läsa in från servern
-    echo "popstate"
-    if not hashname.split("/")[1].isNil:
-        # Här Gör vi om från hash och ersätter med domän + hashdelen utan hash
-        replaceUrl(pathname & hashname.split("/")[1])
-    redraw()
+window.addEventListener("click", proc(ev: Event) =
+    ev.preventDefault()
+    let href = ev.target.getAttribute("href")
+    replaceUrl(href)
 )
 
