@@ -1,7 +1,7 @@
 include karax/prelude
 import dom, jsconsole, asyncjs, strutils
 
-type 
+type
     Artikel* = ref object of RootObj
         title* : kstring
         id* : cint
@@ -31,17 +31,11 @@ var
     artiklarKumla* : Artiklar = @[Artikel(title: "Default")]
     loadBlock = false # blockerar inladdning av nya artiklar vid scroll innan de föregående är inlästa
 
-
-
 # Json wrapper
-
 proc parseJson* (str: cstring, typ: typedesc): typ {. importjs: "JSON.parse(#)" .}
 proc stringifyJson* [T] (obj: T): cstring {. importjs: "JSON.stringify(#)" .}
 
-
-
 # Ajax
-
 proc open(req: Request, met: cstring, url: cstring, async: bool) {.importjs: "#.open(#,#,#)".}
 proc send(req: Request) {. importjs: "#.send()" .}
 proc newReq (): Request {.importjs: "new XMLHttpRequest()" .}
@@ -68,29 +62,21 @@ proc loadData (url:string): Future[cstring] =
     )
     req.send()
 
-
-
 # Local storage
-
 proc getItem (key: cstring): cstring {. importjs: "window.localStorage.getItem(#)" .}
 proc setItem (key: cstring, val: cstring) {. importjs: "window.localStorage.setItem(@)" .}
 
-
-
 # Routing
-
 var 
     pathname* {.importc: "window.location.pathname".} : cstring
     hashname* {.importc: "window.location.hash".} : cstring
-
-proc dir(n:cstring) {.importjs: "console.dir(#)".}
 
 proc pullUrl* (): Segments =
     return pathname.split("/")
 
 proc replaceUrl* (url:cstring) {.importjs: "window.history.replaceState([],'state',#)" .}
     # todo: ändra "state" till något vettigt.
-
+    
 
 ### Ladda artiklar
 

@@ -8,10 +8,7 @@
             "type": "shell",
             "command": "nim js -o:script.js ./src/start.nim ",
             "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build"
         }
     ]
 }
