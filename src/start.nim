@@ -9,7 +9,7 @@ var data = DataState(titel: "Min titel", ingress: "Min ingress")
 proc root (): VNode =
     result = buildHtml(tdiv):
         tdiv: text data.titel
-        sidhuvud(data)
+        sidhuvud()
         tdiv(class = "section mainarea"):
             tdiv(class = "s-100 m-100 l-100 container"):
                 artikelspalt()

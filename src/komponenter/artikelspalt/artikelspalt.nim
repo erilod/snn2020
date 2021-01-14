@@ -13,7 +13,8 @@ proc ingress(ing: cstring): VNode =
     result = buildHtml(p):
         text outtext & "..."
 
-proc artikelspalt* (): VNode =
+proc artikelspalt* (d: string = "default"): VNode =
+    echo d
     result = buildHtml(tdiv(class = "l-50 m-66 s-100 container")):
         var artcnt: int
         for artikel in artiklar:

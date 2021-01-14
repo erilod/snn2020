@@ -10,12 +10,11 @@ if (typeof Uint16Array === 'undefined') Uint16Array = Array;
 if (typeof Uint32Array === 'undefined') Uint32Array = Array;
 if (typeof Float32Array === 'undefined') Float32Array = Array;
 if (typeof Float64Array === 'undefined') Float64Array = Array;
-var NTI22137029 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
-var NTI22137033 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI22216029 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI22216033 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI20205015 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI22136024 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI20955125 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI22136019 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI12630102 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI21352211 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI12586084 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI12586085 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
@@ -97,37 +96,35 @@ var NTI12308235 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
 var NTI21352207 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
 var NTI21352209 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI12308293 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI22216036 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI22136064 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI22136077 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI11647641 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI11647649 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI11671608 = {size: 0,kind: 34,base: null,node: null,finalizer: null};
+var NTI22136036 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI22136071 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI22136035 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI22136068 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI22136067 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI22136033 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI21086269 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI22136055 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI22136052 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI22136049 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI11647653 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI11647635 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI11641044 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI11835043 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI11647408 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI11647728 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
 var NTI11641013 = {size: 0,kind: 28,base: null,node: null,finalizer: null};
+var NTI11641015 = {size: 0,kind: 29,base: null,node: null,finalizer: null};
 var NTI11647723 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
 var NTI11647617 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI11647619 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI11647633 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI11647637 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI11647408 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI11671608 = {size: 0,kind: 34,base: null,node: null,finalizer: null};
-var NTI11641015 = {size: 0,kind: 29,base: null,node: null,finalizer: null};
-var NTI22137036 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NNI22137036 = {kind: 2, len: 11, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "title", len: 0, typ: NTI11641015, name: "title", sons: null}, 
-{kind: 1, offset: "id", len: 0, typ: NTI11671608, name: "id", sons: null}, 
-{kind: 1, offset: "rubrik", len: 0, typ: NTI11641015, name: "rubrik", sons: null}, 
-{kind: 1, offset: "urlTitle", len: 0, typ: NTI11641015, name: "urlTitle", sons: null}, 
-{kind: 1, offset: "ort", len: 0, typ: NTI11641015, name: "ort", sons: null}, 
-{kind: 1, offset: "status", len: 0, typ: NTI11641015, name: "status", sons: null}, 
-{kind: 1, offset: "date", len: 0, typ: NTI11671608, name: "date", sons: null}, 
-{kind: 1, offset: "channel", len: 0, typ: NTI11641015, name: "channel", sons: null}, 
-{kind: 1, offset: "ingress", len: 0, typ: NTI11641015, name: "ingress", sons: null}, 
-{kind: 1, offset: "ettabild", len: 0, typ: NTI11641015, name: "ettabild", sons: null}, 
-{kind: 1, offset: "edit_date", len: 0, typ: NTI11671608, name: "edit_date", sons: null}]};
-NTI22137036.node = NNI22137036;
-var NNI11647408 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI11647408.node = NNI11647408;
-NTI22137036.base = NTI11647408;
 var NNI11647637 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI11647637.node = NNI11647637;
 var NNI11647633 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
@@ -142,6 +139,8 @@ var NNI11647617 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{ki
 {kind: 1, offset: "trace", len: 0, typ: NTI11641013, name: "trace", sons: null}, 
 {kind: 1, offset: "up", len: 0, typ: NTI11647728, name: "up", sons: null}]};
 NTI11647617.node = NNI11647617;
+var NNI11647408 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI11647408.node = NNI11647408;
 NTI11647617.base = NTI11647408;
 NTI11647619.base = NTI11647617;
 NTI11647633.base = NTI11647619;
@@ -150,15 +149,62 @@ var NNI11835043 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{ki
 {kind: 1, offset: "Field1", len: 0, typ: NTI11641044, name: "Field1", sons: null}, 
 {kind: 1, offset: "Field2", len: 0, typ: NTI11641015, name: "Field2", sons: null}]};
 NTI11835043.node = NNI11835043;
+var NNI11647635 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI11647635.node = NNI11647635;
+NTI11647635.base = NTI11647633;
 var NNI11647653 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI11647653.node = NNI11647653;
 NTI11647653.base = NTI11647619;
+var NNI22136071 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "rubrik", len: 0, typ: NTI11641013, name: "rubrik", sons: null}, 
+{kind: 1, offset: "bild", len: 0, typ: NTI11641013, name: "bild", sons: null}, 
+{kind: 1, offset: "text", len: 0, typ: NTI11641013, name: "text", sons: null}]};
+NTI22136071.node = NNI22136071;
+var NNI22136036 = {kind: 2, len: 4, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "titel", len: 0, typ: NTI11641015, name: "titel", sons: null}, 
+{kind: 1, offset: "ingress", len: 0, typ: NTI11641015, name: "ingress", sons: null}, 
+{kind: 1, offset: "id", len: 0, typ: NTI11671608, name: "id", sons: null}, 
+{kind: 1, offset: "sida", len: 0, typ: NTI22136049, name: "sida", sons: null}]};
+NTI22136036.node = NNI22136036;
+NTI22136036.base = NTI11647408;
+NTI22136071.base = NTI22136036;
+NTI22136035.base = NTI22136071;
+NTI22136068.base = NTI22136035;
+var NNI22136067 = {kind: 1, offset: "stycken", len: 0, typ: NTI22136068, name: "stycken", sons: null};
+NTI22136067.node = NNI22136067;
+NTI22136067.base = NTI22136036;
+NTI22136033.base = NTI22136067;
+var NNI22136055 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI21086269, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI11641013, name: "Field1", sons: null}, 
+{kind: 1, offset: "Field2", len: 0, typ: NTI22136033, name: "Field2", sons: null}]};
+NTI22136055.node = NNI22136055;
+NTI22136052.base = NTI22136055;
+var NNI22136049 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "data", len: 0, typ: NTI22136052, name: "data", sons: null}, 
+{kind: 1, offset: "counter", len: 0, typ: NTI11641044, name: "counter", sons: null}]};
+NTI22136049.node = NNI22136049;
 var NNI11647649 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI11647649.node = NNI11647649;
 NTI11647649.base = NTI11647619;
 var NNI11647641 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI11647641.node = NNI11647641;
 NTI11647641.base = NTI11647619;
+var NNI22136077 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI11641013, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI22136033, name: "Field1", sons: null}]};
+NTI22136077.node = NNI22136077;
+var NNI22136064 = {kind: 1, offset: "ettapuff", len: 0, typ: NTI11641015, name: "ettapuff", sons: null};
+NTI22136064.node = NNI22136064;
+NTI22136064.base = NTI22136036;
+var NNI22216036 = {kind: 2, len: 11, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "title", len: 0, typ: NTI11641015, name: "title", sons: null}, 
+{kind: 1, offset: "id", len: 0, typ: NTI11671608, name: "id", sons: null}, 
+{kind: 1, offset: "rubrik", len: 0, typ: NTI11641015, name: "rubrik", sons: null}, 
+{kind: 1, offset: "urlTitle", len: 0, typ: NTI11641015, name: "urlTitle", sons: null}, 
+{kind: 1, offset: "ort", len: 0, typ: NTI11641015, name: "ort", sons: null}, 
+{kind: 1, offset: "status", len: 0, typ: NTI11641015, name: "status", sons: null}, 
+{kind: 1, offset: "date", len: 0, typ: NTI11671608, name: "date", sons: null}, 
+{kind: 1, offset: "channel", len: 0, typ: NTI11641015, name: "channel", sons: null}, 
+{kind: 1, offset: "ingress", len: 0, typ: NTI11641015, name: "ingress", sons: null}, 
+{kind: 1, offset: "ettabild", len: 0, typ: NTI11641015, name: "ettabild", sons: null}, 
+{kind: 1, offset: "edit_date", len: 0, typ: NTI11671608, name: "edit_date", sons: null}]};
+NTI22216036.node = NNI22216036;
+NTI22216036.base = NTI11647408;
 var NNI12308293 = {kind: 2, len: 368, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "alignContent", len: 0, typ: NTI11641015, name: "alignContent", sons: null}, 
 {kind: 1, offset: "alignItems", len: 0, typ: NTI11641015, name: "alignItems", sons: null}, 
 {kind: 1, offset: "alignSelf", len: 0, typ: NTI11641015, name: "alignSelf", sons: null}, 
@@ -916,127 +962,16 @@ var NNI21352211 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{ki
 {kind: 1, offset: "newChild", len: 0, typ: NTI20920022, name: "newChild", sons: null}, 
 {kind: 1, offset: "pos", len: 0, typ: NTI11641044, name: "pos", sons: null}]};
 NTI21352211.node = NNI21352211;
-var NNI22136019 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "titel", len: 0, typ: NTI11641015, name: "titel", sons: null}, 
-{kind: 1, offset: "ingress", len: 0, typ: NTI11641015, name: "ingress", sons: null}, 
-{kind: 1, offset: "id", len: 0, typ: NTI11671608, name: "id", sons: null}]};
-NTI22136019.node = NNI22136019;
-NTI22136019.base = NTI11647408;
+NTI12630102.base = NTI11641015;
 NTI20955125.base = NTI11641015;
-var NNI22136024 = {kind: 1, offset: "ettapuff", len: 0, typ: NTI11641015, name: "ettapuff", sons: null};
-NTI22136024.node = NNI22136024;
-NTI22136024.base = NTI22136019;
 NTI20205015.base = NTI11641013;
-NTI22137029.base = NTI22137036;
-NTI22137033.base = NTI22137029;
-function toJSStr(s_11910096) {
-                    var Tmp5;
-            var Tmp7;
-
-  var result_11910097 = null;
-
-    var res_11910170 = newSeq_11910128((s_11910096).length);
-    var i_11910172 = 0;
-    var j_11910174 = 0;
-    L1: do {
-        L2: while (true) {
-        if (!(i_11910172 < (s_11910096).length)) break L2;
-          var c_11910175 = s_11910096[i_11910172];
-          if ((c_11910175 < 128)) {
-          res_11910170[j_11910174] = String.fromCharCode(c_11910175);
-          i_11910172 += 1;
-          }
-          else {
-            var helper_11910198 = newSeq_11910128(0);
-            L3: do {
-                L4: while (true) {
-                if (!true) break L4;
-                  var code_11910199 = c_11910175.toString(16);
-                  if (((code_11910199).length == 1)) {
-                  helper_11910198.push("%0");;
-                  }
-                  else {
-                  helper_11910198.push("%");;
-                  }
-                  
-                  helper_11910198.push(code_11910199);;
-                  i_11910172 += 1;
-                    if (((s_11910096).length <= i_11910172)) Tmp5 = true; else {                      Tmp5 = (s_11910096[i_11910172] < 128);                    }                  if (Tmp5) {
-                  break L3;
-                  }
-                  
-                  c_11910175 = s_11910096[i_11910172];
-                }
-            } while(false);
-++excHandler;
-            Tmp7 = framePtr;
-            try {
-            res_11910170[j_11910174] = decodeURIComponent(helper_11910198.join(""));
---excHandler;
-} catch (EXC) {
- var prevJSError = lastJSError;
- lastJSError = EXC;
- --excHandler;
-            framePtr = Tmp7;
-            res_11910170[j_11910174] = helper_11910198.join("");
-            lastJSError = prevJSError;
-            } finally {
-            framePtr = Tmp7;
-            }
-          }
-          
-          j_11910174 += 1;
-        }
-    } while(false);
-    if (res_11910170.length < j_11910174) { for (var i=res_11910170.length;i<j_11910174;++i) res_11910170.push(null); }
-               else { res_11910170.length = j_11910174; };
-    result_11910097 = res_11910170.join("");
-
-  return result_11910097;
-
-}
+NTI22216029.base = NTI22216036;
+NTI22216033.base = NTI22216029;
 function makeNimstrLit(c_11910062) {
       var ln = c_11910062.length;
   var result = new Array(ln);
   for (var i = 0; i < ln; ++i) {
     result[i] = c_11910062.charCodeAt(i);
-  }
-  return result;
-  
-
-  
-}
-function cstrToNimstr(c_11910079) {
-      var ln = c_11910079.length;
-  var result = new Array(ln);
-  var r = 0;
-  for (var i = 0; i < ln; ++i) {
-    var ch = c_11910079.charCodeAt(i);
-
-    if (ch < 128) {
-      result[r] = ch;
-    }
-    else {
-      if (ch < 2048) {
-        result[r] = (ch >> 6) | 192;
-      }
-      else {
-        if (ch < 55296 || ch >= 57344) {
-          result[r] = (ch >> 12) | 224;
-        }
-        else {
-            ++i;
-            ch = 65536 + (((ch & 1023) << 10) | (c_11910079.charCodeAt(i) & 1023));
-            result[r] = (ch >> 18) | 240;
-            ++r;
-            result[r] = ((ch >> 12) & 63) | 128;
-        }
-        ++r;
-        result[r] = ((ch >> 6) & 63) | 128;
-      }
-      ++r;
-      result[r] = (ch & 63) | 128;
-    }
-    ++r;
   }
   return result;
   
@@ -1146,6 +1081,110 @@ function nimCopy(dest_11925023, src_11925024, ti_11925025) {
   return result_11930219;
 
 }
+function cstrToNimstr(c_11910079) {
+      var ln = c_11910079.length;
+  var result = new Array(ln);
+  var r = 0;
+  for (var i = 0; i < ln; ++i) {
+    var ch = c_11910079.charCodeAt(i);
+
+    if (ch < 128) {
+      result[r] = ch;
+    }
+    else {
+      if (ch < 2048) {
+        result[r] = (ch >> 6) | 192;
+      }
+      else {
+        if (ch < 55296 || ch >= 57344) {
+          result[r] = (ch >> 12) | 224;
+        }
+        else {
+            ++i;
+            ch = 65536 + (((ch & 1023) << 10) | (c_11910079.charCodeAt(i) & 1023));
+            result[r] = (ch >> 18) | 240;
+            ++r;
+            result[r] = ((ch >> 12) & 63) | 128;
+        }
+        ++r;
+        result[r] = ((ch >> 6) & 63) | 128;
+      }
+      ++r;
+      result[r] = (ch & 63) | 128;
+    }
+    ++r;
+  }
+  return result;
+  
+
+  
+}
+function toJSStr(s_11910096) {
+                    var Tmp5;
+            var Tmp7;
+
+  var result_11910097 = null;
+
+    var res_11910170 = newSeq_11910128((s_11910096).length);
+    var i_11910172 = 0;
+    var j_11910174 = 0;
+    L1: do {
+        L2: while (true) {
+        if (!(i_11910172 < (s_11910096).length)) break L2;
+          var c_11910175 = s_11910096[i_11910172];
+          if ((c_11910175 < 128)) {
+          res_11910170[j_11910174] = String.fromCharCode(c_11910175);
+          i_11910172 += 1;
+          }
+          else {
+            var helper_11910198 = newSeq_11910128(0);
+            L3: do {
+                L4: while (true) {
+                if (!true) break L4;
+                  var code_11910199 = c_11910175.toString(16);
+                  if (((code_11910199).length == 1)) {
+                  helper_11910198.push("%0");;
+                  }
+                  else {
+                  helper_11910198.push("%");;
+                  }
+                  
+                  helper_11910198.push(code_11910199);;
+                  i_11910172 += 1;
+                    if (((s_11910096).length <= i_11910172)) Tmp5 = true; else {                      Tmp5 = (s_11910096[i_11910172] < 128);                    }                  if (Tmp5) {
+                  break L3;
+                  }
+                  
+                  c_11910175 = s_11910096[i_11910172];
+                }
+            } while(false);
+++excHandler;
+            Tmp7 = framePtr;
+            try {
+            res_11910170[j_11910174] = decodeURIComponent(helper_11910198.join(""));
+--excHandler;
+} catch (EXC) {
+ var prevJSError = lastJSError;
+ lastJSError = EXC;
+ --excHandler;
+            framePtr = Tmp7;
+            res_11910170[j_11910174] = helper_11910198.join("");
+            lastJSError = prevJSError;
+            } finally {
+            framePtr = Tmp7;
+            }
+          }
+          
+          j_11910174 += 1;
+        }
+    } while(false);
+    if (res_11910170.length < j_11910174) { for (var i=res_11910170.length;i<j_11910174;++i) res_11910170.push(null); }
+               else { res_11910170.length = j_11910174; };
+    result_11910097 = res_11910170.join("");
+
+  return result_11910097;
+
+}
 function raiseException(e_11875218, ename_11875219) {
     e_11875218.name = ename_11875219;
     if ((excHandler == 0)) {
@@ -1159,6 +1198,22 @@ function raiseException(e_11875218, ename_11875219) {
 }
 function addInt(a_11915419, b_11915420) {
         var result = a_11915419 + b_11915420;
+    checkOverflowInt(result);
+    return result;
+  
+
+  
+}
+function divInt(a_11915473, b_11915474) {
+        if (b_11915474 == 0) raiseDivByZero();
+    if (b_11915474 == -1 && a_11915473 == 2147483647) raiseOverflow();
+    return Math.trunc(a_11915473 / b_11915474);
+  
+
+  
+}
+function mulInt(a_11915455, b_11915456) {
+        var result = a_11915455 * b_11915456;
     checkOverflowInt(result);
     return result;
   
@@ -1203,7 +1258,6 @@ function chckIndx(i_11935086, a_11935087, b_11935088) {
   return result_11935089;
 
 }
-      var toTag_20920006 = ["#text", "#int", "#bool", "#vthunk", "#dthunk", "#component", "#verbatim", "HTML", "HEAD", "TITLE", "BASE", "LINK", "META", "STYLE", "SCRIPT", "NOSCRIPT", "BODY", "SECTION", "NAV", "ARTICLE", "ASIDE", "H1", "H2", "H3", "H4", "H5", "H6", "HEADER", "FOOTER", "ADDRESS", "MAIN", "P", "HR", "PRE", "BLOCKQUOTE", "OL", "UL", "LI", "DL", "DT", "DD", "FIGURE", "FIGCAPTION", "DIV", "A", "EM", "STRONG", "SMALL", "S", "CITE", "QUOTE", "DFN", "ABBR", "DATA", "TIME", "CODE", "VAR", "SAMP", "KDB", "SUB", "SUP", "I", "B", "U", "MARK", "RUBY", "RT", "RP", "BDI", "DBO", "SPAN", "BR", "WBR", "INS", "DEL", "IMG", "IFRAME", "EMBED", "OBJECT", "PARAM", "VIDEO", "AUDIO", "SOURCE", "TRACK", "CANVAS", "MAP", "AREA", "SVG", "MATH", "PATH", "CIRCLE", "TABLE", "CAPTION", "COLGROUP", "COL", "TBODY", "THEAD", "TFOOT", "TR", "TD", "TH", "FORM", "FIELDSET", "LEGEND", "LABEL", "INPUT", "BUTTON", "SELECT", "DATALIST", "OPTGROUP", "OPTION", "TEXTAREA", "KEYGEN", "OUTPUT", "PROGRESS", "METER", "DETAILS", "SUMMARY", "COMMAND", "MENU"];
 function subInt(a_11915437, b_11915438) {
         var result = a_11915437 - b_11915438;
     checkOverflowInt(result);
@@ -1212,6 +1266,29 @@ function subInt(a_11915437, b_11915438) {
 
   
 }
+function modInt(a_11915491, b_11915492) {
+        if (b_11915492 == 0) raiseDivByZero();
+    if (b_11915492 == -1 && a_11915491 == 2147483647) raiseOverflow();
+    return Math.trunc(a_11915491 % b_11915492);
+  
+
+  
+}
+function eqStrings(a_11915222, b_11915223) {
+        if (a_11915222 == b_11915223) return true;
+    if (a_11915222 === null && b_11915223.length == 0) return true;
+    if (b_11915223 === null && a_11915222.length == 0) return true;
+    if ((!a_11915222) || (!b_11915223)) return false;
+    var alen = a_11915222.length;
+    if (alen != b_11915223.length) return false;
+    for (var i = 0; i < alen; ++i)
+      if (a_11915222[i] != b_11915223[i]) return false;
+    return true;
+  
+
+  
+}
+      var toTag_20920006 = ["#text", "#int", "#bool", "#vthunk", "#dthunk", "#component", "#verbatim", "HTML", "HEAD", "TITLE", "BASE", "LINK", "META", "STYLE", "SCRIPT", "NOSCRIPT", "BODY", "SECTION", "NAV", "ARTICLE", "ASIDE", "H1", "H2", "H3", "H4", "H5", "H6", "HEADER", "FOOTER", "ADDRESS", "MAIN", "P", "HR", "PRE", "BLOCKQUOTE", "OL", "UL", "LI", "DL", "DT", "DD", "FIGURE", "FIGCAPTION", "DIV", "A", "EM", "STRONG", "SMALL", "S", "CITE", "QUOTE", "DFN", "ABBR", "DATA", "TIME", "CODE", "VAR", "SAMP", "KDB", "SUB", "SUP", "I", "B", "U", "MARK", "RUBY", "RT", "RP", "BDI", "DBO", "SPAN", "BR", "WBR", "INS", "DEL", "IMG", "IFRAME", "EMBED", "OBJECT", "PARAM", "VIDEO", "AUDIO", "SOURCE", "TRACK", "CANVAS", "MAP", "AREA", "SVG", "MATH", "PATH", "CIRCLE", "TABLE", "CAPTION", "COLGROUP", "COL", "TBODY", "THEAD", "TFOOT", "TR", "TD", "TH", "FORM", "FIELDSET", "LEGEND", "LABEL", "INPUT", "BUTTON", "SELECT", "DATALIST", "OPTGROUP", "OPTION", "TEXTAREA", "KEYGEN", "OUTPUT", "PROGRESS", "METER", "DETAILS", "SUMMARY", "COMMAND", "MENU"];
       var toEventName_20920012 = ["click", "contextmenu", "dblclick", "keyup", "keydown", "keypressed", "focus", "blur", "change", "scroll", "mousedown", "mouseenter", "mouseleave", "mousemove", "mouseout", "mouseover", "mouseup", "drag", "dragend", "dragenter", "dragleave", "dragover", "dragstart", "drop", "submit", "input", "animationstart", "animationend", "animationiteration", "keyupenter", "keyuplater", "load", "transitioncancel", "transitionend", "transitionrun", "transitionstart"];
 function rawEcho() {
           var buf = "";
@@ -1241,48 +1318,6 @@ function nimMin(a_11915803, b_11915804) {
   } while (false);
 
   return result_11915805;
-
-}
-function nimBoolToStr(x_11830657) {
-  var result_11830658 = [];
-
-    if (x_11830657) {
-    result_11830658 = nimCopy(null, makeNimstrLit("true"), NTI11641013);
-    }
-    else {
-      result_11830658 = nimCopy(null, makeNimstrLit("false"), NTI11641013);
-    }
-    
-
-  return result_11830658;
-
-}
-function isObj(obj_11955062, subclass_11955063) {
-  var result_11955064 = false;
-
-  BeforeRet: do {
-    var x_11955065 = obj_11955062;
-    if ((x_11955065 == subclass_11955063)) {
-    result_11955064 = true;
-    break BeforeRet;
-    }
-    
-    L1: do {
-        L2: while (true) {
-        if (!!((x_11955065 == subclass_11955063))) break L2;
-          if ((x_11955065 == null)) {
-          result_11955064 = false;
-          break BeforeRet;
-          }
-          
-          x_11955065 = x_11955065.base;
-        }
-    } while(false);
-    result_11955064 = true;
-    break BeforeRet;
-  } while (false);
-
-  return result_11955064;
 
 }
 function nimMax(a_11915821, b_11915822) {
@@ -1323,3861 +1358,3749 @@ if (!Math.trunc) {
   };
 }
 
-var F={procname:"module kbase",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kbase.nim",line:0};
+var F={procname:"module kbase",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kbase.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module kbase",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kbase.nim",line:0};
+var F={procname:"module kbase",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kbase.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module kbase",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kbase.nim",line:0};
+var F={procname:"module kbase",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kbase.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module kdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
+var F={procname:"module kdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module dom",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/dom.nim",line:0};
+var F={procname:"module dom",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/dom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module kdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
+var F={procname:"module kdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module kdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
+var F={procname:"module kdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module kdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
+var F={procname:"module kdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module kdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
+var F={procname:"module kdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/kdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module macros",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/core/macros.nim",line:0};
+var F={procname:"module macros",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/core/macros.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jdict",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
+var F={procname:"module jdict",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jdict.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
+var F={procname:"module jstrutils",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/jstrutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+var F={procname:"module vstyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module parseutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/parseutils.nim",line:0};
+var F={procname:"module parseutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/parseutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module bitops",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/bitops.nim",line:0};
+var F={procname:"module bitops",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/bitops.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module math",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/math.nim",line:0};
+var F={procname:"module math",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/math.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module algorithm",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/algorithm.nim",line:0};
+var F={procname:"module algorithm",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/algorithm.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module unicode",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/unicode.nim",line:0};
+var F={procname:"module unicode",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/unicode.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module strutils",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+var F={procname:"module strutils",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 F.line = 201;
 var gid_20955032 = [0];
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module vdom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+var F={procname:"module vdom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 F.line = 155;
 var objectID_21090031 = [0];
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module hashes",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/hashes.nim",line:0};
+var F={procname:"module hashes",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module tables",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/collections/tables.nim",line:0};
+var F={procname:"module tables",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 F.line = 10;
 var vcomponents_21261026 = [{}];
 F.line = 22;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module compact",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
+var F={procname:"module compact",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/compact.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 F.line = 55;
 var kxi_21352284 = [null];
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karax",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+var F={procname:"module karax",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
+var F={procname:"module karaxdsl",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karaxdsl.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsconsole",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsconsole.nim",line:0};
+var F={procname:"module jsconsole",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsconsole.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 F.line = 46;
 F.line = 47;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module jsffi",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/jsffi.nim",line:0};
+var F={procname:"module jsffi",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/jsffi.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module asyncjs",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/js/asyncjs.nim",line:0};
+var F={procname:"module asyncjs",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/js/asyncjs.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module globalstate",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/globalstate.nim",line:0};
+var F={procname:"module globalstate",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/globalstate.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module globalstate",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/globalstate.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module globalstate",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/globalstate.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-F.line = 30;
-var artiklar_22137070 = [[{title: "Default", m_type: NTI22137036, id: 0, rubrik: null, urlTitle: null, ort: null, status: null, date: 0, channel: null, ingress: null, ettabild: null, edit_date: 0}]];
-F.line = 31;
-var artiklarKumla_22137082 = [[{title: "Default", m_type: NTI22137036, id: 0, rubrik: null, urlTitle: null, ort: null, status: null, date: 0, channel: null, ingress: null, ettabild: null, edit_date: 0}]];
-F.line = 32;
-var loadBlock_22137083 = [false];
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-framePtr = F;
-framePtr = F.prev;
-function newSeq_11910128(len_11910131) {
-  var result_11910133 = [];
+function nextPowerOfTwo_13030014(x_13030016) {
+  var result_13030017 = 0;
 
-  var F={procname:"newSeq.newSeq",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
-  framePtr = F;
-    F.line = 656;
-    result_11910133 = new Array(len_11910131); for (var i=0;i<len_11910131;++i) {result_11910133[i]=null;}  framePtr = F.prev;
+    result_13030017 = (x_13030016 - 1);
+    result_13030017 = (result_13030017 | (result_13030017 >> 16));
+    result_13030017 = (result_13030017 | (result_13030017 >> 8));
+    result_13030017 = (result_13030017 | (result_13030017 >> 4));
+    result_13030017 = (result_13030017 | (result_13030017 >> 2));
+    result_13030017 = (result_13030017 | (result_13030017 >> 1));
+    result_13030017 += (1 + ((x_13030016 <= 0) ? 1:0));
 
-  return result_11910133;
-
-}
-function loadData_22137203(url_22137205) {
-    function HEX3Aanonymous_22137217(resolve_22137222) {
-        function HEX3Aanonymous_22137223() {
-              var Tmp1;
-
-          var F={procname:":anonymous.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-          framePtr = F;
-              if (!(req_22137216.readyState == 4)) Tmp1 = false; else {                Tmp1 = (req_22137216.status == 200);              }            if (Tmp1) {
-            F.line = 61;
-            resolve_22137222(req_22137216.responseText);
-            }
-            
-          framePtr = F.prev;
-
-          
-        }
-
-      var F={procname:"loadData.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-      framePtr = F;
-        F.line = 59;
-        req_22137216.onreadystatechange = HEX3Aanonymous_22137223;
-      framePtr = F.prev;
-
-      
-    }
-
-  var result_22137215 = null;
-
-  var F={procname:"ladda.loadData",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
-  framePtr = F;
-    F.line = 56;
-    var req_22137216 = new XMLHttpRequest();
-    F.line = 57;
-    req_22137216.open("GET",toJSStr(url_22137205),true);
-    F.line = 58;
-    result_22137215 = (new Promise(HEX3Aanonymous_22137217));
-    F.line = 63;
-    req_22137216.send();
-  framePtr = F.prev;
-
-  return result_22137215;
+  return result_13030017;
 
 }
 function add_11812042(x_11812045, x_11812045_Idx, y_11812046) {
@@ -5263,13 +5186,13 @@ function auxWriteStackTrace_11835038(f_11835040) {
     
     L6: do {
       var j_11850236 = 0;
-      var colontmp__22150198 = 0;
-      colontmp__22150198 = (i_11835053 - 1);
-      var res_22150203 = colontmp__22150198;
+      var colontmp__22215883 = 0;
+      colontmp__22215883 = (i_11835053 - 1);
+      var res_22215888 = colontmp__22215883;
       L7: do {
           L8: while (true) {
-          if (!(0 <= res_22150203)) break L8;
-            j_11850236 = res_22150203;
+          if (!(0 <= res_22215888)) break L8;
+            j_11850236 = res_22215888;
             result_11835041[0].push.apply(result_11835041[0], cstrToNimstr(tempFrames_11835062[j_11850236].Field2));;
             if ((0 < tempFrames_11835062[j_11850236].Field1)) {
             result_11835041[0].push.apply(result_11835041[0], makeNimstrLit("("));;
@@ -5285,7 +5208,7 @@ function auxWriteStackTrace_11835038(f_11835040) {
             result_11835041[0].push.apply(result_11835041[0], makeNimstrLit(" at "));;
             add_11812042(result_11835041, 0, tempFrames_11835062[j_11850236].Field0);
             result_11835041[0].push.apply(result_11835041[0], makeNimstrLit("\x0A"));;
-            res_22150203 -= 1;
+            res_22215888 -= 1;
           }
       } while(false);
     } while(false);
@@ -5305,6 +5228,17 @@ function rawWriteStackTrace_11865260() {
     
 
   return result_11865262;
+
+}
+function newSeq_11910128(len_11910131) {
+  var result_11910133 = [];
+
+  var F={procname:"newSeq.newSeq",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 656;
+    result_11910133 = new Array(len_11910131); for (var i=0;i<len_11910131;++i) {result_11910133[i]=null;}  framePtr = F.prev;
+
+  return result_11910133;
 
 }
 function unhandledException(e_11870059) {
@@ -5344,10 +5278,42 @@ function checkOverflowInt(a_11915403) {
 
   
 }
+function raiseDivByZero() {
+    raiseException({message: makeNimstrLit("division by zero"), parent: null, m_type: NTI11647635, name: null, trace: [], up: null}, "DivByZeroDefect");
+
+  
+}
+function slotsNeeded_21165048(count_21165050) {
+  var result_21165051 = 0;
+
+  var F={procname:"tables.slotsNeeded",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/hashcommon.nim",line:0};
+  framePtr = F;
+    F.line = 39;
+    result_21165051 = nextPowerOfTwo_13030014(addInt(divInt(mulInt(count_21165050, 3), 2), 4));
+  framePtr = F.prev;
+
+  return result_21165051;
+
+}
 function raiseRangeError() {
     raiseException({message: makeNimstrLit("value out of range"), parent: null, m_type: NTI11647653, name: null, trace: [], up: null}, "RangeDefect");
 
   
+}
+function initTable_22136103(initialSize_22136107) {
+  var result_22136109 = ({data: [], counter: 0});
+
+  var F={procname:"initTable.initTable",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
+  framePtr = F;
+    F.line = 163;
+    var correctSizeHEX60gensym0_22140001 = slotsNeeded_21165048(chckRange(initialSize_22136107, 0, 2147483647));
+    F.line = 167;
+    result_22136109.counter = 0;
+    F.line = 168;
+    result_22136109.data = new Array(chckRange(correctSizeHEX60gensym0_22140001, 0, 2147483647)); for (var i=0;i<chckRange(correctSizeHEX60gensym0_22140001, 0, 2147483647);++i) {result_22136109.data[i]={Field0: 0, Field1: [], Field2: null};}  framePtr = F.prev;
+
+  return result_22136109;
+
 }
 function raiseIndexError(i_11895047, a_11895048, b_11895049) {
     var Tmp1;
@@ -5363,44 +5329,216 @@ function raiseIndexError(i_11895047, a_11895048, b_11895049) {
 
   
 }
-function add_22150042(x_22150047, x_22150047_Idx, y_22150049) {
-    var Tmp1;
+function imul_21101082(a_21101084, b_21101085) {
+  var result_21101086 = 0;
 
-  var F={procname:"add.add",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  var F={procname:"hashes.imul",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
   framePtr = F;
-    F.line = 1259;
-    var xl_22150055 = (x_22150047[x_22150047_Idx]).length;
-    F.line = 1260;
-    if (x_22150047[x_22150047_Idx].length < (Tmp1 = chckRange(addInt(xl_22150055, (y_22150049).length), 0, 2147483647), Tmp1)) { for (var i=x_22150047[x_22150047_Idx].length;i<Tmp1;++i) x_22150047[x_22150047_Idx].push(null); }
-               else { x_22150047[x_22150047_Idx].length = Tmp1; };
-    L2: do {
-      F.line = 1261;
-      var i_22150080 = 0;
-      F.line = 66;
-      var colontmp__22150188 = 0;
-      F.line = 1261;
-      colontmp__22150188 = ((y_22150049).length-1);
-      F.line = 77;
-      var res_22150189 = 0;
-      L3: do {
-        F.line = 78;
-          L4: while (true) {
-          if (!(res_22150189 <= colontmp__22150188)) break L4;
-            F.line = 1261;
-            i_22150080 = res_22150189;
-            F.line = 1261;
-            x_22150047[x_22150047_Idx][chckIndx(addInt(xl_22150055, i_22150080), 0, (x_22150047[x_22150047_Idx]).length-1)] = y_22150049[chckIndx(i_22150080, 0, (y_22150049).length-1)];
-            F.line = 80;
-            res_22150189 = addInt(res_22150189, 1);
-          }
-      } while(false);
-    } while(false);
+    F.line = 207;
+    var mask_21101087 = 65535;
+    F.line = 209;
+    var aHi_21101096 = (((a_21101084 >>> 0) >>> 16) & mask_21101087);
+    F.line = 210;
+    var aLo_21101097 = (a_21101084 & mask_21101087);
+    F.line = 211;
+    var bHi_21101106 = (((b_21101085 >>> 0) >>> 16) & mask_21101087);
+    F.line = 212;
+    var bLo_21101107 = (b_21101085 & mask_21101087);
+    F.line = 213;
+    result_21101086 = ((((aLo_21101097 * bLo_21101107) >>> 0) + (((((aHi_21101096 * bLo_21101107) >>> 0) + ((aLo_21101097 * bHi_21101106) >>> 0)) >>> 0) << 16)) >>> 0);
   framePtr = F.prev;
 
-  
+  return result_21101086;
+
+}
+function rotl32_21101201(x_21101203, r_21101204) {
+  var result_21101205 = 0;
+
+  var F={procname:"hashes.rotl32",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
+  framePtr = F;
+    F.line = 218;
+    result_21101205 = ((x_21101203 << r_21101204) | ((x_21101203 >>> 0) >>> subInt(32, r_21101204)));
+  framePtr = F.prev;
+
+  return result_21101205;
+
+}
+function murmurHash_21101229(x_21101232) {
+  var result_21101233 = 0;
+
+  var F={procname:"hashes.murmurHash",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 229;
+    var size_21101243 = (x_21101232).length;
+    F.line = 230;
+    var stepSize_21101245 = 4;
+    F.line = 231;
+    var n_21101246 = divInt(size_21101243, stepSize_21101245);
+    F.line = 233;
+    var h1_21101247 = 0;
+    F.line = 234;
+    var i_21101249 = 0;
+    L1: do {
+      F.line = 237;
+        L2: while (true) {
+        if (!(i_21101249 < mulInt(n_21101246, stepSize_21101245))) break L2;
+          F.line = 238;
+          var k1_21101250 = 0;
+          F.line = 240;
+          var j_21101251 = stepSize_21101245;
+          L3: do {
+            F.line = 241;
+              L4: while (true) {
+              if (!(0 < j_21101251)) break L4;
+                F.line = 242;
+                j_21101251 = subInt(j_21101251, 1);
+                F.line = 243;
+                k1_21101250 = ((k1_21101250 << 8) | x_21101232[chckIndx(addInt(i_21101249, j_21101251), 0, (x_21101232).length-1)]);
+              }
+          } while(false);
+          F.line = 246;
+          i_21101249 = addInt(i_21101249, stepSize_21101245);
+          F.line = 248;
+          k1_21101250 = imul_21101082(k1_21101250, 3432918353);
+          F.line = 249;
+          k1_21101250 = rotl32_21101201(k1_21101250, 15);
+          F.line = 250;
+          k1_21101250 = imul_21101082(k1_21101250, 461845907);
+          F.line = 252;
+          h1_21101247 = (h1_21101247 ^ k1_21101250);
+          F.line = 253;
+          h1_21101247 = rotl32_21101201(h1_21101247, 13);
+          F.line = 254;
+          h1_21101247 = ((((h1_21101247 * 5) >>> 0) + 3864292196) >>> 0);
+        }
+    } while(false);
+    F.line = 257;
+    var k1_21105207 = 0;
+    F.line = 258;
+    var rem_21105208 = modInt(size_21101243, stepSize_21101245);
+    L5: do {
+      F.line = 259;
+        L6: while (true) {
+        if (!(0 < rem_21105208)) break L6;
+          F.line = 260;
+          rem_21105208 = subInt(rem_21105208, 1);
+          F.line = 261;
+          k1_21105207 = ((k1_21105207 << 8) | x_21101232[chckIndx(addInt(i_21101249, rem_21105208), 0, (x_21101232).length-1)]);
+        }
+    } while(false);
+    F.line = 262;
+    k1_21105207 = imul_21101082(k1_21105207, 3432918353);
+    F.line = 263;
+    k1_21105207 = rotl32_21101201(k1_21105207, 15);
+    F.line = 264;
+    k1_21105207 = imul_21101082(k1_21105207, 461845907);
+    F.line = 265;
+    h1_21101247 = (h1_21101247 ^ k1_21105207);
+    F.line = 268;
+    h1_21101247 = (h1_21101247 ^ size_21101243);
+    F.line = 269;
+    h1_21101247 = (h1_21101247 ^ ((h1_21101247 >>> 0) >>> 16));
+    F.line = 270;
+    h1_21101247 = imul_21101082(h1_21101247, 2246822507);
+    F.line = 271;
+    h1_21101247 = (h1_21101247 ^ ((h1_21101247 >>> 0) >>> 13));
+    F.line = 272;
+    h1_21101247 = imul_21101082(h1_21101247, 3266489909);
+    F.line = 273;
+    h1_21101247 = (h1_21101247 ^ ((h1_21101247 >>> 0) >>> 16));
+    F.line = 274;
+    result_21101233 = (h1_21101247|0);
+    break BeforeRet;
+  } while (false);
+  framePtr = F.prev;
+
+  return result_21101233;
+
+}
+function hash_21140214(x_21140216) {
+  var result_21140217 = 0;
+
+  var F={procname:"hashes.hash",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/hashes.nim",line:0};
+  framePtr = F;
+    F.line = 303;
+    result_21140217 = murmurHash_21101229((x_21140216.slice(0, ((x_21140216).length-1)+1)));
+  framePtr = F.prev;
+
+  return result_21140217;
+
+}
+function isFilled_21161218(hcode_21161220) {
+  var result_21161221 = false;
+
+  var F={procname:"tables.isFilled",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/hashcommon.nim",line:0};
+  framePtr = F;
+    F.line = 27;
+    result_21161221 = !((hcode_21161220 == 0));
+  framePtr = F.prev;
+
+  return result_21161221;
+
+}
+function nextTry_21165014(h_21165016, maxHash_21165017) {
+  var result_21165018 = 0;
+
+  var F={procname:"tables.nextTry",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/hashcommon.nim",line:0};
+  framePtr = F;
+    F.line = 30;
+    result_21165018 = (addInt(h_21165016, 1) & maxHash_21165017);
+  framePtr = F.prev;
+
+  return result_21165018;
+
+}
+function rawGet_22160602(t_22160606, key_22160607, hc_22160608, hc_22160608_Idx) {
+            var Tmp3;
+
+  var result_22160609 = 0;
+
+  var F={procname:"rawGet.rawGet",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/hashcommon.nim",line:0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 69;
+    hc_22160608[hc_22160608_Idx] = hash_21140214(key_22160607);
+    if ((hc_22160608[hc_22160608_Idx] == 0)) {
+    F.line = 71;
+    hc_22160608[hc_22160608_Idx] = 314159265;
+    }
+    
+    if (((t_22160606.data).length == 0)) {
+    F.line = 53;
+    result_22160609 = -1;
+    break BeforeRet;
+    }
+    
+    F.line = 54;
+    var h_22170138 = (hc_22160608[hc_22160608_Idx] & ((t_22160606.data).length-1));
+    L1: do {
+      F.line = 55;
+        L2: while (true) {
+        if (!isFilled_21161218(t_22160606.data[chckIndx(h_22170138, 0, (t_22160606.data).length-1)].Field0)) break L2;
+            if (!(t_22160606.data[chckIndx(h_22170138, 0, (t_22160606.data).length-1)].Field0 == hc_22160608[hc_22160608_Idx])) Tmp3 = false; else {              Tmp3 = eqStrings(t_22160606.data[chckIndx(h_22170138, 0, (t_22160606.data).length-1)].Field1, key_22160607);            }          if (Tmp3) {
+          F.line = 61;
+          result_22160609 = h_22170138;
+          break BeforeRet;
+          }
+          
+          F.line = 62;
+          h_22170138 = nextTry_21165014(h_22170138, ((t_22160606.data).length-1));
+        }
+    } while(false);
+    F.line = 63;
+    result_22160609 = subInt(-1, h_22170138);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_22160609;
+
 }
 function sysFatal_11760418(message_11760422) {
-  var F={procname:"sysFatal.sysFatal",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system/fatal.nim",line:0};
+  var F={procname:"sysFatal.sysFatal",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system/fatal.nim",line:0};
   framePtr = F;
     F.line = 49;
     raiseException({message: nimCopy(null, message_11760422, NTI11641013), m_type: NTI11647641, parent: null, name: null, trace: [], up: null}, "AssertionDefect");
@@ -5409,7 +5547,7 @@ function sysFatal_11760418(message_11760422) {
   
 }
 function raiseAssert_11760414(msg_11760416) {
-  var F={procname:"assertions.raiseAssert",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim",line:0};
+  var F={procname:"assertions.raiseAssert",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system/assertions.nim",line:0};
   framePtr = F;
     F.line = 23;
     sysFatal_11760418(msg_11760416);
@@ -5418,7 +5556,7 @@ function raiseAssert_11760414(msg_11760416) {
   
 }
 function failedAssertImpl_11760480(msg_11760482) {
-  var F={procname:"assertions.failedAssertImpl",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system/assertions.nim",line:0};
+  var F={procname:"assertions.failedAssertImpl",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system/assertions.nim",line:0};
   framePtr = F;
     F.line = 30;
     raiseAssert_11760414(msg_11760482);
@@ -5426,8 +5564,361 @@ function failedAssertImpl_11760480(msg_11760482) {
 
   
 }
+function mustRehash_22185601(t_22185604) {
+  var result_22185605 = false;
+
+  var F={procname:"mustRehash.mustRehash",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/hashcommon.nim",line:0};
+  framePtr = F;
+    if (!((t_22185604.counter < (t_22185604.data).length))) {
+    F.line = 34;
+    failedAssertImpl_11760480(makeNimstrLit("/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/hashcommon.nim(34, 9) `\x0At.counter < t.dataLen` "));
+    }
+    
+    F.line = 35;
+    result_22185605 = ((mulInt((t_22185604.data).length, 2) < mulInt(t_22185604.counter, 3)) || (subInt((t_22185604.data).length, t_22185604.counter) < 4));
+  framePtr = F.prev;
+
+  return result_22185605;
+
+}
+function rawInsert_22211108(t_22211114, data_22211117, data_22211117_Idx, key_22211118, val_22211119, hc_22211120, h_22211121) {
+  var F={procname:"rawInsert.rawInsert",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tableimpl.nim",line:0};
+  framePtr = F;
+    F.line = 22;
+    data_22211117[data_22211117_Idx][chckIndx(h_22211121, 0, (data_22211117[data_22211117_Idx]).length-1)].Field1 = nimCopy(null, key_22211118, NTI11641013);
+    F.line = 23;
+    data_22211117[data_22211117_Idx][chckIndx(h_22211121, 0, (data_22211117[data_22211117_Idx]).length-1)].Field2 = val_22211119;
+    F.line = 24;
+    data_22211117[data_22211117_Idx][chckIndx(h_22211121, 0, (data_22211117[data_22211117_Idx]).length-1)].Field0 = hc_22211120;
+  framePtr = F.prev;
+
+  
+}
+function enlarge_22210161(t_22210167) {
+  var F={procname:"enlarge.enlarge",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
+  framePtr = F;
+    F.line = 267;
+    var n_22210175 = [];
+    F.line = 268;
+    n_22210175 = new Array(chckRange(mulInt((t_22210167.data).length, 2), 0, 2147483647)); for (var i=0;i<chckRange(mulInt((t_22210167.data).length, 2), 0, 2147483647);++i) {n_22210175[i]={Field0: 0, Field1: [], Field2: null};}    F.line = 269;
+    var Tmp1 = t_22210167.data; t_22210167.data = n_22210175; n_22210175 = Tmp1;    L2: do {
+      F.line = 270;
+      var i_22210334 = 0;
+      F.line = 39;
+      var colontmp__22215915 = 0;
+      F.line = 270;
+      colontmp__22215915 = ((n_22210175).length-1);
+      F.line = 56;
+      var res_22215916 = 0;
+      L3: do {
+        F.line = 57;
+          L4: while (true) {
+          if (!(res_22215916 <= colontmp__22215915)) break L4;
+            F.line = 270;
+            i_22210334 = res_22215916;
+            F.line = 271;
+            var eh_22210483 = n_22210175[chckIndx(i_22210334, 0, (n_22210175).length-1)].Field0;
+            if (isFilled_21161218(eh_22210483)) {
+            F.line = 273;
+            var j_22210490 = (eh_22210483 & ((t_22210167.data).length-1));
+            L5: do {
+              F.line = 274;
+                L6: while (true) {
+                if (!isFilled_21161218(t_22210167.data[chckIndx(j_22210490, 0, (t_22210167.data).length-1)].Field0)) break L6;
+                  F.line = 275;
+                  j_22210490 = nextTry_21165014(j_22210490, ((t_22210167.data).length-1));
+                }
+            } while(false);
+            F.line = 277;
+            rawInsert_22211108(t_22210167, t_22210167, "data", n_22210175[chckIndx(i_22210334, 0, (n_22210175).length-1)].Field1, n_22210175[chckIndx(i_22210334, 0, (n_22210175).length-1)].Field2, eh_22210483, j_22210490);
+            }
+            
+            F.line = 59;
+            res_22215916 = addInt(res_22215916, 1);
+          }
+      } while(false);
+    } while(false);
+  framePtr = F.prev;
+
+  
+}
+function rawGetKnownHC_22211608(t_22211612, key_22211613, hc_22211614) {
+  var result_22211615 = 0;
+
+  var F={procname:"rawGetKnownHC.rawGetKnownHC",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/hashcommon.nim",line:0};
+  framePtr = F;
+  BeforeRet: do {
+    if (((t_22211612.data).length == 0)) {
+    F.line = 53;
+    result_22211615 = -1;
+    break BeforeRet;
+    }
+    
+    F.line = 54;
+    var h_22215138 = (hc_22211614 & ((t_22211612.data).length-1));
+    L1: do {
+      F.line = 55;
+        L2: while (true) {
+        if (!isFilled_21161218(t_22211612.data[chckIndx(h_22215138, 0, (t_22211612.data).length-1)].Field0)) break L2;
+          if (((t_22211612.data[chckIndx(h_22215138, 0, (t_22211612.data).length-1)].Field0 == hc_22211614) && eqStrings(t_22211612.data[chckIndx(h_22215138, 0, (t_22211612.data).length-1)].Field1, key_22211613))) {
+          F.line = 61;
+          result_22211615 = h_22215138;
+          break BeforeRet;
+          }
+          
+          F.line = 62;
+          h_22215138 = nextTry_21165014(h_22215138, ((t_22211612.data).length-1));
+        }
+    } while(false);
+    F.line = 63;
+    result_22211615 = subInt(-1, h_22215138);
+  } while (false);
+  framePtr = F.prev;
+
+  return result_22211615;
+
+}
+function HEX5BHEX5DHEX3D_22145778(t_22145784, key_22145785, val_22145786) {
+  var F={procname:"[]=.[]=",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
+  framePtr = F;
+    if (((t_22145784.data).length == 0)) {
+    F.line = 163;
+    var correctSizeHEX60gensym3_22155001 = slotsNeeded_21165048(32);
+    F.line = 167;
+    t_22145784.counter = 0;
+    F.line = 168;
+    t_22145784.data = new Array(chckRange(correctSizeHEX60gensym3_22155001, 0, 2147483647)); for (var i=0;i<chckRange(correctSizeHEX60gensym3_22155001, 0, 2147483647);++i) {t_22145784.data[i]={Field0: 0, Field1: [], Field2: null};}    }
+    
+    F.line = 57;
+    var hc_22160601 = [0];
+    F.line = 58;
+    var index_22170620 = rawGet_22160602(t_22145784, key_22145785, hc_22160601, 0);
+    if ((0 <= index_22170620)) {
+    F.line = 59;
+    t_22145784.data[chckIndx(index_22170620, 0, (t_22145784.data).length-1)].Field2 = val_22145786;
+    }
+    else {
+      if (((t_22145784.data).length == 0)) {
+      F.line = 163;
+      var correctSizeHEX60gensym8_22180001 = slotsNeeded_21165048(32);
+      F.line = 167;
+      t_22145784.counter = 0;
+      F.line = 168;
+      t_22145784.data = new Array(chckRange(correctSizeHEX60gensym8_22180001, 0, 2147483647)); for (var i=0;i<chckRange(correctSizeHEX60gensym8_22180001, 0, 2147483647);++i) {t_22145784.data[i]={Field0: 0, Field1: [], Field2: null};}      }
+      
+      if (mustRehash_22185601(t_22145784)) {
+      F.line = 49;
+      enlarge_22210161(t_22145784);
+      F.line = 50;
+      index_22170620 = rawGetKnownHC_22211608(t_22145784, key_22145785, hc_22160601[0]);
+      }
+      
+      F.line = 51;
+      index_22170620 = subInt(-1, index_22170620);
+      F.line = 52;
+      rawInsert_22211108(t_22145784, t_22145784, "data", key_22145785, val_22145786, hc_22160601[0], index_22170620);
+      F.line = 60;
+      t_22145784.counter = addInt(t_22145784.counter, 1);
+    }
+    
+  framePtr = F.prev;
+
+  
+}
+function toTable_22136092(pairs_22136098) {
+  var result_22136100 = [({data: [], counter: 0})];
+
+  var F={procname:"toTable.toTable",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/collections/tables.nim",line:0};
+  framePtr = F;
+    F.line = 332;
+    nimCopy(result_22136100[0], initTable_22136103((pairs_22136098).length), NTI22136049);
+    L1: do {
+      F.line = 333;
+      var key_22145665 = null;
+      var key_22145665_Idx = 0;
+      F.line = 333;
+      var val_22145667 = null;
+      var val_22145667_Idx = 0;
+      F.line = 8;
+      var i_22215877 = 0;
+      L2: do {
+        F.line = 9;
+          L3: while (true) {
+          if (!(i_22215877 < (pairs_22136098).length)) break L3;
+            F.line = 333;
+            key_22145665 = pairs_22136098[chckIndx(i_22215877, 0, (pairs_22136098).length-1)]; key_22145665_Idx = "Field0";
+            F.line = 10;
+            val_22145667 = pairs_22136098[chckIndx(i_22215877, 0, (pairs_22136098).length-1)]; val_22145667_Idx = "Field1";
+            F.line = 333;
+            HEX5BHEX5DHEX3D_22145778(result_22136100[0], key_22145665[key_22145665_Idx], val_22145667[val_22145667_Idx]);
+            F.line = 11;
+            i_22215877 = addInt(i_22215877, 1);
+          }
+      } while(false);
+    } while(false);
+  framePtr = F.prev;
+
+  return result_22136100[0];
+
+}
+var F={procname:"module globalstate",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/globalstate.nim",line:0};
+framePtr = F;
+F.line = 21;
+var model_22215708 = {titel: "Från global state", sida: toTable_22136092([nimCopy(null, {Field0: makeNimstrLit("minsida"), Field1: {stycken: [{rubrik: makeNimstrLit("Min styckerubrik"), m_type: NTI22136071, bild: [], text: [], titel: null, ingress: null, id: 0, sida: ({data: [], counter: 0})}], m_type: NTI22136067, titel: null, ingress: null, id: 0, sida: ({data: [], counter: 0})}}, NTI22136077)]), m_type: NTI22136064, ettapuff: null, ingress: null, id: 0};
+framePtr = F.prev;
+var F={procname:"module globalstate",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/globalstate.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module globalstate",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/globalstate.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+F.line = 30;
+var artiklar_22216070 = [[{title: "Default", m_type: NTI22216036, id: 0, rubrik: null, urlTitle: null, ort: null, status: null, date: 0, channel: null, ingress: null, ettabild: null, edit_date: 0}]];
+F.line = 31;
+var artiklarKumla_22216082 = [[{title: "Default", m_type: NTI22216036, id: 0, rubrik: null, urlTitle: null, ort: null, status: null, date: 0, channel: null, ingress: null, ettabild: null, edit_date: 0}]];
+F.line = 32;
+var loadBlock_22216083 = [false];
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+function loadData_22216203(url_22216205) {
+    function HEX3Aanonymous_22216217(resolve_22216222) {
+        function HEX3Aanonymous_22216223() {
+              var Tmp1;
+
+          var F={procname:":anonymous.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+          framePtr = F;
+              if (!(req_22216216.readyState == 4)) Tmp1 = false; else {                Tmp1 = (req_22216216.status == 200);              }            if (Tmp1) {
+            F.line = 61;
+            resolve_22216222(req_22216216.responseText);
+            }
+            
+          framePtr = F.prev;
+
+          
+        }
+
+      var F={procname:"loadData.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+      framePtr = F;
+        F.line = 59;
+        req_22216216.onreadystatechange = HEX3Aanonymous_22216223;
+      framePtr = F.prev;
+
+      
+    }
+
+  var result_22216215 = null;
+
+  var F={procname:"ladda.loadData",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+  framePtr = F;
+    F.line = 56;
+    var req_22216216 = new XMLHttpRequest();
+    F.line = 57;
+    req_22216216.open("GET",toJSStr(url_22216205),true);
+    F.line = 58;
+    result_22216215 = (new Promise(HEX3Aanonymous_22216217));
+    F.line = 63;
+    req_22216216.send();
+  framePtr = F.prev;
+
+  return result_22216215;
+
+}
+function add_22230042(x_22230047, x_22230047_Idx, y_22230049) {
+    var Tmp1;
+
+  var F={procname:"add.add",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system.nim",line:0};
+  framePtr = F;
+    F.line = 1259;
+    var xl_22230055 = (x_22230047[x_22230047_Idx]).length;
+    F.line = 1260;
+    if (x_22230047[x_22230047_Idx].length < (Tmp1 = chckRange(addInt(xl_22230055, (y_22230049).length), 0, 2147483647), Tmp1)) { for (var i=x_22230047[x_22230047_Idx].length;i<Tmp1;++i) x_22230047[x_22230047_Idx].push(null); }
+               else { x_22230047[x_22230047_Idx].length = Tmp1; };
+    L2: do {
+      F.line = 1261;
+      var i_22230080 = 0;
+      F.line = 66;
+      var colontmp__22230186 = 0;
+      F.line = 1261;
+      colontmp__22230186 = ((y_22230049).length-1);
+      F.line = 77;
+      var res_22230187 = 0;
+      L3: do {
+        F.line = 78;
+          L4: while (true) {
+          if (!(res_22230187 <= colontmp__22230186)) break L4;
+            F.line = 1261;
+            i_22230080 = res_22230187;
+            F.line = 1261;
+            x_22230047[x_22230047_Idx][chckIndx(addInt(xl_22230055, i_22230080), 0, (x_22230047[x_22230047_Idx]).length-1)] = y_22230049[chckIndx(i_22230080, 0, (y_22230049).length-1)];
+            F.line = 80;
+            res_22230187 = addInt(res_22230187, 1);
+          }
+      } while(false);
+    } while(false);
+  framePtr = F.prev;
+
+  
+}
 function valueHEX3D_20920140(n_20920142, v_20920143) {
-  var F={procname:"vdom.value=",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.value=",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 165;
     n_20920142.text = v_20920143;
@@ -5438,7 +5929,7 @@ function valueHEX3D_20920140(n_20920142, v_20920143) {
 function value_20920123(n_20920125) {
   var result_20920126 = null;
 
-  var F={procname:"vdom.value",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.value",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 164;
     result_20920126 = n_20920125.text;
@@ -5448,7 +5939,7 @@ function value_20920123(n_20920125) {
 
 }
 function addEventShell_21352375(d_21352377, name_21352378, h_21352379) {
-  var F={procname:"karax.addEventShell",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.addEventShell",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 89;
     d_21352377.addEventListener(name_21352378, h_21352379, false);
@@ -5467,7 +5958,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
       function laterWrapper_21425042() {
           function HEX3Aanonymous_21425048(ev_21425050) {
               function wrapper_21425051() {
-                var F={procname:":anonymous.wrapper",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+                var F={procname:":anonymous.wrapper",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
                 framePtr = F;
                   F.line = 72;
                   var vHEX60gensym15_21435001 = ev_21425050.target.value;
@@ -5475,7 +5966,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
                   valueHEX3D_20920140(n_21425046, vHEX60gensym15_21435001);
                   if (!(!((action_21425045 == null)))) {
                   F.line = 74;
-                  failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(74, 10) `action != nil` "));
+                  failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(74, 10) `action != nil` "));
                   }
                   
                   F.line = 75;
@@ -5490,7 +5981,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
                 
               }
 
-            var F={procname:"laterWrapper.:anonymous",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+            var F={procname:"laterWrapper.:anonymous",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
             framePtr = F;
               if (!((timer_21425047 == null))) {
               F.line = 121;
@@ -5506,7 +5997,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
 
         var result_21425044 = null;
 
-        var F={procname:"wrapEvent.laterWrapper",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+        var F={procname:"wrapEvent.laterWrapper",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
         framePtr = F;
           F.line = 116;
           var action_21425045 = action_21355102;
@@ -5523,7 +6014,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
       }
       function enterWrapper_21390042() {
           function HEX3Aanonymous_21390047(ev_21390049) {
-            var F={procname:"enterWrapper.:anonymous",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+            var F={procname:"enterWrapper.:anonymous",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
             framePtr = F;
               if ((ev_21390049.keyCode == 13)) {
               F.line = 72;
@@ -5532,7 +6023,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
               valueHEX3D_20920140(n_21390046, vHEX60gensym8_21400001);
               if (!(!((action_21390045 == null)))) {
               F.line = 74;
-              failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(74, 10) `action != nil` "));
+              failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(74, 10) `action != nil` "));
               }
               
               F.line = 75;
@@ -5551,7 +6042,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
 
         var result_21390044 = null;
 
-        var F={procname:"wrapEvent.enterWrapper",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+        var F={procname:"wrapEvent.enterWrapper",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
         framePtr = F;
           F.line = 110;
           var action_21390045 = action_21355102;
@@ -5569,7 +6060,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
                 var Tmp1;
                 var Tmp2;
 
-            var F={procname:"stdWrapper.:anonymous",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+            var F={procname:"stdWrapper.:anonymous",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
             framePtr = F;
                 if ((n_21355108.kind == 111)) Tmp2 = true; else {                  Tmp2 = (n_21355108.kind == 105);                }                if (Tmp2) Tmp1 = true; else {                  Tmp1 = (n_21355108.kind == 107);                }              if (Tmp1) {
               F.line = 72;
@@ -5578,7 +6069,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
               valueHEX3D_20920140(n_21355108, vHEX60gensym1_21365001);
               if (!(!((action_21355107 == null)))) {
               F.line = 74;
-              failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(74, 10) `action != nil` "));
+              failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(74, 10) `action != nil` "));
               }
               
               F.line = 75;
@@ -5601,7 +6092,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
 
         var result_21355106 = null;
 
-        var F={procname:"wrapEvent.stdWrapper",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+        var F={procname:"wrapEvent.stdWrapper",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
         framePtr = F;
           F.line = 102;
           var action_21355107 = action_21355102;
@@ -5617,7 +6108,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
 
   var result_21355103 = null;
 
-  var F={procname:"karax.wrapEvent",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.wrapEvent",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 124;
     switch (k_21355101) {
@@ -5646,7 +6137,7 @@ function wrapEvent_21355097(d_21355099, n_21355100, k_21355101, action_21355102)
 
 }
 function applyEvents_21465073(n_21465075) {
-  var F={procname:"karax.applyEvents",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.applyEvents",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 145;
     var dest_21465076 = n_21465075.dom;
@@ -5654,21 +6145,21 @@ function applyEvents_21465073(n_21465075) {
       F.line = 146;
       var i_21465089 = 0;
       F.line = 104;
-      var colontmp__22150247 = 0;
+      var colontmp__22230219 = 0;
       F.line = 146;
-      colontmp__22150247 = (n_21465075.events).length;
+      colontmp__22230219 = (n_21465075.events).length;
       F.line = 106;
-      var i_22150248 = 0;
+      var i_22230220 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_22150248 < colontmp__22150247)) break L3;
+          if (!(i_22230220 < colontmp__22230219)) break L3;
             F.line = 146;
-            i_21465089 = i_22150248;
+            i_21465089 = i_22230220;
             F.line = 147;
             n_21465075.events[chckIndx(i_21465089, 0, (n_21465075.events).length-1)]["Field2"] = wrapEvent_21355097(dest_21465076, n_21465075, n_21465075.events[chckIndx(i_21465089, 0, (n_21465075.events).length-1)]["Field0"], n_21465075.events[chckIndx(i_21465089, 0, (n_21465075.events).length-1)]["Field1"]);
             F.line = 109;
-            i_22150248 = addInt(i_22150248, 1);
+            i_22230220 = addInt(i_22230220, 1);
           }
       } while(false);
     } while(false);
@@ -5677,7 +6168,7 @@ function applyEvents_21465073(n_21465075) {
   
 }
 function applyStyle_12625425(n_12625427, s_12625428) {
-  var F={procname:"vstyles.applyStyle",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+  var F={procname:"vstyles.applyStyle",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
   framePtr = F;
     F.line = 299;
     n_12625427.style = {};
@@ -5685,21 +6176,21 @@ function applyStyle_12625425(n_12625427, s_12625428) {
       F.line = 300;
       var i_12625621 = 0;
       F.line = 39;
-      var colontmp__22150258 = 0;
+      var colontmp__22230230 = 0;
       F.line = 300;
-      colontmp__22150258 = subInt(s_12625428.length, 1);
+      colontmp__22230230 = subInt(s_12625428.length, 1);
       F.line = 56;
-      var res_22150259 = 0;
+      var res_22230231 = 0;
       L2: do {
         F.line = 57;
           L3: while (true) {
-          if (!(res_22150259 <= colontmp__22150258)) break L3;
+          if (!(res_22230231 <= colontmp__22230230)) break L3;
             F.line = 300;
-            i_12625621 = res_22150259;
+            i_12625621 = res_22230231;
             F.line = 301;
             n_12625427.style[s_12625428[i_12625621]] = s_12625428[addInt(i_12625621, 1)];
             F.line = 59;
-            res_22150259 = addInt(res_22150259, 2);
+            res_22230231 = addInt(res_22230231, 2);
           }
       } while(false);
     } while(false);
@@ -5713,7 +6204,7 @@ function toDom_21465154(n_21465156, useAttachedNode_21465157, kxi_21465158) {
 
   var result_21465159 = null;
 
-  var F={procname:"karax.toDom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.toDom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     if (useAttachedNode_21465157) {
@@ -5779,7 +6270,7 @@ function toDom_21465154(n_21465156, useAttachedNode_21465157, kxi_21465158) {
     result_21465159 = n_21465156.dom;
     if (!(!((result_21465159 == null)))) {
     F.line = 176;
-    failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(176, 12) `result != nil` "));
+    failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(176, 12) `result != nil` "));
     }
     
     F.line = 141;
@@ -5803,7 +6294,7 @@ function toDom_21465154(n_21465156, useAttachedNode_21465157, kxi_21465158) {
     
     if (!(!((x_21535022.renderImpl == null)))) {
     F.line = 183;
-    failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(183, 12) `x.renderImpl != nil` "));
+    failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(183, 12) `x.renderImpl != nil` "));
     }
     
     if ((x_21535022.expanded == null)) {
@@ -5813,7 +6304,7 @@ function toDom_21465154(n_21465156, useAttachedNode_21465157, kxi_21465158) {
     
     if (!(!((x_21535022.expanded == null)))) {
     F.line = 187;
-    failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(187, 12) `x.expanded != nil` "));
+    failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(187, 12) `x.expanded != nil` "));
     }
     
     F.line = 188;
@@ -5843,25 +6334,25 @@ function toDom_21465154(n_21465156, useAttachedNode_21465157, kxi_21465158) {
         var k_21590016 = null;
         L2: do {
           F.line = 291;
-          var i_22150225 = 0;
+          var i_22230199 = 0;
           F.line = 104;
-          var colontmp__22150226 = 0;
+          var colontmp__22230200 = 0;
           F.line = 291;
-          colontmp__22150226 = (n_21465156.kids).length;
+          colontmp__22230200 = (n_21465156.kids).length;
           F.line = 106;
-          var i_22150227 = 0;
+          var i_22230201 = 0;
           L3: do {
             F.line = 107;
               L4: while (true) {
-              if (!(i_22150227 < colontmp__22150226)) break L4;
+              if (!(i_22230201 < colontmp__22230200)) break L4;
                 F.line = 291;
-                i_22150225 = i_22150227;
+                i_22230199 = i_22230201;
                 F.line = 194;
-                k_21590016 = n_21465156.kids[chckIndx(i_22150225, 0, (n_21465156.kids).length-1)];
+                k_21590016 = n_21465156.kids[chckIndx(i_22230199, 0, (n_21465156.kids).length-1)];
                 F.line = 195;
                 result_21465159.appendChild(toDom_21465154(k_21590016, useAttachedNode_21465157, kxi_21465158));
                 F.line = 109;
-                i_22150227 = addInt(i_22150227, 1);
+                i_22230201 = addInt(i_22230201, 1);
               }
           } while(false);
         } while(false);
@@ -5890,30 +6381,30 @@ function toDom_21465154(n_21465156, useAttachedNode_21465157, kxi_21465158) {
       var v_21605002 = null;
       L6: do {
         F.line = 294;
-        var i_22150238 = 0;
+        var i_22230212 = 0;
         F.line = 39;
-        var colontmp__22150239 = 0;
+        var colontmp__22230213 = 0;
         F.line = 294;
-        colontmp__22150239 = subInt((n_21465156.attrs).length, 2);
+        colontmp__22230213 = subInt((n_21465156.attrs).length, 2);
         F.line = 56;
-        var res_22150240 = 0;
+        var res_22230214 = 0;
         L7: do {
           F.line = 57;
             L8: while (true) {
-            if (!(res_22150240 <= colontmp__22150239)) break L8;
+            if (!(res_22230214 <= colontmp__22230213)) break L8;
               F.line = 294;
-              i_22150238 = res_22150240;
+              i_22230212 = res_22230214;
               F.line = 205;
-              k_21605001 = n_21465156.attrs[chckIndx(i_22150238, 0, (n_21465156.attrs).length-1)];
+              k_21605001 = n_21465156.attrs[chckIndx(i_22230212, 0, (n_21465156.attrs).length-1)];
               F.line = 295;
-              v_21605002 = n_21465156.attrs[chckIndx(addInt(i_22150238, 1), 0, (n_21465156.attrs).length-1)];
+              v_21605002 = n_21465156.attrs[chckIndx(addInt(i_22230212, 1), 0, (n_21465156.attrs).length-1)];
               if (!((v_21605002 == null))) {
               F.line = 207;
               result_21465159.setAttribute(k_21605001, v_21605002);
               }
               
               F.line = 59;
-              res_22150240 = addInt(res_22150240, 2);
+              res_22230214 = addInt(res_22230214, 2);
             }
         } while(false);
       } while(false);
@@ -5937,7 +6428,7 @@ function toDom_21465154(n_21465156, useAttachedNode_21465157, kxi_21465158) {
 
 }
 function replaceById_21630074(id_21630076, newTree_21630077) {
-  var F={procname:"karax.replaceById",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.replaceById",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 235;
     var x_21630078 = document.getElementById(id_21630076);
@@ -5952,7 +6443,7 @@ function replaceById_21630074(id_21630076, newTree_21630077) {
 function len_21005014(x_21005016) {
   var result_21005017 = 0;
 
-  var F={procname:"vdom.len",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.len",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 255;
     result_21005017 = (x_21005016.kids).length;
@@ -5964,7 +6455,7 @@ function len_21005014(x_21005016) {
 function HEX5BHEX5D_21005036(x_21005038, idx_21005039) {
   var result_21005040 = null;
 
-  var F={procname:"vdom.[]",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.[]",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 256;
     result_21005040 = x_21005038.kids[chckIndx(idx_21005039, 0, (x_21005038.kids).length-1)];
@@ -5979,7 +6470,7 @@ function same_21615072(n_21615074, e_21615075, nesting_21615076) {
 
   var result_21615078 = false;
 
-  var F={procname:"karax.same",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.same",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     if (kxi_21352284[0].orphans.hasOwnProperty(n_21615074.id)) {
@@ -6019,17 +6510,17 @@ function same_21615072(n_21615074, e_21615075, nesting_21615076) {
       F.line = 229;
       var i_21630024 = 0;
       F.line = 104;
-      var colontmp__22150265 = 0;
+      var colontmp__22230237 = 0;
       F.line = 229;
-      colontmp__22150265 = len_21005014(n_21615074);
+      colontmp__22230237 = len_21005014(n_21615074);
       F.line = 106;
-      var i_22150266 = 0;
+      var i_22230238 = 0;
       L4: do {
         F.line = 107;
           L5: while (true) {
-          if (!(i_22150266 < colontmp__22150265)) break L5;
+          if (!(i_22230238 < colontmp__22230237)) break L5;
             F.line = 229;
-            i_21630024 = i_22150266;
+            i_21630024 = i_22230238;
             if (!(same_21615072(HEX5BHEX5D_21005036(n_21615074, i_21630024), e_21615075.childNodes[i_21630024], addInt(nesting_21615076, 1)))) {
             F.line = 230;
             result_21615078 = false;
@@ -6037,7 +6528,7 @@ function same_21615072(n_21615074, e_21615075, nesting_21615076) {
             }
             
             F.line = 109;
-            i_22150266 = addInt(i_22150266, 1);
+            i_22230238 = addInt(i_22230238, 1);
           }
       } while(false);
     } while(false);
@@ -6058,7 +6549,7 @@ function same_21615072(n_21615074, e_21615075, nesting_21615076) {
 function eq_12590229(a_12590231, b_12590232) {
   var result_12590233 = false;
 
-  var F={procname:"vstyles.eq",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
+  var F={procname:"vstyles.eq",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vstyles.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     if ((a_12590231 == null)) {
@@ -6091,17 +6582,17 @@ function eq_12590229(a_12590231, b_12590232) {
       F.line = 233;
       var i_12595083 = 0;
       F.line = 104;
-      var colontmp__22150305 = 0;
+      var colontmp__22230277 = 0;
       F.line = 233;
-      colontmp__22150305 = a_12590231.length;
+      colontmp__22230277 = a_12590231.length;
       F.line = 106;
-      var i_22150306 = 0;
+      var i_22230278 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_22150306 < colontmp__22150305)) break L3;
+          if (!(i_22230278 < colontmp__22230277)) break L3;
             F.line = 233;
-            i_12595083 = i_22150306;
+            i_12595083 = i_22230278;
             if (!((a_12590231[i_12595083] == b_12590232[i_12595083]))) {
             F.line = 234;
             result_12590233 = false;
@@ -6109,7 +6600,7 @@ function eq_12590229(a_12590231, b_12590232) {
             }
             
             F.line = 109;
-            i_22150306 = addInt(i_22150306, 1);
+            i_22230278 = addInt(i_22230278, 1);
           }
       } while(false);
     } while(false);
@@ -6125,7 +6616,7 @@ function eq_12590229(a_12590231, b_12590232) {
 function sameAttrs_21016079(a_21016081, b_21016082) {
   var result_21016083 = false;
 
-  var F={procname:"vdom.sameAttrs",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.sameAttrs",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     if (((a_21016081.attrs).length == (b_21016082.attrs).length)) {
@@ -6135,17 +6626,17 @@ function sameAttrs_21016079(a_21016081, b_21016082) {
       F.line = 300;
       var i_21016106 = 0;
       F.line = 104;
-      var colontmp__22150309 = 0;
+      var colontmp__22230281 = 0;
       F.line = 300;
-      colontmp__22150309 = (a_21016081.attrs).length;
+      colontmp__22230281 = (a_21016081.attrs).length;
       F.line = 106;
-      var i_22150310 = 0;
+      var i_22230282 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_22150310 < colontmp__22150309)) break L3;
+          if (!(i_22230282 < colontmp__22230281)) break L3;
             F.line = 300;
-            i_21016106 = i_22150310;
+            i_21016106 = i_22230282;
             if (!((a_21016081.attrs[chckIndx(i_21016106, 0, (a_21016081.attrs).length-1)] == b_21016082.attrs[chckIndx(i_21016106, 0, (b_21016082.attrs).length-1)]))) {
             F.line = 301;
             result_21016083 = false;
@@ -6153,7 +6644,7 @@ function sameAttrs_21016079(a_21016081, b_21016082) {
             }
             
             F.line = 109;
-            i_22150310 = addInt(i_22150310, 1);
+            i_22230282 = addInt(i_22230282, 1);
           }
       } while(false);
     } while(false);
@@ -6171,7 +6662,7 @@ function eq_21630214(a_21630216, b_21630217, recursive_21630218) {
 
   var result_21630219 = 0;
 
-  var F={procname:"karax.eq",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.eq",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     if (!((a_21630216.kind == b_21630217.kind))) {
@@ -6220,17 +6711,17 @@ function eq_21630214(a_21630216, b_21630217, recursive_21630218) {
       F.line = 274;
       var i_21660008 = 0;
       F.line = 104;
-      var colontmp__22150297 = 0;
+      var colontmp__22230269 = 0;
       F.line = 274;
-      colontmp__22150297 = len_21005014(a_21630216);
+      colontmp__22230269 = len_21005014(a_21630216);
       F.line = 106;
-      var i_22150298 = 0;
+      var i_22230270 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_22150298 < colontmp__22150297)) break L3;
+          if (!(i_22230270 < colontmp__22230269)) break L3;
             F.line = 274;
-            i_21660008 = i_22150298;
+            i_21660008 = i_22230270;
             if ((eq_21630214(HEX5BHEX5D_21005036(a_21630216, i_21660008), HEX5BHEX5D_21005036(b_21630217, i_21660008), recursive_21630218) == 1)) {
             F.line = 275;
             result_21630219 = 1;
@@ -6238,7 +6729,7 @@ function eq_21630214(a_21630216, b_21630217, recursive_21630218) {
             }
             
             F.line = 109;
-            i_22150298 = addInt(i_22150298, 1);
+            i_22230270 = addInt(i_22230270, 1);
           }
       } while(false);
     } while(false);
@@ -6302,17 +6793,17 @@ function eq_21630214(a_21630216, b_21630217, recursive_21630218) {
       F.line = 306;
       var i_21685008 = 0;
       F.line = 104;
-      var colontmp__22150301 = 0;
+      var colontmp__22230273 = 0;
       F.line = 306;
-      colontmp__22150301 = len_21005014(a_21630216);
+      colontmp__22230273 = len_21005014(a_21630216);
       F.line = 106;
-      var i_22150302 = 0;
+      var i_22230274 = 0;
       L7: do {
         F.line = 107;
           L8: while (true) {
-          if (!(i_22150302 < colontmp__22150301)) break L8;
+          if (!(i_22230274 < colontmp__22230273)) break L8;
             F.line = 306;
-            i_21685008 = i_22150302;
+            i_21685008 = i_22230274;
             if (!((eq_21630214(HEX5BHEX5D_21005036(a_21630216, i_21685008), HEX5BHEX5D_21005036(b_21630217, i_21685008), true) == 3))) {
             F.line = 308;
             result_21630219 = 1;
@@ -6320,7 +6811,7 @@ function eq_21630214(a_21630216, b_21630217, recursive_21630218) {
             }
             
             F.line = 109;
-            i_22150302 = addInt(i_22150302, 1);
+            i_22230274 = addInt(i_22230274, 1);
           }
       } while(false);
     } while(false);
@@ -6335,7 +6826,7 @@ function eq_21630214(a_21630216, b_21630217, recursive_21630218) {
 
 }
 function updateStyles_21690034(newNode_21690036, oldNode_21690037) {
-  var F={procname:"karax.updateStyles",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.updateStyles",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     if (!((oldNode_21690037.dom == null))) {
     if (!((newNode_21690036.style == null))) {
@@ -6360,7 +6851,7 @@ function updateStyles_21690034(newNode_21690036, oldNode_21690037) {
   
 }
 function takeOverAttr_20955214(newNode_20955216, oldNode_20955217) {
-  var F={procname:"vdom.takeOverAttr",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.takeOverAttr",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 239;
     oldNode_20955217.attrs = newNode_20955216.attrs;
@@ -6369,7 +6860,7 @@ function takeOverAttr_20955214(newNode_20955216, oldNode_20955217) {
   
 }
 function updateAttributes_21700052(newNode_21700054, oldNode_21700055) {
-  var F={procname:"karax.updateAttributes",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.updateAttributes",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     if (!((oldNode_21700055.dom == null))) {
     L1: do {
@@ -6379,27 +6870,27 @@ function updateAttributes_21700052(newNode_21700054, oldNode_21700055) {
       var __21705010 = null;
       L2: do {
         F.line = 294;
-        var i_22150315 = 0;
+        var i_22230287 = 0;
         F.line = 39;
-        var colontmp__22150316 = 0;
+        var colontmp__22230288 = 0;
         F.line = 294;
-        colontmp__22150316 = subInt((oldNode_21700055.attrs).length, 2);
+        colontmp__22230288 = subInt((oldNode_21700055.attrs).length, 2);
         F.line = 56;
-        var res_22150317 = 0;
+        var res_22230289 = 0;
         L3: do {
           F.line = 57;
             L4: while (true) {
-            if (!(res_22150317 <= colontmp__22150316)) break L4;
+            if (!(res_22230289 <= colontmp__22230288)) break L4;
               F.line = 294;
-              i_22150315 = res_22150317;
+              i_22230287 = res_22230289;
               F.line = 325;
-              k_21705009 = oldNode_21700055.attrs[chckIndx(i_22150315, 0, (oldNode_21700055.attrs).length-1)];
+              k_21705009 = oldNode_21700055.attrs[chckIndx(i_22230287, 0, (oldNode_21700055.attrs).length-1)];
               F.line = 295;
-              __21705010 = oldNode_21700055.attrs[chckIndx(addInt(i_22150315, 1), 0, (oldNode_21700055.attrs).length-1)];
+              __21705010 = oldNode_21700055.attrs[chckIndx(addInt(i_22230287, 1), 0, (oldNode_21700055.attrs).length-1)];
               F.line = 326;
               oldNode_21700055.dom.removeAttribute(k_21705009);
               F.line = 59;
-              res_22150317 = addInt(res_22150317, 2);
+              res_22230289 = addInt(res_22230289, 2);
             }
         } while(false);
       } while(false);
@@ -6411,30 +6902,30 @@ function updateAttributes_21700052(newNode_21700054, oldNode_21700055) {
       var v_21705012 = null;
       L6: do {
         F.line = 294;
-        var i_22150323 = 0;
+        var i_22230295 = 0;
         F.line = 39;
-        var colontmp__22150324 = 0;
+        var colontmp__22230296 = 0;
         F.line = 294;
-        colontmp__22150324 = subInt((newNode_21700054.attrs).length, 2);
+        colontmp__22230296 = subInt((newNode_21700054.attrs).length, 2);
         F.line = 56;
-        var res_22150325 = 0;
+        var res_22230297 = 0;
         L7: do {
           F.line = 57;
             L8: while (true) {
-            if (!(res_22150325 <= colontmp__22150324)) break L8;
+            if (!(res_22230297 <= colontmp__22230296)) break L8;
               F.line = 294;
-              i_22150323 = res_22150325;
+              i_22230295 = res_22230297;
               F.line = 327;
-              k_21705011 = newNode_21700054.attrs[chckIndx(i_22150323, 0, (newNode_21700054.attrs).length-1)];
+              k_21705011 = newNode_21700054.attrs[chckIndx(i_22230295, 0, (newNode_21700054.attrs).length-1)];
               F.line = 295;
-              v_21705012 = newNode_21700054.attrs[chckIndx(addInt(i_22150323, 1), 0, (newNode_21700054.attrs).length-1)];
+              v_21705012 = newNode_21700054.attrs[chckIndx(addInt(i_22230295, 1), 0, (newNode_21700054.attrs).length-1)];
               if (!((v_21705012 == null))) {
               F.line = 329;
               oldNode_21700055.dom.setAttribute(k_21705011, v_21705012);
               }
               
               F.line = 59;
-              res_22150325 = addInt(res_22150325, 2);
+              res_22230297 = addInt(res_22230297, 2);
             }
         } while(false);
       } while(false);
@@ -6448,28 +6939,28 @@ function updateAttributes_21700052(newNode_21700054, oldNode_21700055) {
   
 }
 function removeAllEventHandlers_21352436(d_21352438) {
-  var F={procname:"karax.removeAllEventHandlers",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.removeAllEventHandlers",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     if (!((d_21352438.karaxEvents == null))) {
     L1: do {
       F.line = 96;
       var i_21355041 = 0;
       F.line = 104;
-      var colontmp__22150330 = 0;
+      var colontmp__22230302 = 0;
       F.line = 96;
-      colontmp__22150330 = d_21352438.karaxEvents.length;
+      colontmp__22230302 = d_21352438.karaxEvents.length;
       F.line = 106;
-      var i_22150331 = 0;
+      var i_22230303 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_22150331 < colontmp__22150330)) break L3;
+          if (!(i_22230303 < colontmp__22230302)) break L3;
             F.line = 96;
-            i_21355041 = i_22150331;
+            i_21355041 = i_22230303;
             F.line = 97;
             d_21352438.removeEventListener(d_21352438.karaxEvents[i_21355041]["Field0"], d_21352438.karaxEvents[i_21355041]["Field1"]);
             F.line = 109;
-            i_22150331 = addInt(i_22150331, 1);
+            i_22230303 = addInt(i_22230303, 1);
           }
       } while(false);
     } while(false);
@@ -6480,7 +6971,7 @@ function removeAllEventHandlers_21352436(d_21352438) {
   
 }
 function mergeEvents_21710014(newNode_21710016, oldNode_21710017, kxi_21710018) {
-  var F={procname:"karax.mergeEvents",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.mergeEvents",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 333;
     var d_21710019 = oldNode_21710017.dom;
@@ -6498,7 +6989,7 @@ function mergeEvents_21710014(newNode_21710016, oldNode_21710017, kxi_21710018) 
   
 }
 function addPatch_21715414(kxi_21715416, ka_21715417, parenta_21715418, currenta_21715419, na_21715420, oldNode_21715421) {
-  var F={procname:"karax.addPatch",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.addPatch",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 361;
     var L_21715422 = kxi_21715416.patchLen;
@@ -6529,7 +7020,7 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
         var Tmp1;
             var Tmp6;
 
-  var F={procname:"karax.diff",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.diff",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 463;
@@ -6576,7 +7067,7 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
       var minLength_21775008 = nimMin(newLength_21775006, oldLength_21775007);
       if (!((oldNode_21765218.kind == newNode_21765217.kind))) {
       F.line = 487;
-      failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(487, 12) `oldNode.kind == newNode.kind` "));
+      failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(487, 12) `oldNode.kind == newNode.kind` "));
       }
       
       F.line = 488;
@@ -6627,21 +7118,21 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
         F.line = 511;
         var i_21795024 = 0;
         F.line = 66;
-        var colontmp__22150272 = 0;
+        var colontmp__22230244 = 0;
         F.line = 511;
-        colontmp__22150272 = subInt(pos_21795018, 1);
+        colontmp__22230244 = subInt(pos_21795018, 1);
         F.line = 77;
-        var res_22150273 = commonPrefix_21785202;
+        var res_22230245 = commonPrefix_21785202;
         L8: do {
           F.line = 78;
             L9: while (true) {
-            if (!(res_22150273 <= colontmp__22150272)) break L9;
+            if (!(res_22230245 <= colontmp__22230244)) break L9;
               F.line = 511;
-              i_21795024 = res_22150273;
+              i_21795024 = res_22230245;
               F.line = 512;
               diff_21765215(HEX5BHEX5D_21005036(newNode_21765217, i_21795024), HEX5BHEX5D_21005036(oldNode_21765218, i_21795024), current_21765220, current_21765220.childNodes[chckIndx(i_21795024, 0, (current_21765220.childNodes).length-1)], kxi_21765221);
               F.line = 80;
-              res_22150273 = addInt(res_22150273, 1);
+              res_22230245 = addInt(res_22230245, 1);
             }
         } while(false);
       } while(false);
@@ -6650,17 +7141,17 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
         F.line = 515;
         var i_21795030 = 0;
         F.line = 77;
-        var res_22150279 = pos_21795018;
+        var res_22230251 = pos_21795018;
         L11: do {
           F.line = 78;
             L12: while (true) {
-            if (!(res_22150279 <= newPos_21785215)) break L12;
+            if (!(res_22230251 <= newPos_21785215)) break L12;
               F.line = 515;
-              i_21795030 = res_22150279;
+              i_21795030 = res_22230251;
               F.line = 516;
               addPatch_21715414(kxi_21765221, 2, current_21765220, null, HEX5BHEX5D_21005036(newNode_21765217, i_21795030), null);
               F.line = 80;
-              res_22150279 = addInt(res_22150279, 1);
+              res_22230251 = addInt(res_22230251, 1);
             }
         } while(false);
       } while(false);
@@ -6672,17 +7163,17 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
           F.line = 519;
           var i_21795037 = 0;
           F.line = 77;
-          var res_22150285 = pos_21795018;
+          var res_22230257 = pos_21795018;
           L14: do {
             F.line = 78;
               L15: while (true) {
-              if (!(res_22150285 <= newPos_21785215)) break L15;
+              if (!(res_22230257 <= newPos_21785215)) break L15;
                 F.line = 519;
-                i_21795037 = res_22150285;
+                i_21795037 = res_22230257;
                 F.line = 520;
                 addPatch_21715414(kxi_21765221, 3, current_21765220, before_21795031, HEX5BHEX5D_21005036(newNode_21765217, i_21795037), null);
                 F.line = 80;
-                res_22150285 = addInt(res_22150285, 1);
+                res_22230257 = addInt(res_22230257, 1);
               }
           } while(false);
         } while(false);
@@ -6692,19 +7183,19 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
         F.line = 522;
         var i_21795043 = 0;
         F.line = 77;
-        var res_22150291 = pos_21795018;
+        var res_22230263 = pos_21795018;
         L17: do {
           F.line = 78;
             L18: while (true) {
-            if (!(res_22150291 <= oldPos_21785214)) break L18;
+            if (!(res_22230263 <= oldPos_21785214)) break L18;
               F.line = 522;
-              i_21795043 = res_22150291;
+              i_21795043 = res_22230263;
               F.line = 523;
               addPatch_21715414(kxi_21352284[0], 4, null, null, null, HEX5BHEX5D_21005036(oldNode_21765218, i_21795043));
               F.line = 525;
               addPatch_21715414(kxi_21765221, 1, current_21765220, current_21765220.childNodes[chckIndx(i_21795043, 0, (current_21765220.childNodes).length-1)], null, null);
               F.line = 80;
-              res_22150291 = addInt(res_22150291, 1);
+              res_22230263 = addInt(res_22230263, 1);
             }
         } while(false);
       } while(false);
@@ -6718,7 +7209,7 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
     case 4:
       if (true) {
       F.line = 529;
-      failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(529, 26) `false` eq returned usenewNode"));
+      failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(529, 26) `false` eq returned usenewNode"));
       }
       
       break;
@@ -6731,7 +7222,7 @@ function diff_21765215(newNode_21765217, oldNode_21765218, parent_21765219, curr
 function applyComponents_21815429(kxi_21815431) {
             var Tmp3;
 
-  var F={procname:"karax.applyComponents",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.applyComponents",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 537;
     var i_21815433 = 0;
@@ -6781,7 +7272,7 @@ function applyComponents_21815429(kxi_21815431) {
   
 }
 function moveDom_21725048(dest_21725050, src_21725051) {
-  var F={procname:"karax.moveDom",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.moveDom",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 386;
     dest_21725050.dom = src_21725051.dom;
@@ -6794,28 +7285,28 @@ function moveDom_21725048(dest_21725050, src_21725051) {
     
     if (!((len_21005014(dest_21725050) == len_21005014(src_21725051)))) {
     F.line = 390;
-    failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(390, 10) `dest.len == src.len` "));
+    failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(390, 10) `dest.len == src.len` "));
     }
     
     L1: do {
       F.line = 391;
       var i_21740208 = 0;
       F.line = 104;
-      var colontmp__22150342 = 0;
+      var colontmp__22230314 = 0;
       F.line = 391;
-      colontmp__22150342 = len_21005014(dest_21725050);
+      colontmp__22230314 = len_21005014(dest_21725050);
       F.line = 106;
-      var i_22150343 = 0;
+      var i_22230315 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_22150343 < colontmp__22150342)) break L3;
+          if (!(i_22230315 < colontmp__22230314)) break L3;
             F.line = 391;
-            i_21740208 = i_22150343;
+            i_21740208 = i_22230315;
             F.line = 392;
             moveDom_21725048(HEX5BHEX5D_21005036(dest_21725050, i_21740208), HEX5BHEX5D_21005036(src_21725051, i_21740208));
             F.line = 109;
-            i_22150343 = addInt(i_22150343, 1);
+            i_22230315 = addInt(i_22230315, 1);
           }
       } while(false);
     } while(false);
@@ -6824,7 +7315,7 @@ function moveDom_21725048(dest_21725050, src_21725051) {
   
 }
 function HEX5BHEX5DHEX3D_21005054(x_21005056, idx_21005057, y_21005058) {
-  var F={procname:"vdom.[]=",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.[]=",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 257;
     x_21005056.kids[chckIndx(idx_21005057, 0, (x_21005056.kids).length-1)] = y_21005058;
@@ -6833,19 +7324,19 @@ function HEX5BHEX5DHEX3D_21005054(x_21005056, idx_21005057, y_21005058) {
   
 }
 function applyPatch_21740222(kxi_21740224) {
-  var F={procname:"karax.applyPatch",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.applyPatch",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     L1: do {
       F.line = 395;
       var i_21740232 = 0;
       F.line = 106;
-      var i_22150336 = 0;
+      var i_22230308 = 0;
       L2: do {
         F.line = 107;
           L3: while (true) {
-          if (!(i_22150336 < kxi_21740224.patchLen)) break L3;
+          if (!(i_22230308 < kxi_21740224.patchLen)) break L3;
             F.line = 395;
-            i_21740232 = i_22150336;
+            i_21740232 = i_22230308;
             F.line = 396;
             var p_21740233 = nimCopy(null, kxi_21740224.patches[chckIndx(i_21740232, 0, (kxi_21740224.patches).length-1)], NTI21352209);
             F.line = 397;
@@ -6916,7 +7407,7 @@ function applyPatch_21740222(kxi_21740224) {
               break;
             }
             F.line = 109;
-            i_22150336 = addInt(i_22150336, 1);
+            i_22230308 = addInt(i_22230308, 1);
           }
       } while(false);
     } while(false);
@@ -6926,24 +7417,24 @@ function applyPatch_21740222(kxi_21740224) {
       F.line = 426;
       var i_21750013 = 0;
       F.line = 106;
-      var i_22150339 = 0;
+      var i_22230311 = 0;
       L5: do {
         F.line = 107;
           L6: while (true) {
-          if (!(i_22150339 < kxi_21740224.patchLenV)) break L6;
+          if (!(i_22230311 < kxi_21740224.patchLenV)) break L6;
             F.line = 426;
-            i_21750013 = i_22150339;
+            i_21750013 = i_22230311;
             F.line = 427;
             var p_21750014 = nimCopy(null, kxi_21740224.patchesV[chckIndx(i_21750013, 0, (kxi_21740224.patchesV).length-1)], NTI21352211);
             F.line = 428;
             HEX5BHEX5DHEX3D_21005054(p_21750014.parent, p_21750014.pos, p_21750014.newChild);
             if (!(!((p_21750014.newChild.dom == null)))) {
             F.line = 429;
-            failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(429, 12) `p.newChild.dom != nil` "));
+            failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(429, 12) `p.newChild.dom != nil` "));
             }
             
             F.line = 109;
-            i_22150339 = addInt(i_22150339, 1);
+            i_22230311 = addInt(i_22230311, 1);
           }
       } while(false);
     } while(false);
@@ -6954,7 +7445,7 @@ function applyPatch_21740222(kxi_21740224) {
   
 }
 function dodraw_21880262(kxi_21880264) {
-  var F={procname:"karax.dodraw",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.dodraw",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     if ((kxi_21880264.renderer == null)) {
@@ -6981,7 +7472,7 @@ function dodraw_21880262(kxi_21880264) {
     else {
       if (!(same_21615072(kxi_21880264.currentTree, document.getElementById(kxi_21880264.rootId), 0))) {
       F.line = 644;
-      failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(644, 14) `same(kxi.currentTree, document.getElementById(kxi.rootId))` "));
+      failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(644, 14) `same(kxi.currentTree, document.getElementById(kxi.rootId))` "));
       }
       
       F.line = 645;
@@ -6998,7 +7489,7 @@ function dodraw_21880262(kxi_21880264) {
     kxi_21880264.currentTree = newtree_21880270;
     if (!(same_21615072(kxi_21880264.currentTree, document.getElementById(kxi_21880264.rootId), 0))) {
     F.line = 657;
-    failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim(657, 12) `same(kxi.currentTree, document.getElementById(kxi.rootId))` "));
+    failedAssertImpl_11760480(makeNimstrLit("/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim(657, 12) `same(kxi.currentTree, document.getElementById(kxi.rootId))` "));
     }
     
     if (!((kxi_21880264.postRenderCallback == null))) {
@@ -7020,7 +7511,7 @@ function dodraw_21880262(kxi_21880264) {
 }
 function redraw_21905414(kxi_21905416) {
     function HEX3Aanonymous_21905601() {
-      var F={procname:"redraw.:anonymous",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+      var F={procname:"redraw.:anonymous",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
       framePtr = F;
         F.line = 683;
         dodraw_21880262(kxi_21905416);
@@ -7029,7 +7520,7 @@ function redraw_21905414(kxi_21905416) {
       
     }
 
-  var F={procname:"karax.redraw",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.redraw",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     if ((kxi_21905416.renderId == 0)) {
     F.line = 683;
@@ -7040,16 +7531,16 @@ function redraw_21905414(kxi_21905416) {
 
   
 }
-async function laddaScroll_22150001() {
-  var result_22150007 = null;
+async function laddaScroll_22230001() {
+  var result_22230007 = null;
 
-  var F={procname:"ladda.laddaScroll",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+  var F={procname:"ladda.laddaScroll",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 100;
-    var px_22150034 = (await loadData_22137203((makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P") || []).concat(cstrToNimstr(((artiklar_22137070[0]).length)+"") || [])));
+    var px_22230034 = (await loadData_22216203((makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P") || []).concat(cstrToNimstr(((artiklar_22216070[0]).length)+"") || [])));
     F.line = 101;
-    add_22150042(artiklar_22137070, 0, JSON.parse(px_22150034));
+    add_22230042(artiklar_22216070, 0, JSON.parse(px_22230034));
     F.line = 102;
     redraw_21905414(kxi_21352284[0]);
     if ((window.location.pathname == "/kumla")) {
@@ -7062,31 +7553,31 @@ async function laddaScroll_22150001() {
     }
     
     F.line = 104;
-    loadBlock_22137083[0] = false;
+    loadBlock_22216083[0] = false;
     F.line = 131;
-    result_22150007 = undefined;
+    result_22230007 = undefined;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22150007;
+  return result_22230007;
 
 }
-function HEX3Aanonymous_22150131(e_22150133) {
-  var F={procname:"ladda.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+function HEX3Aanonymous_22230131(e_22230133) {
+  var F={procname:"ladda.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
-    if (!(loadBlock_22137083[0])) {
+    if (!(loadBlock_22216083[0])) {
     F.line = 112;
-    var top_22150134 = document.body.getBoundingClientRect().top;
+    var top_22230134 = document.body.getBoundingClientRect().top;
     F.line = 113;
-    var height_22150135 = document.body.getBoundingClientRect().height;
-    if (((top_22150134 + height_22150135) <= 8.0000000000000000e+03)) {
+    var height_22230135 = document.body.getBoundingClientRect().height;
+    if (((top_22230134 + height_22230135) <= 8.0000000000000000e+03)) {
     F.line = 115;
-    laddaScroll_22150001();
+    laddaScroll_22230001();
     F.line = 116;
     rawEcho(makeNimstrLit("scrolload"));
     F.line = 117;
-    loadBlock_22137083[0] = true;
+    loadBlock_22216083[0] = true;
     }
     
     }
@@ -7095,138 +7586,138 @@ function HEX3Aanonymous_22150131(e_22150133) {
 
   
 }
-function HEX3Aanonymous_22150154(ev_22150156) {
-  var F={procname:"ladda.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+function HEX3Aanonymous_22230154(ev_22230156) {
+  var F={procname:"ladda.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
     F.line = 120;
-    ev_22150156.preventDefault();
+    ev_22230156.preventDefault();
     F.line = 121;
-    var href_22150157 = ev_22150156.target.getAttribute("href");
+    var href_22230157 = ev_22230156.target.getAttribute("href");
     F.line = 122;
-    window.history.replaceState([],'state',href_22150157);
+    window.history.replaceState([],'state',href_22230157);
   framePtr = F.prev;
 
   
 }
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
 framePtr = F;
 F.line = 108;
-window.addEventListener("scroll", HEX3Aanonymous_22150131, false);
+window.addEventListener("scroll", HEX3Aanonymous_22230131, false);
 F.line = 119;
-window.addEventListener("click", HEX3Aanonymous_22150154, false);
+window.addEventListener("click", HEX3Aanonymous_22230154, false);
 framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+var F={procname:"module ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+var F={procname:"module sidhuvud",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+var F={procname:"module artikelspalt",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+var F={procname:"module raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+var F={procname:"module raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+var F={procname:"module raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module states",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+var F={procname:"module states",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module states",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+var F={procname:"module states",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module states",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+var F={procname:"module states",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module states",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+var F={procname:"module states",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module states",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+var F={procname:"module states",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+var F={procname:"module raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-function initState_22177015(name_22177019) {
-  var result_22177055 = null;
+function initState_22257015(name_22257019) {
+  var result_22257055 = null;
 
-  var F={procname:"initState.initState",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+  var F={procname:"initState.initState",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
   framePtr = F;
     F.line = 27;
-    result_22177055 = {value: [], name: null};
+    result_22257055 = {value: [], name: null};
     F.line = 28;
-    result_22177055.name = name_22177019;
+    result_22257055.name = name_22257019;
   framePtr = F.prev;
 
-  return result_22177055;
+  return result_22257055;
 
 }
-var F={procname:"module raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+var F={procname:"module raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
 framePtr = F;
 F.line = 6;
-var state_22177092 = [initState_22177015("minstate")];
+var state_22257092 = [initState_22257015("minstate")];
 framePtr = F.prev;
-var F={procname:"module raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+var F={procname:"module raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+var F={procname:"module raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 7;
-var data_22181027 = [{titel: "Min titel", ingress: "Min ingress", m_type: NTI22136019, id: 0}];
+var data_22261027 = [{titel: "Min titel", ingress: "Min ingress", m_type: NTI22136036, id: 0, sida: ({data: [], counter: 0})}];
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
 function newSeq_21910012(len_21910015) {
   var result_21910017 = [];
 
-  var F={procname:"newSeq.newSeq",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  var F={procname:"newSeq.newSeq",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system.nim",line:0};
   framePtr = F;
     F.line = 656;
     result_21910017 = new Array(len_21910015); for (var i=0;i<len_21910015;++i) {result_21910017[i]=({k: 0, parent: null, current: null, newNode: null, oldNode: null});}  framePtr = F.prev;
@@ -7237,7 +7728,7 @@ function newSeq_21910012(len_21910015) {
 function newSeq_21910064(len_21910067) {
   var result_21910069 = [];
 
-  var F={procname:"newSeq.newSeq",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  var F={procname:"newSeq.newSeq",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system.nim",line:0};
   framePtr = F;
     F.line = 656;
     result_21910069 = new Array(len_21910067); for (var i=0;i<len_21910067;++i) {result_21910069[i]=({parent: null, newChild: null, pos: 0});}  framePtr = F.prev;
@@ -7247,7 +7738,7 @@ function newSeq_21910064(len_21910067) {
 }
 function init_21905646(ev_21905648) {
     function HEX3Aanonymous_21905649() {
-      var F={procname:"init.:anonymous",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+      var F={procname:"init.:anonymous",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
       framePtr = F;
         F.line = 690;
         dodraw_21880262(kxi_21352284[0]);
@@ -7256,7 +7747,7 @@ function init_21905646(ev_21905648) {
       
     }
 
-  var F={procname:"karax.init",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.init",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 690;
     kxi_21352284[0].renderId = window.requestAnimationFrame(HEX3Aanonymous_21905649);
@@ -7266,7 +7757,7 @@ function init_21905646(ev_21905648) {
 }
 function setRenderer_21905678(renderer_21905683, root_21905684, clientPostRenderCallback_21905688) {
     function HEX3Aanonymous_21910135() {
-      var F={procname:"setRenderer.:anonymous",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+      var F={procname:"setRenderer.:anonymous",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
       framePtr = F;
         F.line = 713;
         redraw_21905414(kxi_21352284[0]);
@@ -7277,7 +7768,7 @@ function setRenderer_21905678(renderer_21905683, root_21905684, clientPostRender
 
   var result_21905689 = null;
 
-  var F={procname:"karax.setRenderer",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.setRenderer",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     if ((document.getElementById(root_21905684) == null)) {
     F.line = 699;
@@ -7303,7 +7794,7 @@ function setRenderer_21910238(renderer_21910242, root_21910243, clientPostRender
     function wrapRenderer_21910248(data_21910250) {
       var result_21910251 = null;
 
-      var F={procname:"setRenderer.wrapRenderer",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+      var F={procname:"setRenderer.wrapRenderer",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
       framePtr = F;
         F.line = 718;
         result_21910251 = renderer_21910242();
@@ -7313,7 +7804,7 @@ function setRenderer_21910238(renderer_21910242, root_21910243, clientPostRender
 
     }
     function wrapPostRender_21910265(data_21910267) {
-      var F={procname:"setRenderer.wrapPostRender",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+      var F={procname:"setRenderer.wrapPostRender",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
       framePtr = F;
         if (!((clientPostRenderCallback_21910246 == null))) {
         F.line = 720;
@@ -7327,7 +7818,7 @@ function setRenderer_21910238(renderer_21910242, root_21910243, clientPostRender
 
   var result_21910247 = null;
 
-  var F={procname:"karax.setRenderer",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.setRenderer",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 717;
     result_21910247 = setRenderer_21905678(wrapRenderer_21910248, root_21910243, wrapPostRender_21910265);
@@ -7339,7 +7830,7 @@ function setRenderer_21910238(renderer_21910242, root_21910243, clientPostRender
 function newVNode_21015428(kind_21015430) {
   var result_21015431 = null;
 
-  var F={procname:"vdom.newVNode",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.newVNode",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 268;
     result_21015431 = {kind: kind_21015430, index: -1, m_type: NTI20920031, id: null, class: null, text: null, kids: [], attrs: [], events: [], style: null, dom: null};
@@ -7349,7 +7840,7 @@ function newVNode_21015428(kind_21015430) {
 
 }
 function add_21005072(parent_21005074, kid_21005075) {
-  var F={procname:"vdom.add",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.add",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 262;
     parent_21005074.kids.push(kid_21005075);;
@@ -7360,7 +7851,7 @@ function add_21005072(parent_21005074, kid_21005075) {
 function tree_21015445(kind_21015447, kids_21015449) {
   var result_21015450 = null;
 
-  var F={procname:"vdom.tree",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.tree",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 271;
     result_21015450 = newVNode_21015428(kind_21015447);
@@ -7369,17 +7860,17 @@ function tree_21015445(kind_21015447, kids_21015449) {
       var k_21015483 = null;
       var k_21015483_Idx = 0;
       F.line = 8;
-      var i_22185102 = 0;
+      var i_22265102 = 0;
       L2: do {
         F.line = 9;
           L3: while (true) {
-          if (!(i_22185102 < (kids_21015449).length)) break L3;
+          if (!(i_22265102 < (kids_21015449).length)) break L3;
             F.line = 272;
-            k_21015483 = kids_21015449; k_21015483_Idx = chckIndx(i_22185102, 0, (kids_21015449).length-1);
+            k_21015483 = kids_21015449; k_21015483_Idx = chckIndx(i_22265102, 0, (kids_21015449).length-1);
             F.line = 272;
             add_21005072(result_21015450, k_21015483[k_21015483_Idx]);
             F.line = 11;
-            i_22185102 = addInt(i_22185102, 1);
+            i_22265102 = addInt(i_22265102, 1);
           }
       } while(false);
     } while(false);
@@ -7391,7 +7882,7 @@ function tree_21015445(kind_21015447, kids_21015449) {
 function text_21015801(s_21015803) {
   var result_21015804 = null;
 
-  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 281;
     result_21015804 = {kind: 0, text: s_21015803, index: -1, m_type: NTI20920031, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
@@ -7400,8 +7891,23 @@ function text_21015801(s_21015803) {
   return result_21015804;
 
 }
+function pullUrl_22216330() {
+  var result_22216332 = [];
+
+  var F={procname:"ladda.pullUrl",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 75;
+    result_22216332 = nimCopy(null, window.location.pathname.split("/"), NTI12630102);
+    break BeforeRet;
+  } while (false);
+  framePtr = F.prev;
+
+  return result_22216332;
+
+}
 function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
-  var F={procname:"vdom.setAttr",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.setAttr",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     if (((n_20955107.attrs).length == 0)) {
@@ -7413,17 +7919,17 @@ function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
         F.line = 227;
         var i_20955138 = 0;
         F.line = 39;
-        var colontmp__22185120 = 0;
+        var colontmp__22265119 = 0;
         F.line = 227;
-        colontmp__22185120 = subInt((n_20955107.attrs).length, 2);
+        colontmp__22265119 = subInt((n_20955107.attrs).length, 2);
         F.line = 56;
-        var res_22185121 = 0;
+        var res_22265120 = 0;
         L2: do {
           F.line = 57;
             L3: while (true) {
-            if (!(res_22185121 <= colontmp__22185120)) break L3;
+            if (!(res_22265120 <= colontmp__22265119)) break L3;
               F.line = 227;
-              i_20955138 = res_22185121;
+              i_20955138 = res_22265120;
               if ((n_20955107.attrs[chckIndx(i_20955138, 0, (n_20955107.attrs).length-1)] == key_20955108)) {
               F.line = 229;
               n_20955107.attrs[chckIndx(addInt(i_20955138, 1), 0, (n_20955107.attrs).length-1)] = val_20955109;
@@ -7432,7 +7938,7 @@ function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
               }
               
               F.line = 59;
-              res_22185121 = addInt(res_22185121, 2);
+              res_22265120 = addInt(res_22265120, 2);
             }
         } while(false);
       } while(false);
@@ -7448,7 +7954,7 @@ function setAttr_20955105(n_20955107, key_20955108, val_20955109) {
   
 }
 function addEventListener_21020014(n_21020016, event_21020017, handler_21020018) {
-  var F={procname:"vdom.addEventListener",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.addEventListener",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 304;
     n_21020016.events.push({Field0: event_21020017, Field1: handler_21020018, Field2: null});;
@@ -7458,7 +7964,7 @@ function addEventListener_21020014(n_21020016, event_21020017, handler_21020018)
 }
 function addEventHandler_21915118(n_21915120, k_21915121, action_21915122, kxi_21915123) {
     function wrapper_21915124(ev_21915126, n_21915127) {
-      var F={procname:"addEventHandler.wrapper",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+      var F={procname:"addEventHandler.wrapper",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
       framePtr = F;
         F.line = 746;
         action_21915122(ev_21915126, n_21915127);
@@ -7472,7 +7978,7 @@ function addEventHandler_21915118(n_21915120, k_21915121, action_21915122, kxi_2
       
     }
 
-  var F={procname:"karax.addEventHandler",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
+  var F={procname:"karax.addEventHandler",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/karax.nim",line:0};
   framePtr = F;
     F.line = 748;
     addEventListener_21020014(n_21915120, k_21915121, wrapper_21915124);
@@ -7483,7 +7989,7 @@ function addEventHandler_21915118(n_21915120, k_21915121, action_21915122, kxi_2
 function text_21015582(s_21015584) {
   var result_21015585 = null;
 
-  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.text",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 280;
     result_21015585 = {kind: 0, text: toJSStr(s_21015584), index: -1, m_type: NTI20920031, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
@@ -7492,141 +7998,171 @@ function text_21015582(s_21015584) {
   return result_21015585;
 
 }
-function sidhuvud_22151054(stat_22151056) {
-    function HEX3Aanonymous_22155022(ev_22155024, nd_22155025) {
-      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+function sidhuvud_22231054() {
+    var Tmp1;
+    function HEX3Aanonymous_22235022(ev_22235024, nd_22235025) {
+      var F={procname:"sidhuvud.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
       framePtr = F;
-        F.line = 15;
-        stat_22151056.titel = (stat_22151056.titel + toJSStr(nimBoolToStr(isObj(stat_22151056.m_type, NTI22136024))));
+        F.line = 17;
+        model_22215708.titel = (model_22215708.titel + "true");
       framePtr = F.prev;
 
       
     }
 
-  var result_22151057 = null;
+  var result_22231056 = null;
 
-  var F={procname:"sidhuvud.sidhuvud",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
+  var F={procname:"sidhuvud.sidhuvud",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/sidhuvud/sidhuvud.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 8;
-    F.line = 8;
-    var tmp_22151090 = tree_21015445(27, []);
-    F.line = 8;
-    tmp_22151090.class = "container";
-    F.line = 8;
-    tmp_22151090.id = "sidhuvud";
-    F.line = 9;
-    var tmp_22151096 = tree_21015445(43, []);
-    F.line = 9;
-    tmp_22151096.class = "l-20 m-25 s-25";
+    var ort_22231057 = cstrToNimstr((Tmp1 = pullUrl_22216330(), Tmp1)[chckIndx(1, 0, (Tmp1).length-1)]);
     F.line = 10;
-    var tmp_22151097 = tree_21015445(75, []);
     F.line = 10;
-    setAttr_20955105(tmp_22151097, "src", "./grafik/logo.png");
+    var tmp_22231090 = tree_21015445(27, []);
     F.line = 10;
-    setAttr_20955105(tmp_22151097, "alt", "Logotyp");
+    tmp_22231090.class = "container";
     F.line = 10;
-    tmp_22151097.class = "logo";
-    F.line = 10;
-    add_21005072(tmp_22151096, tmp_22151097);
-    F.line = 10;
-    add_21005072(tmp_22151090, tmp_22151096);
+    tmp_22231090.id = "sidhuvud";
     F.line = 11;
-    var tmp_22151098 = tree_21015445(43, []);
+    var tmp_22231096 = tree_21015445(43, []);
     F.line = 11;
-    tmp_22151098.class = "l-80 m-75 s-75";
+    tmp_22231096.class = "l-20 m-25 s-25";
     F.line = 12;
-    var tmp_22151099 = tree_21015445(31, []);
+    var tmp_22231097 = tree_21015445(75, []);
+    F.line = 12;
+    setAttr_20955105(tmp_22231097, "src", "./grafik/logo.png");
+    F.line = 12;
+    setAttr_20955105(tmp_22231097, "alt", "Logotyp");
+    F.line = 12;
+    tmp_22231097.class = "logo";
+    F.line = 12;
+    add_21005072(tmp_22231096, tmp_22231097);
+    F.line = 12;
+    add_21005072(tmp_22231090, tmp_22231096);
     F.line = 13;
-    add_21005072(tmp_22151099, text_21015801(stat_22151056.titel));
+    var tmp_22231098 = tree_21015445(43, []);
+    F.line = 13;
+    tmp_22231098.class = "l-80 m-75 s-75";
     F.line = 14;
-    addEventHandler_21915118(tmp_22151099, 0, HEX3Aanonymous_22155022, kxi_21352284[0]);
-    F.line = 14;
-    add_21005072(tmp_22151098, tmp_22151099);
-    F.line = 14;
-    add_21005072(tmp_22151090, tmp_22151098);
+    var tmp_22231099 = tree_21015445(31, []);
+    F.line = 15;
+    add_21005072(tmp_22231099, text_21015801(model_22215708.titel));
+    F.line = 16;
+    addEventHandler_21915118(tmp_22231099, 0, HEX3Aanonymous_22235022, kxi_21352284[0]);
+    F.line = 16;
+    add_21005072(tmp_22231098, tmp_22231099);
+    F.line = 16;
+    add_21005072(tmp_22231090, tmp_22231098);
     F.line = 19;
-    var knappklass_22155047 = makeNimstrLit("ortmenyknapp");
-    F.line = 20;
-    var active_22155048 = makeNimstrLit(" active");
-    F.line = 22;
-    var tmp_22151100 = tree_21015445(43, []);
-    F.line = 22;
-    tmp_22151100.class = "l-100 m-100 s-100 menyrad clear";
+    var knappklass_22235047 = makeNimstrLit("ortmenyknapp");
+    F.line = 21;
+    var sydnarke_22235048 = [];
+    F.line = 21;
+    var kumla_22235049 = [];
+    F.line = 21;
+    var hallsberg_22235050 = [];
+    F.line = 21;
+    var askersund_22235051 = [];
+    F.line = 21;
+    var laxa_22235052 = [];
+    F.line = 21;
+    var lekeberg_22235053 = [];
     F.line = 23;
-    var tmp_22151101 = tree_21015445(44, []);
-    F.line = 23;
-    setAttr_20955105(tmp_22151101, "href", "/sydnarke");
-    F.line = 23;
-    tmp_22151101.class = toJSStr((knappklass_22155047 || []).concat(active_22155048 || []));
-    F.line = 23;
-    add_21005072(tmp_22151101, text_21015582(makeNimstrLit("Sydn\xC3\xA4rke")));
-    F.line = 23;
-    add_21005072(tmp_22151100, tmp_22151101);
-    F.line = 24;
-    var tmp_22151102 = tree_21015445(44, []);
-    F.line = 24;
-    setAttr_20955105(tmp_22151102, "href", "/kumla");
-    F.line = 24;
-    tmp_22151102.class = toJSStr(knappklass_22155047);
-    F.line = 24;
-    add_21005072(tmp_22151102, text_21015582(makeNimstrLit("Kumla")));
-    F.line = 24;
-    add_21005072(tmp_22151100, tmp_22151102);
-    F.line = 25;
-    var tmp_22151103 = tree_21015445(44, []);
-    F.line = 25;
-    setAttr_20955105(tmp_22151103, "href", "/hallsberg");
-    F.line = 25;
-    tmp_22151103.class = toJSStr(knappklass_22155047);
-    F.line = 25;
-    add_21005072(tmp_22151103, text_21015582(makeNimstrLit("Hallsberg")));
-    F.line = 25;
-    add_21005072(tmp_22151100, tmp_22151103);
-    F.line = 26;
-    var tmp_22151104 = tree_21015445(44, []);
-    F.line = 26;
-    setAttr_20955105(tmp_22151104, "href", "/askersund");
-    F.line = 26;
-    tmp_22151104.class = toJSStr(knappklass_22155047);
-    F.line = 26;
-    add_21005072(tmp_22151104, text_21015582(makeNimstrLit("Askersund")));
-    F.line = 26;
-    add_21005072(tmp_22151100, tmp_22151104);
-    F.line = 27;
-    var tmp_22151105 = tree_21015445(44, []);
-    F.line = 27;
-    setAttr_20955105(tmp_22151105, "href", "/laxa");
-    F.line = 27;
-    tmp_22151105.class = toJSStr(knappklass_22155047);
-    F.line = 27;
-    add_21005072(tmp_22151105, text_21015582(makeNimstrLit("Lax\xC3\xA5")));
-    F.line = 27;
-    add_21005072(tmp_22151100, tmp_22151105);
-    F.line = 28;
-    var tmp_22151106 = tree_21015445(44, []);
-    F.line = 28;
-    setAttr_20955105(tmp_22151106, "href", "/lekeberg/test");
-    F.line = 28;
-    tmp_22151106.class = toJSStr(knappklass_22155047);
-    F.line = 28;
-    add_21005072(tmp_22151106, text_21015582(makeNimstrLit("Test")));
-    F.line = 28;
-    add_21005072(tmp_22151100, tmp_22151106);
-    F.line = 28;
-    add_21005072(tmp_22151090, tmp_22151100);
-    result_22151057 = tmp_22151090;
+    switch (toJSStr(ort_22231057)) {
+    case "sydnarke":
+      F.line = 25;
+      sydnarke_22235048 = nimCopy(null, makeNimstrLit(" active"), NTI11641013);
+      break;
+    case "kumla":
+      F.line = 27;
+      kumla_22235049 = nimCopy(null, makeNimstrLit(" active"), NTI11641013);
+      break;
+    case "hallsberg":
+      F.line = 29;
+      hallsberg_22235050 = nimCopy(null, makeNimstrLit(" active"), NTI11641013);
+      break;
+    default: 
+      break;
+    }
+    F.line = 33;
+    var tmp_22231100 = tree_21015445(43, []);
+    F.line = 33;
+    tmp_22231100.class = "l-100 m-100 s-100 menyrad clear";
+    F.line = 34;
+    var tmp_22231101 = tree_21015445(44, []);
+    F.line = 34;
+    setAttr_20955105(tmp_22231101, "href", "/sydnarke");
+    F.line = 34;
+    tmp_22231101.class = toJSStr((knappklass_22235047 || []).concat(sydnarke_22235048 || []));
+    F.line = 34;
+    add_21005072(tmp_22231101, text_21015582(makeNimstrLit("Sydn\xC3\xA4rke")));
+    F.line = 34;
+    add_21005072(tmp_22231100, tmp_22231101);
+    F.line = 35;
+    var tmp_22231102 = tree_21015445(44, []);
+    F.line = 35;
+    setAttr_20955105(tmp_22231102, "href", "/kumla");
+    F.line = 35;
+    tmp_22231102.class = toJSStr((knappklass_22235047 || []).concat(kumla_22235049 || []));
+    F.line = 35;
+    add_21005072(tmp_22231102, text_21015582(makeNimstrLit("Kumla")));
+    F.line = 35;
+    add_21005072(tmp_22231100, tmp_22231102);
+    F.line = 36;
+    var tmp_22231103 = tree_21015445(44, []);
+    F.line = 36;
+    setAttr_20955105(tmp_22231103, "href", "/hallsberg");
+    F.line = 36;
+    tmp_22231103.class = toJSStr((knappklass_22235047 || []).concat(hallsberg_22235050 || []));
+    F.line = 36;
+    add_21005072(tmp_22231103, text_21015582(makeNimstrLit("Hallsberg")));
+    F.line = 36;
+    add_21005072(tmp_22231100, tmp_22231103);
+    F.line = 37;
+    var tmp_22231104 = tree_21015445(44, []);
+    F.line = 37;
+    setAttr_20955105(tmp_22231104, "href", "/askersund");
+    F.line = 37;
+    tmp_22231104.class = toJSStr(knappklass_22235047);
+    F.line = 37;
+    add_21005072(tmp_22231104, text_21015582(makeNimstrLit("Askersund")));
+    F.line = 37;
+    add_21005072(tmp_22231100, tmp_22231104);
+    F.line = 38;
+    var tmp_22231105 = tree_21015445(44, []);
+    F.line = 38;
+    setAttr_20955105(tmp_22231105, "href", "/laxa");
+    F.line = 38;
+    tmp_22231105.class = toJSStr(knappklass_22235047);
+    F.line = 38;
+    add_21005072(tmp_22231105, text_21015582(makeNimstrLit("Lax\xC3\xA5")));
+    F.line = 38;
+    add_21005072(tmp_22231100, tmp_22231105);
+    F.line = 39;
+    var tmp_22231106 = tree_21015445(44, []);
+    F.line = 39;
+    setAttr_20955105(tmp_22231106, "href", "/lekeberg/test");
+    F.line = 39;
+    tmp_22231106.class = toJSStr(knappklass_22235047);
+    F.line = 39;
+    add_21005072(tmp_22231106, text_21015582(makeNimstrLit("Test")));
+    F.line = 39;
+    add_21005072(tmp_22231100, tmp_22231106);
+    F.line = 39;
+    add_21005072(tmp_22231090, tmp_22231100);
+    result_22231056 = tmp_22231090;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22151057;
+  return result_22231056;
 
 }
 function verbatim_21016001(s_21016003) {
   var result_21016004 = null;
 
-  var F={procname:"vdom.verbatim",prev:framePtr,filename:"/Users/erlo/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
+  var F={procname:"vdom.verbatim",prev:framePtr,filename:"/Users/erik/.nimble/pkgs/karax-1.1.3/karax/vdom.nim",line:0};
   framePtr = F;
     F.line = 287;
     result_21016004 = {kind: 6, text: s_21016003, index: -1, m_type: NTI20920031, id: null, class: null, kids: [], attrs: [], events: [], style: null, dom: null};
@@ -7638,7 +8174,7 @@ function verbatim_21016001(s_21016003) {
 function substrEq_20010026(s_20010028, pos_20010029, substr_20010030) {
   var result_20010031 = false;
 
-  var F={procname:"strutils.substrEq",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+  var F={procname:"strutils.substrEq",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 387;
@@ -7665,7 +8201,7 @@ function substrEq_20010026(s_20010028, pos_20010029, substr_20010030) {
 function substr_12026022(s_12026024, first_12026025, last_12026026) {
   var result_12026027 = [];
 
-  var F={procname:"system.substr",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system.nim",line:0};
+  var F={procname:"system.substr",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/system.nim",line:0};
   framePtr = F;
     F.line = 3002;
     var first_12026028 = nimMax(first_12026025, 0);
@@ -7703,11 +8239,11 @@ function substr_12026022(s_12026024, first_12026025, last_12026026) {
 function nsuSplitString(s_20185040, sep_20185041, maxsplit_20185042) {
   var result_20185044 = [];
 
-  var F={procname:"strutils.split",prev:framePtr,filename:"/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim",line:0};
+  var F={procname:"strutils.split",prev:framePtr,filename:"/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim",line:0};
   framePtr = F;
     if (!((0 < (sep_20185041).length))) {
     F.line = 778;
-    failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/pure/strutils.nim(778, 11) `sep.len > 0` "));
+    failedAssertImpl_11760480(makeNimstrLit("/usr/local/Cellar/nim/1.4.0/nim/lib/pure/strutils.nim(778, 11) `sep.len > 0` "));
     }
     
     F.line = 432;
@@ -7716,42 +8252,42 @@ function nsuSplitString(s_20185040, sep_20185041, maxsplit_20185042) {
       F.line = 433;
       var xHEX60gensym64_20205016 = [];
       F.line = 404;
-      var lastHEX60gensym33_22185150 = 0;
+      var lastHEX60gensym33_22265148 = 0;
       F.line = 405;
-      var splitsHEX60gensym33_22185151 = maxsplit_20185042;
+      var splitsHEX60gensym33_22265149 = maxsplit_20185042;
       L2: do {
         F.line = 538;
           L3: while (true) {
-          if (!(lastHEX60gensym33_22185150 <= (s_20185040).length)) break L3;
+          if (!(lastHEX60gensym33_22265148 <= (s_20185040).length)) break L3;
             F.line = 408;
-            var firstHEX60gensym33_22185153 = lastHEX60gensym33_22185150;
+            var firstHEX60gensym33_22265151 = lastHEX60gensym33_22265148;
             L4: do {
               F.line = 409;
                 L5: while (true) {
-                if (!((lastHEX60gensym33_22185150 < (s_20185040).length) && !(substrEq_20010026(s_20185040, lastHEX60gensym33_22185150, sep_20185041)))) break L5;
+                if (!((lastHEX60gensym33_22265148 < (s_20185040).length) && !(substrEq_20010026(s_20185040, lastHEX60gensym33_22265148, sep_20185041)))) break L5;
                   F.line = 410;
-                  lastHEX60gensym33_22185150 = addInt(lastHEX60gensym33_22185150, 1);
+                  lastHEX60gensym33_22265148 = addInt(lastHEX60gensym33_22265148, 1);
                 }
             } while(false);
-            if ((splitsHEX60gensym33_22185151 == 0)) {
+            if ((splitsHEX60gensym33_22265149 == 0)) {
             F.line = 411;
-            lastHEX60gensym33_22185150 = (s_20185040).length;
+            lastHEX60gensym33_22265148 = (s_20185040).length;
             }
             
             F.line = 780;
-            xHEX60gensym64_20205016 = substr_12026022(s_20185040, firstHEX60gensym33_22185153, subInt(lastHEX60gensym33_22185150, 1));
+            xHEX60gensym64_20205016 = substr_12026022(s_20185040, firstHEX60gensym33_22265151, subInt(lastHEX60gensym33_22265148, 1));
             F.line = 433;
             var Tmp6 = nimCopy(null, xHEX60gensym64_20205016, NTI11641013);
             result_20185044.push(Tmp6);;
-            if ((splitsHEX60gensym33_22185151 == 0)) {
+            if ((splitsHEX60gensym33_22265149 == 0)) {
             F.line = 413;
             break L2;
             }
             
             F.line = 414;
-            splitsHEX60gensym33_22185151 = subInt(splitsHEX60gensym33_22185151, 1);
+            splitsHEX60gensym33_22265149 = subInt(splitsHEX60gensym33_22265149, 1);
             F.line = 415;
-            lastHEX60gensym33_22185150 = addInt(lastHEX60gensym33_22185150, (sep_20185041).length);
+            lastHEX60gensym33_22265148 = addInt(lastHEX60gensym33_22265148, (sep_20185041).length);
           }
       } while(false);
     } while(false);
@@ -7760,31 +8296,31 @@ function nsuSplitString(s_20185040, sep_20185041, maxsplit_20185042) {
   return result_20185044;
 
 }
-function ingress_22156041(ing_22156043) {
-  var result_22156044 = null;
+function ingress_22236041(ing_22236043) {
+  var result_22236044 = null;
 
-  var F={procname:"artikelspalt.ingress",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+  var F={procname:"artikelspalt.ingress",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
   framePtr = F;
     F.line = 7;
-    var wrds_22156045 = nsuSplitString(cstrToNimstr(ing_22156043), makeNimstrLit(" "), -1);
+    var wrds_22236045 = nsuSplitString(cstrToNimstr(ing_22236043), makeNimstrLit(" "), -1);
     F.line = 8;
-    var nwrd_22156046 = [];
+    var nwrd_22236046 = [];
     L1: do {
       F.line = 9;
-      var i_22156056 = 0;
+      var i_22236056 = 0;
       F.line = 77;
-      var res_22185141 = 0;
+      var res_22265139 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_22185141 <= 17)) break L3;
+          if (!(res_22265139 <= 17)) break L3;
             F.line = 9;
-            i_22156056 = res_22185141;
+            i_22236056 = res_22265139;
             F.line = 10;
 ++excHandler;
             try {
             F.line = 10;
-            nwrd_22156046.push.apply(nwrd_22156046, (wrds_22156045[chckIndx(i_22156056, 0, (wrds_22156045).length-1)] || []).concat(makeNimstrLit(" ") || []));;
+            nwrd_22236046.push.apply(nwrd_22236046, (wrds_22236045[chckIndx(i_22236056, 0, (wrds_22236045).length-1)] || []).concat(makeNimstrLit(" ") || []));;
 --excHandler;
 } catch (EXC) {
  var prevJSError = lastJSError;
@@ -7798,126 +8334,128 @@ function ingress_22156041(ing_22156043) {
             framePtr = F;
             }
             F.line = 80;
-            res_22185141 = addInt(res_22185141, 1);
+            res_22265139 = addInt(res_22265139, 1);
           }
       } while(false);
     } while(false);
     F.line = 12;
-    var outtext_22156057 = nimCopy(null, nwrd_22156046, NTI11641013);
+    var outtext_22236057 = nimCopy(null, nwrd_22236046, NTI11641013);
     F.line = 13;
     F.line = 13;
-    var tmp_22156058 = tree_21015445(31, []);
+    var tmp_22236058 = tree_21015445(31, []);
     F.line = 14;
-    add_21005072(tmp_22156058, text_21015582((outtext_22156057 || []).concat(makeNimstrLit("...") || [])));
-    result_22156044 = tmp_22156058;
+    add_21005072(tmp_22236058, text_21015582((outtext_22236057 || []).concat(makeNimstrLit("...") || [])));
+    result_22236044 = tmp_22236058;
   framePtr = F.prev;
 
-  return result_22156044;
+  return result_22236044;
 
 }
-function artikelspalt_22160018() {
-  var result_22160020 = null;
+function artikelspalt_22240018(d_22240020) {
+  var result_22240021 = null;
 
-  var F={procname:"artikelspalt.artikelspalt",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
+  var F={procname:"artikelspalt.artikelspalt",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/artikelspalt/artikelspalt.nim",line:0};
   framePtr = F;
     F.line = 17;
-    F.line = 17;
-    var tmp_22160021 = tree_21015445(43, []);
-    F.line = 17;
-    tmp_22160021.class = "l-50 m-66 s-100 container";
+    rawEcho(d_22240020);
     F.line = 18;
-    var artcnt_22165005 = 0;
+    F.line = 18;
+    var tmp_22240026 = tree_21015445(43, []);
+    F.line = 18;
+    tmp_22240026.class = "l-50 m-66 s-100 container";
+    F.line = 19;
+    var artcnt_22245005 = 0;
     L1: do {
-      F.line = 19;
-      var artikel_22175214 = null;
-      var artikel_22175214_Idx = 0;
+      F.line = 20;
+      var artikel_22255214 = null;
+      var artikel_22255214_Idx = 0;
       F.line = 199;
-      var i_22185136 = 0;
+      var i_22265134 = 0;
       F.line = 200;
-      var L_22185137 = (artiklar_22137070[0]).length;
+      var L_22265135 = (artiklar_22216070[0]).length;
       L2: do {
         F.line = 201;
           L3: while (true) {
-          if (!(i_22185136 < L_22185137)) break L3;
-            F.line = 19;
-            artikel_22175214 = artiklar_22137070[0]; artikel_22175214_Idx = chckIndx(i_22185136, 0, (artiklar_22137070[0]).length-1);
-            if ((artikel_22175214[artikel_22175214_Idx].status == "Undernyhet")) {
-            F.line = 21;
-            artcnt_22165005 = addInt(artcnt_22165005, 1);
-            if (!((artikel_22175214[artikel_22175214_Idx].ettabild == null))) {
-            F.line = 23;
-            var tmp_22160022 = tree_21015445(75, []);
-            F.line = 23;
-            setAttr_20955105(tmp_22160022, "src", artikel_22175214[artikel_22175214_Idx].ettabild);
-            F.line = 23;
-            add_21005072(tmp_22160021, tmp_22160022);
+          if (!(i_22265134 < L_22265135)) break L3;
+            F.line = 20;
+            artikel_22255214 = artiklar_22216070[0]; artikel_22255214_Idx = chckIndx(i_22265134, 0, (artiklar_22216070[0]).length-1);
+            if ((artikel_22255214[artikel_22255214_Idx].status == "Undernyhet")) {
+            F.line = 22;
+            artcnt_22245005 = addInt(artcnt_22245005, 1);
+            if (!((artikel_22255214[artikel_22255214_Idx].ettabild == null))) {
+            F.line = 24;
+            var tmp_22240027 = tree_21015445(75, []);
+            F.line = 24;
+            setAttr_20955105(tmp_22240027, "src", artikel_22255214[artikel_22255214_Idx].ettabild);
+            F.line = 24;
+            add_21005072(tmp_22240026, tmp_22240027);
             }
             
-            F.line = 24;
-            var tmp_22160023 = tree_21015445(22, []);
             F.line = 25;
-            add_21005072(tmp_22160023, verbatim_21016001(artikel_22175214[artikel_22175214_Idx].rubrik));
-            F.line = 25;
-            add_21005072(tmp_22160021, tmp_22160023);
-            if ((artikel_22175214[artikel_22175214_Idx].rubrik == null)) {
-            F.line = 27;
-            var tmp_22160024 = tree_21015445(22, []);
-            if ((artikel_22175214[artikel_22175214_Idx].title == null)) {
+            var tmp_22240028 = tree_21015445(22, []);
+            F.line = 26;
+            add_21005072(tmp_22240028, verbatim_21016001(artikel_22255214[artikel_22255214_Idx].rubrik));
+            F.line = 26;
+            add_21005072(tmp_22240026, tmp_22240028);
+            if ((artikel_22255214[artikel_22255214_Idx].rubrik == null)) {
             F.line = 28;
-            add_21005072(tmp_22160024, text_21015582(makeNimstrLit("Laddar...")));
+            var tmp_22240029 = tree_21015445(22, []);
+            if ((artikel_22255214[artikel_22255214_Idx].title == null)) {
+            F.line = 29;
+            add_21005072(tmp_22240029, text_21015582(makeNimstrLit("Laddar...")));
             }
             else {
-              F.line = 28;
-            add_21005072(tmp_22160024, verbatim_21016001(artikel_22175214[artikel_22175214_Idx].title));
+              F.line = 29;
+            add_21005072(tmp_22240029, verbatim_21016001(artikel_22255214[artikel_22255214_Idx].title));
             }
             
-            F.line = 28;
-            add_21005072(tmp_22160021, tmp_22160024);
+            F.line = 29;
+            add_21005072(tmp_22240026, tmp_22240029);
             }
             
-            if (!((artikel_22175214[artikel_22175214_Idx].ingress == null))) {
-            F.line = 30;
-            add_21005072(tmp_22160021, ingress_22156041(artikel_22175214[artikel_22175214_Idx].ingress));
+            if (!((artikel_22255214[artikel_22255214_Idx].ingress == null))) {
+            F.line = 31;
+            add_21005072(tmp_22240026, ingress_22236041(artikel_22255214[artikel_22255214_Idx].ingress));
             }
             
-            F.line = 32;
-            var tmp_22160025 = tree_21015445(31, []);
-            F.line = 32;
-            add_21005072(tmp_22160025, text_21015582(cstrToNimstr((artcnt_22165005)+"")));
-            F.line = 32;
-            add_21005072(tmp_22160021, tmp_22160025);
             F.line = 33;
-            var tmp_22160026 = tree_21015445(31, []);
+            var tmp_22240030 = tree_21015445(31, []);
             F.line = 33;
-            add_21005072(tmp_22160026, text_21015801(artikel_22175214[artikel_22175214_Idx].channel));
+            add_21005072(tmp_22240030, text_21015582(cstrToNimstr((artcnt_22245005)+"")));
             F.line = 33;
-            add_21005072(tmp_22160021, tmp_22160026);
+            add_21005072(tmp_22240026, tmp_22240030);
+            F.line = 34;
+            var tmp_22240031 = tree_21015445(31, []);
+            F.line = 34;
+            add_21005072(tmp_22240031, text_21015801(artikel_22255214[artikel_22255214_Idx].channel));
+            F.line = 34;
+            add_21005072(tmp_22240026, tmp_22240031);
             }
             
             F.line = 203;
-            i_22185136 = addInt(i_22185136, 1);
-            if (!(((artiklar_22137070[0]).length == L_22185137))) {
+            i_22265134 = addInt(i_22265134, 1);
+            if (!(((artiklar_22216070[0]).length == L_22265135))) {
             F.line = 204;
-            failedAssertImpl_11760480(makeNimstrLit("/Users/erlo/.choosenim/toolchains/nim-1.4.0/lib/system/iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            failedAssertImpl_11760480(makeNimstrLit("/usr/local/Cellar/nim/1.4.0/nim/lib/system/iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while(false);
     } while(false);
-    result_22160020 = tmp_22160021;
+    result_22240021 = tmp_22240026;
   framePtr = F.prev;
 
-  return result_22160020;
+  return result_22240021;
 
 }
-function HEX5BHEX5DHEX3D_22180045(st_22180049, idx_22180050, val_22180051) {
-  var F={procname:"[]=.[]=",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+function HEX5BHEX5DHEX3D_22260045(st_22260049, idx_22260050, val_22260051) {
+  var F={procname:"[]=.[]=",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
   framePtr = F;
     F.line = 8;
 ++excHandler;
     try {
     F.line = 8;
-    st_22180049.value[chckIndx(idx_22180050, 0, (st_22180049.value).length-1)] = val_22180051;
+    st_22260049.value[chckIndx(idx_22260050, 0, (st_22260049.value).length-1)] = val_22260051;
 --excHandler;
 } catch (EXC) {
  var prevJSError = lastJSError;
@@ -7926,30 +8464,30 @@ function HEX5BHEX5DHEX3D_22180045(st_22180049, idx_22180050, val_22180051) {
     framePtr = F;
     L2: do {
       F.line = 10;
-      var i_22180064 = 0;
+      var i_22260064 = 0;
       F.line = 66;
-      var colontmp__22185162 = 0;
+      var colontmp__22265160 = 0;
       F.line = 10;
-      colontmp__22185162 = (st_22180049.value).length;
+      colontmp__22265160 = (st_22260049.value).length;
       F.line = 77;
-      var res_22185163 = colontmp__22185162;
+      var res_22265161 = colontmp__22265160;
       L3: do {
         F.line = 78;
           L4: while (true) {
-          if (!(res_22185163 <= idx_22180050)) break L4;
+          if (!(res_22265161 <= idx_22260050)) break L4;
             F.line = 10;
-            i_22180064 = res_22185163;
-            if ((i_22180064 == idx_22180050)) {
+            i_22260064 = res_22265161;
+            if ((i_22260064 == idx_22260050)) {
             F.line = 12;
-            st_22180049.value.push(val_22180051);;
+            st_22260049.value.push(val_22260051);;
             }
             else {
               F.line = 15;
-              st_22180049.value.push(0);;
+              st_22260049.value.push(0);;
             }
             
             F.line = 80;
-            res_22185163 = addInt(res_22185163, 1);
+            res_22265161 = addInt(res_22265161, 1);
           }
       } while(false);
     } while(false);
@@ -7961,38 +8499,38 @@ function HEX5BHEX5DHEX3D_22180045(st_22180049, idx_22180050, val_22180051) {
 
   
 }
-function raknare_22177108(idx_22177110) {
-    function HEX3Aanonymous_22180032(ev_22180034, nd_22180035) {
-      var F={procname:"raknare.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+function raknare_22257108(idx_22257110) {
+    function HEX3Aanonymous_22260032(ev_22260034, nd_22260035) {
+      var F={procname:"raknare.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
       framePtr = F;
         F.line = 13;
-        HEX5BHEX5DHEX3D_22180045(state_22177092[0], idx_22177110, parseInt(value_20920123(nd_22180035), 10));
+        HEX5BHEX5DHEX3D_22260045(state_22257092[0], idx_22257110, parseInt(value_20920123(nd_22260035), 10));
         F.line = 14;
-        console.log(state_22177092[0]);
+        console.log(state_22257092[0]);
       framePtr = F.prev;
 
       
     }
-    function HEX3Aanonymous_22180632(ev_22180634, nd_22180635) {
-      var F={procname:"raknare.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+    function HEX3Aanonymous_22260632(ev_22260634, nd_22260635) {
+      var F={procname:"raknare.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
       framePtr = F;
         F.line = 18;
-        HEX5BHEX5DHEX3D_22180045(state_22177092[0], idx_22177110, addInt(HEX5BHEX5D_22177052(state_22177092[0], idx_22177110), 1));
+        HEX5BHEX5DHEX3D_22260045(state_22257092[0], idx_22257110, addInt(HEX5BHEX5D_22257052(state_22257092[0], idx_22257110), 1));
         F.line = 19;
-        console.log(state_22177092[0]);
+        console.log(state_22257092[0]);
         F.line = 20;
         redraw_21905414(kxi_21352284[0]);
       framePtr = F.prev;
 
       
     }
-    function HEX3Aanonymous_22180676(ev_22180678, nd_22180679) {
-      var F={procname:"raknare.:anonymous",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+    function HEX3Aanonymous_22260676(ev_22260678, nd_22260679) {
+      var F={procname:"raknare.:anonymous",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
       framePtr = F;
         F.line = 24;
-        HEX5BHEX5DHEX3D_22180045(state_22177092[0], idx_22177110, subInt(HEX5BHEX5D_22177052(state_22177092[0], idx_22177110), 1));
+        HEX5BHEX5DHEX3D_22260045(state_22257092[0], idx_22257110, subInt(HEX5BHEX5D_22257052(state_22257092[0], idx_22257110), 1));
         F.line = 25;
-        console.log(state_22177092[0]);
+        console.log(state_22257092[0]);
         F.line = 26;
         redraw_21905414(kxi_21352284[0]);
       framePtr = F.prev;
@@ -8000,131 +8538,131 @@ function raknare_22177108(idx_22177110) {
       
     }
 
-  var result_22177111 = null;
+  var result_22257111 = null;
 
-  var F={procname:"raknare.raknare",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/komponenter/raknare/raknare.nim",line:0};
+  var F={procname:"raknare.raknare",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/komponenter/raknare/raknare.nim",line:0};
   framePtr = F;
     F.line = 9;
     F.line = 9;
-    var tmp_22177112 = tree_21015445(43, []);
+    var tmp_22257112 = tree_21015445(43, []);
     F.line = 9;
-    tmp_22177112.id = toJSStr((makeNimstrLit("id_") || []).concat(cstrToNimstr((idx_22177110)+"") || []));
+    tmp_22257112.id = toJSStr((makeNimstrLit("id_") || []).concat(cstrToNimstr((idx_22257110)+"") || []));
     F.line = 10;
-    var tmp_22177113 = tree_21015445(31, []);
+    var tmp_22257113 = tree_21015445(31, []);
     F.line = 10;
-    add_21005072(tmp_22177113, text_21015582(cstrToNimstr((HEX5BHEX5D_22177052(state_22177092[0], idx_22177110))+"")));
+    add_21005072(tmp_22257113, text_21015582(cstrToNimstr((HEX5BHEX5D_22257052(state_22257092[0], idx_22257110))+"")));
     F.line = 10;
-    add_21005072(tmp_22177112, tmp_22177113);
+    add_21005072(tmp_22257112, tmp_22257113);
     F.line = 11;
-    var tmp_22177114 = tree_21015445(111, []);
+    var tmp_22257114 = tree_21015445(111, []);
     F.line = 11;
-    valueHEX3D_20920140(tmp_22177114, toJSStr(cstrToNimstr((HEX5BHEX5D_22177052(state_22177092[0], idx_22177110))+"")));
+    valueHEX3D_20920140(tmp_22257114, toJSStr(cstrToNimstr((HEX5BHEX5D_22257052(state_22257092[0], idx_22257110))+"")));
     F.line = 11;
-    setAttr_20955105(tmp_22177114, "value", toJSStr(cstrToNimstr((HEX5BHEX5D_22177052(state_22177092[0], idx_22177110))+"")));
+    setAttr_20955105(tmp_22257114, "value", toJSStr(cstrToNimstr((HEX5BHEX5D_22257052(state_22257092[0], idx_22257110))+"")));
     F.line = 12;
-    addEventHandler_21915118(tmp_22177114, 3, HEX3Aanonymous_22180032, kxi_21352284[0]);
+    addEventHandler_21915118(tmp_22257114, 3, HEX3Aanonymous_22260032, kxi_21352284[0]);
     F.line = 12;
-    add_21005072(tmp_22177112, tmp_22177114);
+    add_21005072(tmp_22257112, tmp_22257114);
     F.line = 15;
-    var tmp_22177115 = tree_21015445(106, []);
+    var tmp_22257115 = tree_21015445(106, []);
     F.line = 16;
-    add_21005072(tmp_22177115, text_21015582(makeNimstrLit("\xC3\x96ka")));
+    add_21005072(tmp_22257115, text_21015582(makeNimstrLit("\xC3\x96ka")));
     F.line = 17;
-    addEventHandler_21915118(tmp_22177115, 0, HEX3Aanonymous_22180632, kxi_21352284[0]);
+    addEventHandler_21915118(tmp_22257115, 0, HEX3Aanonymous_22260632, kxi_21352284[0]);
     F.line = 17;
-    add_21005072(tmp_22177112, tmp_22177115);
+    add_21005072(tmp_22257112, tmp_22257115);
     F.line = 21;
-    var tmp_22177116 = tree_21015445(106, []);
+    var tmp_22257116 = tree_21015445(106, []);
     F.line = 22;
-    add_21005072(tmp_22177116, text_21015582(makeNimstrLit("Minska")));
+    add_21005072(tmp_22257116, text_21015582(makeNimstrLit("Minska")));
     F.line = 23;
-    addEventHandler_21915118(tmp_22177116, 0, HEX3Aanonymous_22180676, kxi_21352284[0]);
+    addEventHandler_21915118(tmp_22257116, 0, HEX3Aanonymous_22260676, kxi_21352284[0]);
     F.line = 23;
-    add_21005072(tmp_22177112, tmp_22177116);
-    result_22177111 = tmp_22177112;
+    add_21005072(tmp_22257112, tmp_22257116);
+    result_22257111 = tmp_22257112;
   framePtr = F.prev;
 
-  return result_22177111;
+  return result_22257111;
 
 }
-function root_22181072() {
-  var result_22181074 = null;
+function root_22261072() {
+  var result_22261074 = null;
 
-  var F={procname:"start.root",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+  var F={procname:"start.root",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
   framePtr = F;
     F.line = 10;
     F.line = 10;
-    var tmp_22181075 = tree_21015445(43, []);
+    var tmp_22261075 = tree_21015445(43, []);
     F.line = 11;
-    var tmp_22181076 = tree_21015445(43, []);
+    var tmp_22261076 = tree_21015445(43, []);
     F.line = 11;
-    add_21005072(tmp_22181076, text_21015801(data_22181027[0].titel));
+    add_21005072(tmp_22261076, text_21015801(data_22261027[0].titel));
     F.line = 11;
-    add_21005072(tmp_22181075, tmp_22181076);
+    add_21005072(tmp_22261075, tmp_22261076);
     F.line = 12;
-    add_21005072(tmp_22181075, sidhuvud_22151054(data_22181027[0]));
+    add_21005072(tmp_22261075, sidhuvud_22231054());
     F.line = 13;
-    var tmp_22181077 = tree_21015445(43, []);
+    var tmp_22261077 = tree_21015445(43, []);
     F.line = 13;
-    tmp_22181077.class = "section mainarea";
+    tmp_22261077.class = "section mainarea";
     F.line = 14;
-    var tmp_22181078 = tree_21015445(43, []);
+    var tmp_22261078 = tree_21015445(43, []);
     F.line = 14;
-    tmp_22181078.class = "s-100 m-100 l-100 container";
+    tmp_22261078.class = "s-100 m-100 l-100 container";
     F.line = 15;
-    add_21005072(tmp_22181078, artikelspalt_22160018());
+    add_21005072(tmp_22261078, artikelspalt_22240018(makeNimstrLit("default")));
     F.line = 16;
-    var tmp_22181079 = tree_21015445(43, []);
+    var tmp_22261079 = tree_21015445(43, []);
     F.line = 16;
-    tmp_22181079.class = "s-100 m-33 l-50";
+    tmp_22261079.class = "s-100 m-33 l-50";
     L1: do {
       F.line = 17;
-      var i_22185030 = 0;
+      var i_22265030 = 0;
       F.line = 77;
-      var res_22185095 = 0;
+      var res_22265095 = 0;
       L2: do {
         F.line = 78;
           L3: while (true) {
-          if (!(res_22185095 <= 3)) break L3;
+          if (!(res_22265095 <= 3)) break L3;
             F.line = 17;
-            i_22185030 = res_22185095;
+            i_22265030 = res_22265095;
             F.line = 18;
-            add_21005072(tmp_22181079, raknare_22177108(i_22185030));
+            add_21005072(tmp_22261079, raknare_22257108(i_22265030));
             F.line = 80;
-            res_22185095 = addInt(res_22185095, 1);
+            res_22265095 = addInt(res_22265095, 1);
           }
       } while(false);
     } while(false);
     F.line = 18;
-    add_21005072(tmp_22181078, tmp_22181079);
+    add_21005072(tmp_22261078, tmp_22261079);
     F.line = 18;
-    add_21005072(tmp_22181077, tmp_22181078);
+    add_21005072(tmp_22261077, tmp_22261078);
     F.line = 18;
-    add_21005072(tmp_22181075, tmp_22181077);
-    result_22181074 = tmp_22181075;
+    add_21005072(tmp_22261075, tmp_22261077);
+    result_22261074 = tmp_22261075;
   framePtr = F.prev;
 
-  return result_22181074;
+  return result_22261074;
 
 }
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
-setRenderer_21910238(root_22181072, "ROOT", null);
+setRenderer_21910238(root_22261072, "ROOT", null);
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-async function preladda_22140001() {
-  var result_22140007 = null;
+async function preladda_22220001() {
+  var result_22220007 = null;
 
-  var F={procname:"ladda.preladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+  var F={procname:"ladda.preladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 85;
-    var local_22140018 = window.localStorage.getItem("artiklar");
-    if (!((local_22140018 == null))) {
+    var local_22220018 = window.localStorage.getItem("artiklar");
+    if (!((local_22220018 == null))) {
     F.line = 87;
-    artiklar_22137070[0] = nimCopy(null, JSON.parse(local_22140018), NTI22137033);
+    artiklar_22216070[0] = nimCopy(null, JSON.parse(local_22220018), NTI22216033);
     F.line = 88;
     rawEcho(makeNimstrLit("Preloaded"));
     }
@@ -8132,78 +8670,78 @@ async function preladda_22140001() {
     F.line = 89;
     redraw_21905414(kxi_21352284[0]);
     F.line = 131;
-    result_22140007 = undefined;
+    result_22220007 = undefined;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22140007;
+  return result_22220007;
 
 }
-async function ladda_22145001() {
-  var result_22145007 = null;
+async function ladda_22225001() {
+  var result_22225007 = null;
 
-  var F={procname:"ladda.ladda",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/ladda.nim",line:0};
+  var F={procname:"ladda.ladda",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/ladda.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 93;
-    var p1_22145029 = (await loadData_22137203(makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P1")));
+    var p1_22225029 = (await loadData_22216203(makeNimstrLit("https://www.sydnarkenytt.se/json/etta/P1")));
     F.line = 94;
-    window.localStorage.setItem("artiklar", p1_22145029);
+    window.localStorage.setItem("artiklar", p1_22225029);
     F.line = 95;
-    artiklar_22137070[0] = nimCopy(null, JSON.parse(p1_22145029), NTI22137033);
+    artiklar_22216070[0] = nimCopy(null, JSON.parse(p1_22225029), NTI22216033);
     F.line = 96;
     redraw_21905414(kxi_21352284[0]);
     F.line = 131;
-    result_22145007 = undefined;
+    result_22225007 = undefined;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22145007;
+  return result_22225007;
 
 }
-async function loadpage_22190001() {
-  var result_22190007 = null;
+async function loadpage_22270001() {
+  var result_22270007 = null;
 
-  var F={procname:"start.loadpage",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+  var F={procname:"start.loadpage",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 23;
-    (await preladda_22140001());
+    (await preladda_22220001());
     F.line = 24;
-    (await ladda_22145001());
+    (await ladda_22225001());
     F.line = 131;
-    result_22190007 = undefined;
+    result_22270007 = undefined;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22190007;
+  return result_22270007;
 
 }
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 F.line = 26;
-loadpage_22190001();
+loadpage_22270001();
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module start",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/start.nim",line:0};
+var F={procname:"module start",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/start.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-function HEX5BHEX5D_22177028(st_22177032, idx_22177033) {
-  var result_22177034 = 0;
+function HEX5BHEX5D_22257028(st_22257032, idx_22257033) {
+  var result_22257034 = 0;
 
-  var F={procname:"[].[]",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+  var F={procname:"[].[]",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 22;
 ++excHandler;
     try {
     F.line = 22;
-    result_22177034 = st_22177032.value[chckIndx(idx_22177033, 0, (st_22177032.value).length-1)];
+    result_22257034 = st_22257032.value[chckIndx(idx_22257033, 0, (st_22257032.value).length-1)];
     break BeforeRet;
 --excHandler;
 } catch (EXC) {
@@ -8218,21 +8756,21 @@ function HEX5BHEX5D_22177028(st_22177032, idx_22177033) {
   } while (false);
   framePtr = F.prev;
 
-  return result_22177034;
+  return result_22257034;
 
 }
-function HEX5BHEX5D_22177052(st_22177032, idx_22177033) {
-  var result_22177054 = 0;
+function HEX5BHEX5D_22257052(st_22257032, idx_22257033) {
+  var result_22257054 = 0;
 
-  var F={procname:"[].[]",prev:framePtr,filename:"/Users/erlo/Desktop/snn2020/snn2020/src/moduler/states.nim",line:0};
+  var F={procname:"[].[]",prev:framePtr,filename:"/Users/erik/Documents/giyhub/snn2020/src/moduler/states.nim",line:0};
   framePtr = F;
   BeforeRet: do {
     F.line = 21;
-    result_22177054 = HEX5BHEX5D_22177028(st_22177032, idx_22177033);
+    result_22257054 = HEX5BHEX5D_22257028(st_22257032, idx_22257033);
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_22177054;
+  return result_22257054;
 
 }
